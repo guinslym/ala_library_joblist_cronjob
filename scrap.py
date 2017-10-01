@@ -26,7 +26,7 @@ def main():
     #create a list
     library_jobs_list = []
 
-    for job in job_summaries[0:2]:
+    for job in job_summaries[0:20]:
         #retrieve the Link
         link = job.a['href']
         url = absolute_url(link)
@@ -155,8 +155,11 @@ def add_to_db():
         else:
             print('do not add this')
 
+    import pdb; pdb.set_trace()
     pprint(session.query(Job).all())
     pprint(session.query(Description).all())
+
+    #print(session.query(Job).first().job_id)
 
 
 
