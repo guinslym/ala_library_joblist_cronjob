@@ -119,7 +119,7 @@ def main():
     #create a list
     library_jobs_list = []
 
-    for job in job_summaries[0:2]:
+    for job in job_summaries[0:20]:
         #retrieve the Link
         link = job.a['href']
         url = absolute_url(link)
@@ -127,7 +127,7 @@ def main():
         found = session.query(Job).filter(Job.link == url).all()
 
         if not found:
-            app_log.info("didn't found this link in the db {0}".format(url))
+            app_log.info("didn't found this link in the db")
 
             app_log.info('Fetching content from {0} '.format(url))
             # print(url)
