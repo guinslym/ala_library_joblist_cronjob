@@ -10,23 +10,32 @@ from sqlalchemy import create_engine
 
 Base = declarative_base()
 
-
+import logging
 from bs4 import BeautifulSoup
-
 
 # constants and Utilities
 absolute_url = lambda link:'https://joblist.ala.org' + link
 
+def fetch_the_website_content():
+    try:
+        result = requests.get('https://joblist.ala.org/jobseeker/search/results/?keywords=&kfields=&t731=&t732=&t735=&max=100&site_id=21926&search=')
+        result = result.content
+    except:
+        #logging connection doesn't work
+        sys.exit()
+    return result
+
 def main():
-    with open("index.html") as fp:
-        soup = BeautifulSoup(fp, 'lxml')
+    result = fetch_the_website_content()
+
+    soup = BeautifulSoup(result, 'lxml')
 
     job_summaries = soup.find_all("div",class_="job-summary-top-left")
 
     #create a list
     library_jobs_list = []
 
-    for job in job_summaries[0:20]:
+    for job in job_summaries[0:10]:
         #retrieve the Link
         link = job.a['href']
         url = absolute_url(link)
@@ -34,7 +43,6 @@ def main():
         result = requests.get(url)
         if result.status_code == 200:
             content = result.content
-        content
         soup = BeautifulSoup(content, 'lxml')
         summary_div = soup.find('div', class_='job-data-basics')
 
@@ -155,13 +163,14 @@ def add_to_db():
         else:
             print('do not add this')
 
-    import pdb; pdb.set_trace()
     pprint(session.query(Job).all())
     pprint(session.query(Description).all())
 
     #print(session.query(Job).first().job_id)
-
-
+    jobs = session.query(Job).all()
+    # import pdb; pdb.set_trace()
+    for job in jobs:
+        pprint(job.job_id)
 
 
 add_to_db()
