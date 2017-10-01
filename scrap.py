@@ -1,4 +1,4 @@
-#todo do a loop through all the pages
+# todo: Try it at home and create a cron_jobs
 
 import requests
 import json
