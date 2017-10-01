@@ -1,3 +1,5 @@
+#todo do a loop through all the pages
+
 import requests
 import json
 from pprint import pprint
@@ -100,17 +102,18 @@ session = DBSession()
 # constants and Utilities
 absolute_url = lambda link:'https://joblist.ala.org' + link
 
-def fetch_the_website_content():
+def fetch_the_website_content(link):
     try:
-        result = requests.get('https://joblist.ala.org/jobseeker/search/results/?keywords=&kfields=&t731=&t732=&t735=&max=100&site_id=21926&search=')
+        result = requests.get(link)
         result = result.content
     except:
         #logging connection doesn't work
+        app_log.info('No new jobs')
         sys.exit()
     return result
 
-def main():
-    result = fetch_the_website_content()
+def main(link):
+    result = fetch_the_website_content(link)
 
     soup = BeautifulSoup(result, 'lxml')
 
@@ -194,8 +197,8 @@ def main():
 
 
 
-def add_to_db():
-    jobs = main()
+def add_to_db(link):
+    jobs = main(link)
 
     #if there some new jobs
     if len(jobs) > 0:
@@ -236,4 +239,13 @@ def add_to_db():
     #     pprint(job.job_id)
 
 
-add_to_db()
+
+links = ['https://joblist.ala.org/jobseeker/search/results/?str=1&max=100&vnet=0&long=1',
+         'https://joblist.ala.org/jobseeker/search/results/?str=101&max=100&long=1&vnet=0',
+         'https://joblist.ala.org/jobseeker/search/results/?str=201&max=100&vnet=0&long=1',
+         'https://joblist.ala.org/jobseeker/search/results/?str=301&max=100&vnet=0&long=1',
+         'https://joblist.ala.org/jobseeker/search/results/?str=401&max=100&vnet=0&long=1',
+         'https://joblist.ala.org/jobseeker/search/results/?str=501&max=100&vnet=0&long=1']
+
+for link in links:
+    add_to_db(link)
