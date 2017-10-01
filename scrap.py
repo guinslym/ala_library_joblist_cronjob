@@ -3,7 +3,7 @@ import json
 from pprint import pprint
 import os
 import sys
-from sqlalchemy import Column, ForeignKey, Integer, String
+from sqlalchemy import Column, ForeignKey, Integer, String, Text
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import relationship
 from sqlalchemy import create_engine
@@ -87,18 +87,18 @@ class Job(Base):
     # Here we define columns for the table address.
     # Notice that each column is also a normal Python instance attribute.
     id = Column(Integer, primary_key=True)
-    location = Column(String(250), nullable=True)
-    job_id = Column(String(250), nullable=True)
-    position_title = Column(String(250), nullable=True)
-    company_name = Column(String(250), nullable=True)
-    library_type = Column(String(250), nullable=True)
-    job_category = Column(String(250), nullable=True)
-    job_type = Column(String(250), nullable=True)
-    job_duration = Column(String(250), nullable=True)
-    min_education = Column(String(250), nullable=True)
-    min_experience = Column(String(250), nullable=True)
-    required_travel = Column(String(250), nullable=True)
-    posted = Column(String(250), nullable=True)
+    location = Column(String(50), nullable=True)
+    job_id = Column(String(20), nullable=True)
+    position_title = Column(String(50), nullable=True)
+    company_name = Column(String(60), nullable=True)
+    library_type = Column(String(60), nullable=True)
+    job_category = Column(String(60), nullable=True)
+    job_type = Column(String(60), nullable=True)
+    job_duration = Column(String(50), nullable=True)
+    min_education = Column(String(50), nullable=True)
+    min_experience = Column(String(50), nullable=True)
+    required_travel = Column(String(20), nullable=True)
+    posted = Column(String(40), nullable=True)
 
 
 class Description(Base):
