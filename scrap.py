@@ -83,7 +83,7 @@ def main():
     #create a list
     library_jobs_list = []
 
-    for job in job_summaries[0:2]:
+    for job in job_summaries[0:5]:
         #retrieve the Link
         link = job.a['href']
         url = absolute_url(link)
