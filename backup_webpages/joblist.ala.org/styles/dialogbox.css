@@ -1,0 +1,14 @@
+div.dialog_box_base {
+	background-color: white;
+	padding: 10px;
+	border: 1px solid silver;
+	border-right-width: 2px;
+	border-bottom-width: 2px;
+	z-index: 1100;
+}
+
+div.dialog_box_overlay_base {
+	background-color: white;
+	position: absolute;
+	z-index: 1000;
+}

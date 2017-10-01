@@ -1,0 +1,108 @@
+@charset "UTF-8";
+/*
+ * jQuery File Upload Plugin CSS
+ * https://github.com/blueimp/jQuery-File-Upload
+ *
+ * Copyright 2013, Sebastian Tschan
+ * https://blueimp.net
+ *
+ * Licensed under the MIT license:
+ * https://opensource.org/licenses/MIT
+ */
+
+.fileinput-button {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  margin-bottom: 15px;
+}
+.fileinput-button input {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  opacity: 0;
+  -ms-filter: 'alpha(opacity=0)';
+  font-size: 200px !important;
+  direction: ltr;
+  cursor: pointer;
+}
+
+/* Fixes for IE < 8 */
+@media screen\9 {
+  .fileinput-button input {
+    filter: alpha(opacity=0);
+    font-size: 100%;
+    height: 100%;
+  }
+}
+
+.template-download td, .template-upload td{
+	vertical-align:middle!important;
+	padding:0;
+}
+
+.template-download td p, .template-upload td p {
+	text-align:left!important;
+}
+
+.template-download .name, .template-upload .name{
+	text-align:left;
+	padding:0;
+	margin:0;
+}
+
+.template-download  .error, .template-upload .error{
+	padding:0;
+	background:none;
+}
+
+#addFiles_btn{
+height:100px;
+background:#fff;
+}
+
+#addFiles_btn span{
+margin:auto !important;
+flex: 0 1 auto !important;
+padding: 6px !important;
+}
+
+.btn{
+border-radius: 0;
+}
+
+a.secondary{
+    color: #FFF;
+	text-decoration:none;
+}
+
+pre{
+	background-color: transparent;
+	word-break: normal;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: content-box;
+}
+#menu a{
+	text-decoration: none;
+}
+
+.tooltip{
+	opacity: 1;
+	font-size:17px;
+	position: inherit;
+	z-index: 0;
+	display: inline-block;
+}
+
+.tooltip:hover{
+	text-decoration:none;
+}

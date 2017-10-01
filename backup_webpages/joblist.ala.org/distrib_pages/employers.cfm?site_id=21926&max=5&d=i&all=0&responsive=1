@@ -1,0 +1,11 @@
+
+		document.write("<li class=\"jt_employer_image\"><a href=\"https://joblist.ala.org/jobseeker/company/546610/University of Illinois Library at Urbana-Champaign\"><img src=\"/r/company/logos/546610/logo.gif\"  alt=\"University of Illinois Library at Urbana-Champaign\"></a></li>");
+	
+		document.write("<li class=\"jt_employer_image\"><a href=\"https://joblist.ala.org/jobseeker/company/975133/Multnomah County Library\"><img src=\"/r/company/logos/975133/logo.jpg\"  alt=\"Multnomah County Library\"></a></li>");
+	
+		document.write("<li class=\"jt_employer_image\"><a href=\"https://joblist.ala.org/jobseeker/company/862570/Yale University\"><img src=\"/r/company/logos/862570/logo.png\"  alt=\"Yale University\"></a></li>");
+	
+		document.write("<li class=\"jt_employer_image\"><a href=\"https://joblist.ala.org/jobseeker/company/218091/Southeast Missouri State University\"><img src=\"/r/company/logos/218091/logo.jpg\"  alt=\"Southeast Missouri State University\"></a></li>");
+	
+		document.write("<li class=\"jt_employer_image\"><a href=\"https://joblist.ala.org/jobseeker/company/974022/University of California, Los Angeles (UCLA)\"><img src=\"/r/company/logos/974022/logo.png\"  alt=\"University of California, Los Angeles (UCLA)\"></a></li>");
+	

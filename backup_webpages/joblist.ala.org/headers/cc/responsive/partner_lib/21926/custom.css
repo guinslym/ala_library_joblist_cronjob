@@ -1,0 +1,271 @@
+body {  
+	color: ;  
+	font-family: "helvetica neue", arial, sans-serif;  
+}  
+  
+  
+   
+a {  
+	color: #1a5936;  
+}  
+  
+  
+  
+h1, h2, h3, h4, h5, h6 {  
+	color: ;  
+}  
+  
+#header {background:none repeat scroll 0 0 #f9fcf7;}  
+  
+.top-header {background:url("img/ALA-header-bkgrd.jpg") no-repeat scroll right 40px transparent; font-size: 13px;}  
+  
+.top-header > span {  
+	clear: both;  
+    display: block;  
+    line-height: 1.2;  
+    padding: 0 0 10px;  
+}  
+  
+.ALA-top-nav {  
+	float:right;   
+	background: #04551C;   
+	padding: 10px 20px 10px 30px;  
+	border-radius: 0px 0px 5px 5px;  
+	-moz-border-radius: 0px 0px 5px 5px;  
+	-webkit-border-radius: 0px 0px 5px 5px;  
+	border: 0px solid #04551C;  
+}  
+  
+.ALA-top-nav li {  
+    display: inline;  
+    padding: 0 10px 5px;  
+}  
+  
+.ALA-top-nav li a {color: #fff; text-decoration: underline;}  
+  
+.header-content {background: #04551C;}  
+  
+  
+.header-content #menu > ul {  
+    margin: 10px 0;  
+}  
+  
+.header-content #menu li {  
+	margin-right: 10px;  
+}  
+  
+.header-content #menu li:hover {background: none;}  
+  
+.header-content #menu li ul  {  
+	background-color: #fff;  
+	margin-top: -3px;  
+}  
+  
+.header-content #menu li ul:hover {  
+	background-color: ;  
+}  
+  
+.header-content #menu li a {  
+	padding: 5px 25px;  
+	margin: 0;  
+	background: #fff;  
+	border-radius:5px;  
+	-moz-border-radius: 5px;  
+	-webkit-border-radius: 5px;  
+	border: 0px solid #fff;  
+}  
+  
+.header-content #menu li ul li a {  
+	padding: 5px;  
+	border-radius: 0;  
+}  
+  
+.header-content #menu li ul.sub-navigation li a {  
+    border-top:thin solid #ccc;  
+    width: 100%;  
+}  
+  
+.sub-navigation {  
+    box-shadow: 0 2px 2px 0 #888;  
+}  
+  
+.header-content .call-to-action {margin-top: 10px;}  
+  
+.header-content a.call-to-action.secondary {  
+	color: #010101;  
+	padding: 5px 25px;   
+	background: #f0f0f0;  
+	border-radius: 5px;  
+	-moz-border-radius:5px;  
+	-webkit-border-radius: 5px;  
+	border: 0px solid #384A9D;	  
+}  
+  
+a.primary, a.primary:visited, button.primary, button.primary:visited {  
+	background-color:#f57707 ; 
+	color: #222222; 
+}  
+  
+a.primary:hover, button.primary:hover{
+	color: #FFFFFF;
+}
+
+a.inactive{
+	color: #333;
+}
+
+.default-form-box i{
+	color: #333;
+}
+
+#job-listing .listings .job-summary .h3 {  
+	color: #1a5936;  
+}  
+  
+a.secondary, a.secondary:visited, button.secondary, button.secondary:visited {  
+	background-color:#1a5936 ;  
+}  
+  
+a.tertiary, a.tertiary:visited, button.tertiary, button.tertiary:visited {  
+	background:#f9fcf7;  
+	color:  #1a5936;  
+	border: thin solid #eee;  
+}  
+  
+#hero {  
+	background: url("img/hero-21926.jpg") no-repeat center 0 transparent;  
+	height: 400px;  
+	box-sizing:border-box;  
+	border-left: thin solid #eee;  
+	border-right: thin solid #eee;  
+	border-bottom: thin solid #eee;  
+}  
+  
+#hero .site-name-tag {  
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.6);  
+    top: 200px;  
+    bottom: ;  
+    left:0 ;  
+    right:;  
+    padding: 10px 25px;  
+    text-align: left ;  
+    width: auto;  
+    position: relative;  
+	display: none;  
+}  
+  
+#hero .site-name-tag h1 {  
+   margin: 0;  
+   font-size: 2.1em;  
+   color: ;  
+}  
+  
+#hero .site-name-tag em {  
+   font-size: 1.5em;  
+   color:;  
+}  
+  
+#featured-job-listing ul li a h3 {  
+	color:#1a5936 ;  
+}  
+  
+.sideboard-adspace div > div {  
+	background: url("img/bkgrd-job-alert-1.jpg") no-repeat scroll left top transparent;  
+}  
+  
+.sideboard-adspace em {  
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.6);  
+    margin-top: 140px;  
+    padding: 5px;  
+}  
+  
+#inner-page-header .site-name-tag {  
+	color: ;  
+}  
+  
+#inner-page-header .site-name-tag h1 {  
+	color: ;  
+}  
+  
+  
+/** For sites that change the background color of sections/modules**/  
+  
+#featured-job-listing , .featured-job-promo, #blank-module .interior, #featured-services .interior ul li, #featured-employers .interior, .footer-content, #inner-page-header, .filters h5, #job-listing .listings, .sideboard-ad, .horizontal-job-alert-box form div, #basic-page .expert .our-experts, #basic-page .expert .default-form-box, #basic-page .expert .default-form-box, #basic-page .career-coaching section div, #basic-page .career-fair-registration .default-form-box form, #content-library-listings .content-category, .frequent-views, .news-feed, #basic-page .create-resume .default-form-box form, #basic-page .create-resume .default-form-box .call-to-action, .create-resume .default-form-box i, #basic-page .dual-login section, #basic-page h2, #basic-page .help .default-form-box, #basic-page table tr, .default-form-box, .job-application .wizard .content, .career-fair-banner.site, #basic-page .manage-resumes section, .order-purchase .wizard .content, .file-upload-form {  
+	background-color: ;  
+}  
+  
+.footer-content .social-media {text-align: right; width: 100%; margin-bottom: 10px; padding-bottom: 10px;border-bottom: thin solid #fff;}  
+  
+.footer-content .social-media li { font-size: 2em; padding: 0 4px;}  
+  
+.footer-content .footer-nav {clear:both;}  
+  
+.footer-content .copyright-contact {float: right; text-align: right; width: 70%;}  
+  
+.footer-content .copyright-contact b {display:inline-block;} 
+ 
+.footer-badges { 
+	float: right; 
+	margin-top: 5px; 
+} 
+ 
+.footer-badges img { 
+	max-height: 60px; 
+} 
+.footer-badges img+img, .footer-badges img+a, .footer-badges a+img { 
+	margin-left: 5px; 
+} 
+  
+@media (max-width: 975px) {  
+	.header-content #menu {  
+		padding-left: 10px;  
+		box-sizing:border-box;  
+	}  
+	.header-content .call-to-action {  
+    	margin-right: 10px;  
+    }  
+      
+    #logo {  
+		padding-left: 10px;  
+	}  
+}  
+  
+@media (max-width: 960px) {  
+	.top-header > span {padding: 0 10px 10px;}  
+}  
+  
+@media (max-width: 768px) {  
+	.header-content #menu ul li a {padding: 5px;}  
+	#logo > img {width: 50%;}  
+}  
+  
+@media (max-width: 604px) {  
+	.ALA-top-nav {padding: 5px; margin-right: 5px;}  
+	#logo > img {display: block; margin: 20px 20px 0;max-width: 390px; width: 90%;}  
+	.top-header > span {text-align: center;}  
+}  
+  
+@media (max-width: 480px) {  
+	.ALA-top-nav {padding: 5px; margin-right: 5px;}  
+	#logo > img {display: block; max-width: 390px; width: 90%;}  
+	.header-content {min-height: 40px;}  
+	.header-content #menu {position: absolute;}  
+	.header-content #menu #nav-trigger {text-align: right; color: #fff; padding-bottom: 10px;}  
+	.header-content #menu ul {border-bottom: thin dotted #ccc;}  
+	.header-content #menu li ul .collapse {border-top: thin solid #ccc; text-transform: uppercase;}  
+	.header-content #menu li ul {padding: 0;}  
+	.header-content #menu li ul.sub-navigation li a {border-top: none;}  
+	.header-content .call-to-action {left: 10px; position: absolute; top: 0;}  
+	#hero { background: none; height: auto;}	  
+	#hero #job-search-form form {left: 0;}	  
+	#hero .site-name-tag { top: 0; bottom: 0; left: 0; right: 0; padding: 0 0 10px 0; position: relative; text-align: center; background: none; }  
+	.footer-content-inner.site {background: none repeat scroll 0 0 rgba(0, 0, 0, 0);}  
+	.footer-content .copyright-contact {clear:both; float:none; width:100%; text-align: center;}  
+	.footer-content .footer-nav {float: none; padding-bottom: 20px;text-align: center;width: 100%;}  
+	.footer-content .footer-nav ul li {float:none;}  
+	.footer-badges { 
+		float: none; 
+		margin: 10px auto auto; 
+		text-align: center; 
+	} 
+}

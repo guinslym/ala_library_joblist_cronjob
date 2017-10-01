@@ -3,6 +3,10 @@ import json
 from pprint import pprint
 import os
 import sys
+
+import wget
+
+import sqlalchemy
 from sqlalchemy import Column, ForeignKey, Integer, String, Text
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import relationship
@@ -12,6 +16,50 @@ Base = declarative_base()
 
 import logging
 from bs4 import BeautifulSoup
+
+
+
+class Job(Base):
+    __tablename__ = 'job'
+    # Here we define columns for the table address.
+    # Notice that each column is also a normal Python instance attribute.
+    id = Column(Integer, primary_key=True)
+    location = Column(String(50), nullable=True)
+    job_id = Column(String(20), nullable=True)
+    position_title = Column(String(50), nullable=True)
+    company_name = Column(String(60), nullable=True)
+    library_type = Column(String(60), nullable=True)
+    job_category = Column(String(60), nullable=True)
+    job_type = Column(String(60), nullable=True)
+    job_duration = Column(String(50), nullable=True)
+    min_education = Column(String(50), nullable=True)
+    min_experience = Column(String(50), nullable=True)
+    required_travel = Column(String(20), nullable=True)
+    link = Column(String(100), nullable=True)
+    posted = Column(String(40), nullable=True)
+
+    def __repr__(self):
+        return "<job(position_title='%s')>" % self.position_title
+
+
+class Description(Base):
+    __tablename__ = 'description'
+    # Here we define columns for the table address.
+    # Notice that each column is also a normal Python instance attribute.
+    id = Column(Integer, primary_key=True)
+    description = Column(Text(), nullable=True)
+    company_info = Column(Text(), nullable=True)
+    job_id = Column(Integer, ForeignKey('job.id'))
+    job = relationship(Job)
+
+
+from sqlalchemy import create_engine
+from sqlalchemy.orm import sessionmaker
+engine = create_engine('sqlite:///library_jobs.db')
+Base.metadata.create_all(engine)
+Base.metadata.bind = engine
+DBSession = sessionmaker(bind=engine)
+session = DBSession()
 
 # constants and Utilities
 absolute_url = lambda link:'https://joblist.ala.org' + link
@@ -35,10 +83,11 @@ def main():
     #create a list
     library_jobs_list = []
 
-    for job in job_summaries[0:10]:
+    for job in job_summaries[0:2]:
         #retrieve the Link
         link = job.a['href']
         url = absolute_url(link)
+
         # print(url)
         result = requests.get(url)
         if result.status_code == 200:
@@ -81,9 +130,9 @@ def main():
                 pass
 
         #find the description:
-        description = soup.find('div', class_='generic-details-text').extract()
+        description = soup.find('div', class_='generic-details-text').text
         try:
-            company_info = soup.find('div', class_='company-info clearfix').extract()
+            company_info = soup.find('div', class_='company-info clearfix').text
         except AttributeError:
             company_info = None
 
@@ -99,47 +148,8 @@ def main():
     return library_jobs_list
 
 
-class Job(Base):
-    __tablename__ = 'job'
-    # Here we define columns for the table address.
-    # Notice that each column is also a normal Python instance attribute.
-    id = Column(Integer, primary_key=True)
-    location = Column(String(50), nullable=True)
-    job_id = Column(String(20), nullable=True)
-    position_title = Column(String(50), nullable=True)
-    company_name = Column(String(60), nullable=True)
-    library_type = Column(String(60), nullable=True)
-    job_category = Column(String(60), nullable=True)
-    job_type = Column(String(60), nullable=True)
-    job_duration = Column(String(50), nullable=True)
-    min_education = Column(String(50), nullable=True)
-    min_experience = Column(String(50), nullable=True)
-    required_travel = Column(String(20), nullable=True)
-    link = Column(String(100), nullable=True)
-    posted = Column(String(40), nullable=True)
-
-    def __repr__(self):
-        return "<job(position_title='%s')>" % self.position_title
 
 
-class Description(Base):
-    __tablename__ = 'description'
-    # Here we define columns for the table address.
-    # Notice that each column is also a normal Python instance attribute.
-    id = Column(Integer, primary_key=True)
-    description = Text()
-    company_info = Text()
-    job_id = Column(Integer, ForeignKey('job.id'))
-    job = relationship(Job)
-
-
-from sqlalchemy import create_engine
-from sqlalchemy.orm import sessionmaker
-engine = create_engine('sqlite:///library_jobs.db')
-Base.metadata.create_all(engine)
-Base.metadata.bind = engine
-DBSession = sessionmaker(bind=engine)
-session = DBSession()
 
 def add_to_db():
     jobs = main()
@@ -160,6 +170,9 @@ def add_to_db():
                 company_info=company_info, job=new_job)
             session.add(new_description)
             session.commit()
+
+            #download this page and save it to local
+            wget.download(job.get('link'), out='backup_webpages/'+str(job.get('job_id'))+'.html')
         else:
             print('do not add this')
 
