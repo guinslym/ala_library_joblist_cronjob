@@ -112,6 +112,11 @@ class Description(Base):
     person = relationship(Job)
 
 
-engine = create_engine('sqlite:///library_jobs.db')
+from sqlalchemy import create_engine
+from sqlalchemy.orm import sessionmaker
 
-Base.metadata.create_all(engine)
+def add_to_db():
+    from sqlalchemy_declarative import Job, Base, Description
+
+    engine = create_engine('sqlite:///library_job.db')
+    Base.metadata.bind = engine
