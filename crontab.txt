@@ -1,0 +1,1 @@
+*/10 * * * * /bin/execute/this/scrap.py >> /var/log/script_output.log 2>&1
