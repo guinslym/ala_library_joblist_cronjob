@@ -108,7 +108,7 @@ def fetch_the_website_content(link):
         result = result.content
     except:
         #logging connection doesn't work
-        app_log.info('No new jobs')
+        app_log.info('Connections issue')
         sys.exit()
     return result
 
@@ -119,10 +119,15 @@ def main(link):
 
     job_summaries = soup.find_all("div",class_="job-summary-top-left")
 
+    #exit if there is no jobs in this page
+    if (len(job_summaries) == 0):
+        app_log.info('There is no jobs from this page {0} '.format(link))
+        sys.exit()
+
     #create a list
     library_jobs_list = []
 
-    for job in job_summaries[0:20]:
+    for job in job_summaries:
         #retrieve the Link
         link = job.a['href']
         url = absolute_url(link)
