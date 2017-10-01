@@ -1,0 +1,87 @@
+2017-10-01 01:19:01,863 INFO main(125) Fetching from https://joblist.ala.org/job/dean-of-university-libraries/37310510/ 
+2017-10-01 01:19:06,966 INFO main(125) Fetching from https://joblist.ala.org/job/head-of-collection-development/37310303/ 
+2017-10-01 01:19:12,015 INFO main(125) Fetching from https://joblist.ala.org/job/director-of-library-services/37310035/ 
+2017-10-01 01:19:17,771 INFO main(125) Fetching from https://joblist.ala.org/job/librarian-ii/37296206/ 
+2017-10-01 01:19:23,079 INFO main(125) Fetching from https://joblist.ala.org/job/division-director-of-the-utah-state-library/37295995/ 
+2017-10-01 01:19:28,834 INFO main(125) Fetching from https://joblist.ala.org/job/director-of-technical-servicesinstructor-of-library-services/37272949/ 
+2017-10-01 01:19:34,242 INFO main(125) Fetching from https://joblist.ala.org/job/library-director/35827579/ 
+2017-10-01 01:19:41,111 INFO main(125) Fetching from https://joblist.ala.org/job/director-of-library-programs/37261867/ 
+2017-10-01 01:19:46,223 INFO main(125) Fetching from https://joblist.ala.org/job/systems-librarian/37261534/ 
+2017-10-01 01:19:51,485 INFO main(125) Fetching from https://joblist.ala.org/job/assistant-professor-tenure-track-nyu-tisch-school-of-the-arts-department-of-cinema-studies/37248720/ 
+2017-10-01 01:19:56,590 INFO main(125) Fetching from https://joblist.ala.org/job/assistant-professor-regional-librarian/36748370/ 
+2017-10-01 01:20:01,961 INFO main(125) Fetching from https://joblist.ala.org/job/assistant-director-for-collections-and-resource-management-job-code-727ala/34360583/ 
+2017-10-01 01:20:06,955 INFO main(125) Fetching from https://joblist.ala.org/job/ut-system-consortia-resources-librarian-i-or-ii/37177829/ 
+2017-10-01 01:20:12,044 INFO main(125) Fetching from https://joblist.ala.org/job/librarian-ii/37137963/ 
+2017-10-01 01:20:16,983 INFO main(125) Fetching from https://joblist.ala.org/job/librarian-for-emerging-technology-and-digital-projects/37151153/ 
+2017-10-01 01:20:22,127 INFO main(125) Fetching from https://joblist.ala.org/job/director-of-libraries-neuse-regional-library/37139976/ 
+2017-10-01 01:20:27,036 INFO main(125) Fetching from https://joblist.ala.org/job/library-director/36427480/ 
+2017-10-01 01:20:34,471 INFO main(125) Fetching from https://joblist.ala.org/job/city-librarian/37139731/ 
+2017-10-01 01:20:39,795 INFO main(125) Fetching from https://joblist.ala.org/job/great-neck-ny-library-library-director/37139786/ 
+2017-10-01 01:20:44,735 INFO main(125) Fetching from https://joblist.ala.org/job/associate-dean/37138612/ 
+2017-10-01 01:20:49,800 INFO add_to_db(202) Record this 37310510 into the db 
+2017-10-01 01:20:49,814 INFO add_to_db(215) Downloading the webpage https://joblist.ala.org/job/dean-of-university-libraries/37310510/ 
+2017-10-01 01:20:53,122 INFO add_to_db(202) Record this 37310303 into the db 
+2017-10-01 01:20:53,138 INFO add_to_db(215) Downloading the webpage https://joblist.ala.org/job/head-of-collection-development/37310303/ 
+2017-10-01 01:20:56,371 INFO add_to_db(202) Record this 37310035 into the db 
+2017-10-01 01:20:56,384 INFO add_to_db(215) Downloading the webpage https://joblist.ala.org/job/director-of-library-services/37310035/ 
+2017-10-01 01:20:59,974 INFO add_to_db(202) Record this 37296206 into the db 
+2017-10-01 01:20:59,988 INFO add_to_db(215) Downloading the webpage https://joblist.ala.org/job/librarian-ii/37296206/ 
+2017-10-01 01:21:03,516 INFO add_to_db(202) Record this 37295995 into the db 
+2017-10-01 01:21:03,539 INFO add_to_db(215) Downloading the webpage https://joblist.ala.org/job/division-director-of-the-utah-state-library/37295995/ 
+2017-10-01 01:21:07,535 INFO add_to_db(202) Record this 37272949 into the db 
+2017-10-01 01:21:07,541 INFO add_to_db(215) Downloading the webpage https://joblist.ala.org/job/director-of-technical-servicesinstructor-of-library-services/37272949/ 
+2017-10-01 01:21:11,227 INFO add_to_db(202) Record this 35827579 into the db 
+2017-10-01 01:21:11,242 INFO add_to_db(215) Downloading the webpage https://joblist.ala.org/job/library-director/35827579/ 
+2017-10-01 01:21:14,704 INFO add_to_db(202) Record this 37261867 into the db 
+2017-10-01 01:21:14,720 INFO add_to_db(215) Downloading the webpage https://joblist.ala.org/job/director-of-library-programs/37261867/ 
+2017-10-01 01:21:18,136 INFO add_to_db(202) Record this 37261534 into the db 
+2017-10-01 01:21:18,156 INFO add_to_db(215) Downloading the webpage https://joblist.ala.org/job/systems-librarian/37261534/ 
+2017-10-01 01:21:21,433 INFO add_to_db(202) Record this 37248720 into the db 
+2017-10-01 01:21:21,449 INFO add_to_db(215) Downloading the webpage https://joblist.ala.org/job/assistant-professor-tenure-track-nyu-tisch-school-of-the-arts-department-of-cinema-studies/37248720/ 
+2017-10-01 01:21:24,905 INFO add_to_db(202) Record this 36748370 into the db 
+2017-10-01 01:21:24,918 INFO add_to_db(215) Downloading the webpage https://joblist.ala.org/job/assistant-professor-regional-librarian/36748370/ 
+2017-10-01 01:21:28,242 INFO add_to_db(202) Record this 34360583 into the db 
+2017-10-01 01:21:28,254 INFO add_to_db(215) Downloading the webpage https://joblist.ala.org/job/assistant-director-for-collections-and-resource-management-job-code-727ala/34360583/ 
+2017-10-01 01:21:31,625 INFO add_to_db(202) Record this 37177829 into the db 
+2017-10-01 01:21:31,640 INFO add_to_db(215) Downloading the webpage https://joblist.ala.org/job/ut-system-consortia-resources-librarian-i-or-ii/37177829/ 
+2017-10-01 01:21:34,985 INFO add_to_db(202) Record this 37137963 into the db 
+2017-10-01 01:21:34,998 INFO add_to_db(215) Downloading the webpage https://joblist.ala.org/job/librarian-ii/37137963/ 
+2017-10-01 01:21:38,367 INFO add_to_db(202) Record this 37151153 into the db 
+2017-10-01 01:21:38,379 INFO add_to_db(215) Downloading the webpage https://joblist.ala.org/job/librarian-for-emerging-technology-and-digital-projects/37151153/ 
+2017-10-01 01:21:41,607 INFO add_to_db(202) Record this 37139976 into the db 
+2017-10-01 01:21:41,620 INFO add_to_db(215) Downloading the webpage https://joblist.ala.org/job/director-of-libraries-neuse-regional-library/37139976/ 
+2017-10-01 01:21:44,982 INFO add_to_db(202) Record this 36427480 into the db 
+2017-10-01 01:21:44,996 INFO add_to_db(215) Downloading the webpage https://joblist.ala.org/job/library-director/36427480/ 
+2017-10-01 01:21:49,414 INFO add_to_db(202) Record this 37139731 into the db 
+2017-10-01 01:21:49,427 INFO add_to_db(215) Downloading the webpage https://joblist.ala.org/job/city-librarian/37139731/ 
+2017-10-01 01:21:52,894 INFO add_to_db(202) Record this 37139786 into the db 
+2017-10-01 01:21:52,909 INFO add_to_db(215) Downloading the webpage https://joblist.ala.org/job/great-neck-ny-library-library-director/37139786/ 
+2017-10-01 01:21:56,098 INFO add_to_db(202) Record this 37138612 into the db 
+2017-10-01 01:21:56,112 INFO add_to_db(215) Downloading the webpage https://joblist.ala.org/job/associate-dean/37138612/ 
+2017-10-01 01:25:50,551 INFO <module>(55) Downloading new jobs... if there is some new :)
+2017-10-01 01:33:14,708 INFO <module>(55) Downloading new jobs... if there is some new :)
+2017-10-01 01:33:53,893 INFO <module>(55) Downloading new jobs... if there is some new :)
+2017-10-01 01:33:57,765 INFO main(132) Fetching from https://joblist.ala.org/job/dean-of-university-libraries/37310510/ 
+2017-10-01 01:34:02,865 INFO main(132) Fetching from https://joblist.ala.org/job/head-of-collection-development/37310303/ 
+2017-10-01 01:34:21,772 INFO <module>(55) Downloading new jobs... if there is some new :)
+2017-10-01 01:34:25,565 INFO main(132) Fetching from https://joblist.ala.org/job/dean-of-university-libraries/37310510/ 
+2017-10-01 01:34:30,783 INFO main(132) Fetching from https://joblist.ala.org/job/head-of-collection-development/37310303/ 
+2017-10-01 01:34:37,567 INFO <module>(55) Downloading new jobs... if there is some new :)
+2017-10-01 01:35:40,816 INFO <module>(55) Downloading new jobs... if there is some new :)
+2017-10-01 01:35:57,949 INFO <module>(55) Downloading new jobs... if there is some new :)
+2017-10-01 01:36:02,231 INFO main(132) Fetching from https://joblist.ala.org/job/dean-of-university-libraries/37310510/ 
+2017-10-01 01:36:07,102 INFO main(132) Fetching from https://joblist.ala.org/job/head-of-collection-development/37310303/ 
+2017-10-01 01:36:11,993 INFO add_to_db(209) Recording this 37310510 into the db 
+2017-10-01 01:36:12,005 INFO add_to_db(222) Downloading the webpage https://joblist.ala.org/job/dean-of-university-libraries/37310510/ 
+2017-10-01 01:36:15,333 INFO add_to_db(209) Recording this 37310303 into the db 
+2017-10-01 01:36:15,344 INFO add_to_db(222) Downloading the webpage https://joblist.ala.org/job/head-of-collection-development/37310303/ 
+2017-10-01 01:38:09,208 INFO <module>(55) Downloading new jobs... if there is some new :)
+2017-10-01 01:38:12,958 INFO main(130) didn't found this link in the db https://joblist.ala.org/job/dean-of-university-libraries/37310510/
+2017-10-01 01:38:12,958 INFO main(132) Fetching content from https://joblist.ala.org/job/dean-of-university-libraries/37310510/ 
+2017-10-01 01:38:17,858 INFO main(130) didn't found this link in the db https://joblist.ala.org/job/head-of-collection-development/37310303/
+2017-10-01 01:38:17,858 INFO main(132) Fetching content from https://joblist.ala.org/job/head-of-collection-development/37310303/ 
+2017-10-01 01:38:22,927 INFO add_to_db(209) Recording this 37310510 into the db 
+2017-10-01 01:38:22,942 INFO add_to_db(222) Downloading the webpage https://joblist.ala.org/job/dean-of-university-libraries/37310510/ 
+2017-10-01 01:38:26,250 INFO add_to_db(209) Recording this 37310303 into the db 
+2017-10-01 01:38:26,259 INFO add_to_db(222) Downloading the webpage https://joblist.ala.org/job/head-of-collection-development/37310303/ 
+2017-10-01 01:38:39,345 INFO <module>(55) Downloading new jobs... if there is some new :)

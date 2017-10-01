@@ -2,6 +2,7 @@ import requests
 import json
 from pprint import pprint
 import os
+from os import path
 import sys
 
 import wget
@@ -17,6 +18,41 @@ Base = declarative_base()
 import logging
 from bs4 import BeautifulSoup
 
+mypath = os.path.dirname(os.path.realpath(__file__))
+logging.log(logging.INFO, 'loading settings for ' + __name__)
+from logging.handlers import RotatingFileHandler
+
+
+def configuration_of_the_logs():
+    """This will serve as a base for logs configuration
+    Warning: make sure there is a filename 'logs.txt' inside of
+    a folder named 'logs'
+    Returns:
+        Object -- a logging object
+    """
+    log_formatter = logging.Formatter('%(asctime)s %(levelname)s %(funcName)s(%(lineno)d) %(message)s')
+
+    #todo:#Check to see if the folder exist
+    my_path = path.dirname(path.realpath(__file__))
+    logFile = my_path + '/logs/logs.log'
+
+    #The logs.txt file can't be more than 5MB
+    my_handler = RotatingFileHandler(logFile, mode='a', maxBytes=5*1024*1024,
+                                     backupCount=2, encoding=None, delay=0)
+    my_handler.setFormatter(log_formatter)
+    my_handler.setLevel(logging.INFO)
+
+    app_log = logging.getLogger('root')
+    #app_log.setLevel(logging.INFO)
+    app_log.setLevel(logging.INFO)
+
+    app_log.addHandler(my_handler)
+    #app_log.info('configuraring the logs')
+
+    return app_log
+
+app_log = configuration_of_the_logs()
+app_log.info('Downloading new jobs... if there is some new :)')
 
 
 class Job(Base):
@@ -83,64 +119,71 @@ def main():
     #create a list
     library_jobs_list = []
 
-    for job in job_summaries[0:5]:
+    for job in job_summaries[0:2]:
         #retrieve the Link
         link = job.a['href']
         url = absolute_url(link)
 
-        # print(url)
-        result = requests.get(url)
-        if result.status_code == 200:
-            content = result.content
-        soup = BeautifulSoup(content, 'lxml')
-        summary_div = soup.find('div', class_='job-data-basics')
+        found = session.query(Job).filter(Job.link == url).all()
 
-        job_list = summary_div.find_all('li')
+        if not found:
+            app_log.info("didn't found this link in the db {0}".format(url))
+
+            app_log.info('Fetching content from {0} '.format(url))
+            # print(url)
+            result = requests.get(url)
+            if result.status_code == 200:
+                content = result.content
+            soup = BeautifulSoup(content, 'lxml')
+            summary_div = soup.find('div', class_='job-data-basics')
+
+            job_list = summary_div.find_all('li')
 
 
-        #create a dictionnary
-        my_dict = {}
-        my_dict['link'] = url
-        for li in job_list:
-            if li.label.text.strip() == 'Location: '.strip():
-                my_dict['location'] = li.span.text.strip()
-            elif li.label.text.strip() == 'Job ID: '.strip():
-                my_dict['job_id'] = li.span.text.strip()
-            elif li.label.text.strip() == 'Posted: '.strip():
-                my_dict['posted'] = li.span.text.strip()
-            elif li.label.text.strip() == 'Position Title: '.strip():
-                my_dict['position_title'] = li.span.text.strip()
-            elif li.label.text.strip() == 'Company Name: '.strip():
-                my_dict['company_name'] = li.span.text.strip()
-            elif li.label.text.strip() == 'Library Type: '.strip():
-                my_dict['library_type'] = li.span.text.strip()
-            elif li.label.text.strip() == 'Job Category: '.strip():
-                my_dict['job_category'] = li.span.text.strip()
-            elif li.label.text.strip() == 'Job Type: '.strip():
-                my_dict['job_type'] = li.span.text.strip()
-            elif li.label.text.strip() == 'Job Duration: '.strip():
-                my_dict['job_duration'] = li.span.text.strip()
-            elif li.label.text.strip() == 'Min Education: '.strip():
-                my_dict['min_education'] = li.span.text.strip()
-            elif li.label.text.strip() == 'Min Experience: '.strip():
-                my_dict['min_experience'] = li.span.text.strip()
-            elif li.label.text.strip() == 'Required Travel: '.strip():
-                my_dict['required_travel'] = li.span.text.strip()
-            else:
-                pass
+            #create a dictionnary
+            my_dict = {}
+            my_dict['link'] = url
+            for li in job_list:
+                if li.label.text.strip() == 'Location: '.strip():
+                    my_dict['location'] = li.span.text.strip()
+                elif li.label.text.strip() == 'Job ID: '.strip():
+                    my_dict['job_id'] = li.span.text.strip()
+                elif li.label.text.strip() == 'Posted: '.strip():
+                    my_dict['posted'] = li.span.text.strip()
+                elif li.label.text.strip() == 'Position Title: '.strip():
+                    my_dict['position_title'] = li.span.text.strip()
+                elif li.label.text.strip() == 'Company Name: '.strip():
+                    my_dict['company_name'] = li.span.text.strip()
+                elif li.label.text.strip() == 'Library Type: '.strip():
+                    my_dict['library_type'] = li.span.text.strip()
+                elif li.label.text.strip() == 'Job Category: '.strip():
+                    my_dict['job_category'] = li.span.text.strip()
+                elif li.label.text.strip() == 'Job Type: '.strip():
+                    my_dict['job_type'] = li.span.text.strip()
+                elif li.label.text.strip() == 'Job Duration: '.strip():
+                    my_dict['job_duration'] = li.span.text.strip()
+                elif li.label.text.strip() == 'Min Education: '.strip():
+                    my_dict['min_education'] = li.span.text.strip()
+                elif li.label.text.strip() == 'Min Experience: '.strip():
+                    my_dict['min_experience'] = li.span.text.strip()
+                elif li.label.text.strip() == 'Required Travel: '.strip():
+                    my_dict['required_travel'] = li.span.text.strip()
+                else:
+                    pass
 
-        #find the description:
-        description = soup.find('div', class_='generic-details-text').text
-        try:
-            company_info = soup.find('div', class_='company-info clearfix').text
-        except AttributeError:
-            company_info = None
+            #find the description:
+            description = soup.find('div', class_='generic-details-text').text
+            try:
+                company_info = soup.find('div', class_='company-info clearfix').text
+            except AttributeError:
+                company_info = None
 
-        my_dict['description'] = description
-        my_dict['company_info'] = company_info
+            my_dict['description'] = description
+            my_dict['company_info'] = company_info
 
-        # print(my_dict)
-        library_jobs_list.append(my_dict)
+            # print(my_dict)
+            library_jobs_list.append(my_dict)
+
     # print(len(library_jobs_list))
     # pprint(library_jobs_list)
     # import sys; sys.exit()
@@ -154,36 +197,43 @@ def main():
 def add_to_db():
     jobs = main()
 
-    for job in jobs:
-        company_info = job['company_info']
-        del job['company_info']
-        description = job['description']
-        del job['description']
-        if len(session.query(Job).filter(Job.job_id == job.get('job_id')).all()) == 0:
-            new_job = Job(**job)
-            session.add(new_job)
-            session.commit()
+    #if there some new jobs
+    if len(jobs) > 0:
 
-            #Create the Description
-            new_description = Description(
-                description=description,
-                company_info=company_info, job=new_job)
-            session.add(new_description)
-            session.commit()
+        for job in jobs:
+            company_info = job['company_info']
+            del job['company_info']
+            description = job['description']
+            del job['description']
+            if len(session.query(Job).filter(Job.job_id == job.get('job_id')).all()) == 0:
+                app_log.info('Recording this {0} into the db '.format(job.get('job_id')))
+                new_job = Job(**job)
+                session.add(new_job)
+                session.commit()
 
-            #download this page and save it to local
-            wget.download(job.get('link'), out='backup_webpages/'+str(job.get('job_id'))+'.html')
-        else:
-            print('do not add this')
+                #Create the Description
+                new_description = Description(
+                    description=description,
+                    company_info=company_info, job=new_job)
+                session.add(new_description)
+                session.commit()
 
-    pprint(session.query(Job).all())
-    pprint(session.query(Description).all())
+                #download this page and save it to local
+                app_log.info('Downloading the webpage {0} '.format(job.get('link')))
+                wget.download(job.get('link'), out='backup_webpages/'+str(job.get('job_id'))+'.html')
+            else:
+                print('do not add this')
+    else:
+        print('no new jobs')
+
+    # pprint(session.query(Job).all())
+    # pprint(session.query(Description).all())
 
     #print(session.query(Job).first().job_id)
     jobs = session.query(Job).all()
     # import pdb; pdb.set_trace()
-    for job in jobs:
-        pprint(job.job_id)
+    # for job in jobs:
+    #     pprint(job.job_id)
 
 
 add_to_db()
