@@ -23,7 +23,10 @@ def main():
 
     job_summaries = soup.find_all("div",class_="job-summary-top-left")
 
-    for job in job_summaries[0:3]:
+    #create a list
+    library_jobs_list = []
+
+    for job in job_summaries[0:2]:
         #retrieve the Link
         link = job.a['href']
         url = absolute_url(link)
@@ -34,12 +37,13 @@ def main():
         content
         soup = BeautifulSoup(content, 'lxml')
         summary_div = soup.find('div', class_='job-data-basics')
+
         job_list = summary_div.find_all('li')
 
-        #create a dictionnary
-        my_dict = dict()
-        my_dict['link'] = url
 
+        #create a dictionnary
+        my_dict = {}
+        my_dict['link'] = url
         for li in job_list:
             if li.label.text.strip() == 'Location: '.strip():
                 my_dict['location'] = li.span.text.strip()
@@ -68,7 +72,6 @@ def main():
             else:
                 pass
 
-        pprint(my_dict)
         #find the description:
         description = soup.find('div', class_='generic-details-text').extract()
         try:
@@ -79,7 +82,13 @@ def main():
         my_dict['description'] = description
         my_dict['company_info'] = company_info
 
-        return my_dict
+        # print(my_dict)
+        library_jobs_list.append(my_dict)
+    # print(len(library_jobs_list))
+    # pprint(library_jobs_list)
+    # import sys; sys.exit()
+
+    return library_jobs_list
 
 
 class Job(Base):
@@ -98,7 +107,11 @@ class Job(Base):
     min_education = Column(String(50), nullable=True)
     min_experience = Column(String(50), nullable=True)
     required_travel = Column(String(20), nullable=True)
+    link = Column(String(100), nullable=True)
     posted = Column(String(40), nullable=True)
+
+    def __repr__(self):
+        return "<job(position_title='%s')>" % self.position_title
 
 
 class Description(Base):
@@ -108,15 +121,44 @@ class Description(Base):
     id = Column(Integer, primary_key=True)
     description = Text()
     company_info = Text()
-    person_id = Column(Integer, ForeignKey('job.id'))
-    person = relationship(Job)
+    job_id = Column(Integer, ForeignKey('job.id'))
+    job = relationship(Job)
 
 
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
+engine = create_engine('sqlite:///library_jobs.db')
+Base.metadata.create_all(engine)
+Base.metadata.bind = engine
+DBSession = sessionmaker(bind=engine)
+session = DBSession()
 
 def add_to_db():
-    from sqlalchemy_declarative import Job, Base, Description
+    jobs = main()
 
-    engine = create_engine('sqlite:///library_job.db')
-    Base.metadata.bind = engine
+    for job in jobs:
+        company_info = job['company_info']
+        del job['company_info']
+        description = job['description']
+        del job['description']
+        if len(session.query(Job).filter(Job.job_id == job.get('job_id')).all()) == 0:
+            new_job = Job(**job)
+            session.add(new_job)
+            session.commit()
+
+            #Create the Description
+            new_description = Description(
+                description=description,
+                company_info=company_info, job=new_job)
+            session.add(new_description)
+            session.commit()
+        else:
+            print('do not add this')
+
+    pprint(session.query(Job).all())
+    pprint(session.query(Description).all())
+
+
+
+
+add_to_db()
