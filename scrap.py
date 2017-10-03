@@ -228,7 +228,7 @@ def add_to_db(link):
 
                 #download this page and save it to local
                 app_log.info('Downloading the webpage {0} '.format(job.get('link')))
-                wget.download(job.get('link'), out='backup_webpages/'+str(job.get('job_id'))+'.html')
+                wget.download(job.get('link'), out=mypath+'/backup_webpages/'+str(job.get('job_id'))+'.html')
             else:
                 print('do not add this')
     else:
