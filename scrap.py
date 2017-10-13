@@ -93,7 +93,7 @@ class Description(Base):
 
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
-engine = create_engine('sqlite:///library_jobs.db')
+engine = create_engine('sqlite:///' + mypath + '/library_jobs.db')
 Base.metadata.create_all(engine)
 Base.metadata.bind = engine
 DBSession = sessionmaker(bind=engine)
