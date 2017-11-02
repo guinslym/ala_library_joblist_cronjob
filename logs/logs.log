@@ -2749,3 +2749,31 @@
 2017-11-01 18:39:47,106 INFO main(138) didn't found this link in the db
 2017-11-01 18:39:47,106 INFO main(140) Fetching content from https://joblist.ala.org/job/educational-services-librarian-redding-library/37629064/ 
 2017-11-01 18:39:55,776 INFO main(124) There is no jobs from this page https://joblist.ala.org/jobseeker/search/results/?str=301&max=100&vnet=0&long=1 
+2017-11-02 15:11:15,667 INFO <module>(57) Downloading new jobs... if there is some new :)
+2017-11-02 15:11:19,353 INFO main(138) didn't found this link in the db
+2017-11-02 15:11:19,353 INFO main(140) Fetching content from https://joblist.ala.org/job/user-experience-and-web-design-librarian/37897850/ 
+2017-11-02 15:11:23,854 INFO main(138) didn't found this link in the db
+2017-11-02 15:11:23,854 INFO main(140) Fetching content from https://joblist.ala.org/job/instructional-services-librarian/37607379/ 
+2017-11-02 15:11:28,415 INFO main(138) didn't found this link in the db
+2017-11-02 15:11:28,416 INFO main(140) Fetching content from https://joblist.ala.org/job/teen-librarian/37925183/ 
+2017-11-02 15:11:31,823 INFO main(138) didn't found this link in the db
+2017-11-02 15:11:31,823 INFO main(140) Fetching content from https://joblist.ala.org/job/visiting-evening-access-services-librarian/37925178/ 
+2017-11-02 15:11:35,405 INFO main(138) didn't found this link in the db
+2017-11-02 15:11:35,405 INFO main(140) Fetching content from https://joblist.ala.org/job/dean-language-arts-library/37897879/ 
+2017-11-02 15:11:39,051 INFO main(138) didn't found this link in the db
+2017-11-02 15:11:39,051 INFO main(140) Fetching content from https://joblist.ala.org/job/health-sciences-librarian/37291843/ 
+2017-11-02 15:11:43,119 INFO add_to_db(217) Recording this 37897850 into the db 
+2017-11-02 15:11:43,135 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/user-experience-and-web-design-librarian/37897850/ 
+2017-11-02 15:11:45,014 INFO add_to_db(217) Recording this 37925183 into the db 
+2017-11-02 15:11:45,023 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/teen-librarian/37925183/ 
+2017-11-02 15:11:47,015 INFO add_to_db(217) Recording this 37925178 into the db 
+2017-11-02 15:11:47,026 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/visiting-evening-access-services-librarian/37925178/ 
+2017-11-02 15:11:48,602 INFO add_to_db(217) Recording this 37897879 into the db 
+2017-11-02 15:11:48,617 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/dean-language-arts-library/37897879/ 
+2017-11-02 15:11:52,525 INFO main(138) didn't found this link in the db
+2017-11-02 15:11:52,525 INFO main(140) Fetching content from https://joblist.ala.org/job/archivist-for-digital-programs/37681587/ 
+2017-11-02 15:11:56,577 INFO main(138) didn't found this link in the db
+2017-11-02 15:11:56,577 INFO main(140) Fetching content from https://joblist.ala.org/job/foreign-language-catalogers-immediate-openings-updated/36948792/ 
+2017-11-02 15:12:01,024 INFO main(138) didn't found this link in the db
+2017-11-02 15:12:01,024 INFO main(140) Fetching content from https://joblist.ala.org/job/educational-services-librarian-redding-library/37629064/ 
+2017-11-02 15:12:10,039 INFO main(124) There is no jobs from this page https://joblist.ala.org/jobseeker/search/results/?str=301&max=100&vnet=0&long=1 
