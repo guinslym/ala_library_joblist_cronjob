@@ -1,0 +1,1640 @@
+
+
+<!DOCTYPE html>
+<html lang="en"
+xmlns="http://www.w3.org/1999/xhtml"
+xmlns:og="http://ogp.me/ns#"
+xmlns:fb="http://www.facebook.com/2008/fbml">
+
+    <head>		
+		
+<script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"VQYOUVZbCRABVVFUBAkEVw=="};window.NREUM||(NREUM={}),__nr_require=function(t,n,e){function r(e){if(!n[e]){var o=n[e]={exports:{}};t[e][0].call(o.exports,function(n){var o=t[e][1][n];return r(o||n)},o,o.exports)}return n[e].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<e.length;o++)r(e[o]);return r}({1:[function(t,n,e){function r(t){try{s.console&&console.log(t)}catch(n){}}var o,i=t("ee"),a=t(15),s={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(s.console=!0,o.indexOf("dev")!==-1&&(s.dev=!0),o.indexOf("nr_dev")!==-1&&(s.nrDev=!0))}catch(c){}s.nrDev&&i.on("internal-error",function(t){r(t.stack)}),s.dev&&i.on("fn-err",function(t,n,e){r(e.stack)}),s.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(s,function(t,n){return t}).join(", ")))},{}],2:[function(t,n,e){function r(t,n,e,r,o){try{d?d-=1:i("err",[o||new UncaughtException(t,n,e)])}catch(s){try{i("ierr",[s,c.now(),!0])}catch(u){}}return"function"==typeof f&&f.apply(this,a(arguments))}function UncaughtException(t,n,e){this.message=t||"Uncaught error with no additional information",this.sourceURL=n,this.line=e}function o(t){i("err",[t,c.now()])}var i=t("handle"),a=t(16),s=t("ee"),c=t("loader"),f=window.onerror,u=!1,d=0;c.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(l){"stack"in l&&(t(8),t(7),"addEventListener"in window&&t(5),c.xhrWrappable&&t(9),u=!0)}s.on("fn-start",function(t,n,e){u&&(d+=1)}),s.on("fn-err",function(t,n,e){u&&(this.thrown=!0,o(e))}),s.on("fn-end",function(){u&&!this.thrown&&d>0&&(d-=1)}),s.on("internal-error",function(t){i("ierr",[t,c.now(),!0])})},{}],3:[function(t,n,e){t("loader").features.ins=!0},{}],4:[function(t,n,e){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(8),s=t(7),c="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",l="resource",p="-start",h="-end",m="fn"+p,w="fn"+h,v="bstTimer",y="pushState",g=t("loader");g.features.stn=!0,t(6);var b=NREUM.o.EV;o.on(m,function(t,n){var e=t[0];e instanceof b&&(this.bstStart=g.now())}),o.on(w,function(t,n){var e=t[0];e instanceof b&&i("bst",[e,n,this.bstStart,g.now()])}),a.on(m,function(t,n,e){this.bstStart=g.now(),this.bstType=e}),a.on(w,function(t,n){i(v,[n,this.bstStart,g.now(),this.bstType])}),s.on(m,function(){this.bstStart=g.now()}),s.on(w,function(t,n){i(v,[n,this.bstStart,g.now(),"requestAnimationFrame"])}),o.on(y+p,function(t){this.time=g.now(),this.startPath=location.pathname+location.hash}),o.on(y+h,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+c]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["c"+c]()},!1):window.performance[f]("webkit"+u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["webkitC"+c]()},!1)),document[f]("scroll",r,{passive:!0}),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],5:[function(t,n,e){function r(t){for(var n=t;n&&!n.hasOwnProperty(u);)n=Object.getPrototypeOf(n);n&&o(n)}function o(t){s.inPlace(t,[u,d],"-",i)}function i(t,n){return t[1]}var a=t("ee").get("events"),s=t(18)(a,!0),c=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";n.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,n){var e=t[1],r=c(e,"nr@wrapped",function(){function t(){if("function"==typeof e.handleEvent)return e.handleEvent.apply(e,arguments)}var n={object:t,"function":e}[typeof e];return n?s(n,"fn-",null,n.name||"anonymous"):e});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],6:[function(t,n,e){var r=t("ee").get("history"),o=t(18)(r);n.exports=r,o.inPlace(window.history,["pushState","replaceState"],"-")},{}],7:[function(t,n,e){var r=t("ee").get("raf"),o=t(18)(r),i="equestAnimationFrame";n.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],8:[function(t,n,e){function r(t,n,e){t[0]=a(t[0],"fn-",null,e)}function o(t,n,e){this.method=e,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],"fn-",this,e)}var i=t("ee").get("timer"),a=t(18)(i),s="setTimeout",c="setInterval",f="clearTimeout",u="-start",d="-";n.exports=i,a.inPlace(window,[s,"setImmediate"],s+d),a.inPlace(window,[c],c+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(c+u,r),i.on(s+u,o)},{}],9:[function(t,n,e){function r(t,n){d.inPlace(n,["onreadystatechange"],"fn-",s)}function o(){var t=this,n=u.context(t);t.readyState>3&&!n.resolved&&(n.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,y,"fn-",s)}function i(t){g.push(t),h&&(x?x.then(a):w?w(a):(E=-E,O.data=E))}function a(){for(var t=0;t<g.length;t++)r([],g[t]);g.length&&(g=[])}function s(t,n){return n}function c(t,n){for(var e in t)n[e]=t[e];return n}t(5);var f=t("ee"),u=f.get("xhr"),d=t(18)(u),l=NREUM.o,p=l.XHR,h=l.MO,m=l.PR,w=l.SI,v="readystatechange",y=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],g=[];n.exports=u;var b=window.XMLHttpRequest=function(t){var n=new p(t);try{u.emit("new-xhr",[n],n),n.addEventListener(v,o,!1)}catch(e){try{u.emit("internal-error",[e])}catch(r){}}return n};if(c(p,b),b.prototype=p.prototype,d.inPlace(b.prototype,["open","send"],"-xhr-",s),u.on("send-xhr-start",function(t,n){r(t,n),i(n)}),u.on("open-xhr-start",r),h){var x=m&&m.resolve();if(!w&&!m){var E=1,O=document.createTextNode(E);new h(a).observe(O,{characterData:!0})}}else f.on("fn-end",function(t){t[0]&&t[0].type===v||a()})},{}],10:[function(t,n,e){function r(t){var n=this.params,e=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<d;r++)t.removeEventListener(u[r],this.listener,!1);if(!n.aborted){if(e.duration=a.now()-this.startTime,4===t.readyState){n.status=t.status;var i=o(t,this.lastSize);if(i&&(e.rxSize=i),this.sameOrigin){var c=t.getResponseHeader("X-NewRelic-App-Data");c&&(n.cat=c.split(", ").pop())}}else n.status=0;e.cbTime=this.cbTime,f.emit("xhr-done",[t],t),s("xhr",[n,e,this.startTime])}}}function o(t,n){var e=t.responseType;if("json"===e&&null!==n)return n;var r="arraybuffer"===e||"blob"===e||"json"===e?t.response:t.responseText;return h(r)}function i(t,n){var e=c(n),r=t.params;r.host=e.hostname+":"+e.port,r.pathname=e.pathname,t.sameOrigin=e.sameOrigin}var a=t("loader");if(a.xhrWrappable){var s=t("handle"),c=t(11),f=t("ee"),u=["load","error","abort","timeout"],d=u.length,l=t("id"),p=t(14),h=t(13),m=window.XMLHttpRequest;a.features.xhr=!0,t(9),f.on("new-xhr",function(t){var n=this;n.totalCbs=0,n.called=0,n.cbTime=0,n.end=r,n.ended=!1,n.xhrGuids={},n.lastSize=null,p&&(p>34||p<10)||window.opera||t.addEventListener("progress",function(t){n.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,n){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&n.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,n){var e=this.metrics,r=t[0],o=this;if(e&&r){var i=h(r);i&&(e.txSize=i)}this.startTime=a.now(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof n.onload))&&o.end(n)}catch(e){try{f.emit("internal-error",[e])}catch(r){}}};for(var s=0;s<d;s++)n.addEventListener(u[s],this.listener,!1)}),f.on("xhr-cb-time",function(t,n,e){this.cbTime+=t,n?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof e.onload||this.end(e)}),f.on("xhr-load-added",function(t,n){var e=""+l(t)+!!n;this.xhrGuids&&!this.xhrGuids[e]&&(this.xhrGuids[e]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,n){var e=""+l(t)+!!n;this.xhrGuids&&this.xhrGuids[e]&&(delete this.xhrGuids[e],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,n){n instanceof m&&"load"===t[0]&&f.emit("xhr-load-added",[t[1],t[2]],n)}),f.on("removeEventListener-end",function(t,n){n instanceof m&&"load"===t[0]&&f.emit("xhr-load-removed",[t[1],t[2]],n)}),f.on("fn-start",function(t,n,e){n instanceof m&&("onload"===e&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=a.now()))}),f.on("fn-end",function(t,n){this.xhrCbStart&&f.emit("xhr-cb-time",[a.now()-this.xhrCbStart,this.onload,n],n)})}},{}],11:[function(t,n,e){n.exports=function(t){var n=document.createElement("a"),e=window.location,r={};n.href=t,r.port=n.port;var o=n.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=n.hostname||e.hostname,r.pathname=n.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!n.protocol||":"===n.protocol||n.protocol===e.protocol,a=n.hostname===document.domain&&n.port===e.port;return r.sameOrigin=i&&(!n.hostname||a),r}},{}],12:[function(t,n,e){function r(){}function o(t,n,e){return function(){return i(t,[f.now()].concat(s(arguments)),n?null:this,e),n?void 0:this}}var i=t("handle"),a=t(15),s=t(16),c=t("ee").get("tracer"),f=t("loader"),u=NREUM;"undefined"==typeof window.newrelic&&(newrelic=u);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(d,function(t,n){u[n]=o(l+n,!0,"api")}),u.addPageAction=o(l+"addPageAction",!0),u.setCurrentRouteName=o(l+"routeName",!0),n.exports=newrelic,u.interaction=function(){return(new r).get()};var h=r.prototype={createTracer:function(t,n){var e={},r=this,o="function"==typeof n;return i(p+"tracer",[f.now(),t,e],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],e),o)try{return n.apply(this,arguments)}finally{c.emit("fn-end",[f.now()],e)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,n){h[n]=o(p+n)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,f.now()])}},{}],13:[function(t,n,e){n.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(n){return}}}},{}],14:[function(t,n,e){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),n.exports=r},{}],15:[function(t,n,e){function r(t,n){var e=[],r="",i=0;for(r in t)o.call(t,r)&&(e[i]=n(r,t[r]),i+=1);return e}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],16:[function(t,n,e){function r(t,n,e){n||(n=0),"undefined"==typeof e&&(e=t?t.length:0);for(var r=-1,o=e-n||0,i=Array(o<0?0:o);++r<o;)i[r]=t[n+r];return i}n.exports=r},{}],17:[function(t,n,e){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],18:[function(t,n,e){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var o=t("ee"),i=t(16),a="nr@original",s=Object.prototype.hasOwnProperty,c=!1;n.exports=function(t,n){function e(t,n,e,o){function nrWrapper(){var r,a,s,c;try{a=this,r=i(arguments),s="function"==typeof e?e(r,a):e||{}}catch(f){l([f,"",[r,a,o],s])}u(n+"start",[r,a,o],s);try{return c=t.apply(a,r)}catch(d){throw u(n+"err",[r,a,d],s),d}finally{u(n+"end",[r,a,c],s)}}return r(t)?t:(n||(n=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,n,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<n.length;c++)s=n[c],a=t[s],r(a)||(t[s]=e(a,f?s+o:o,i,s))}function u(e,r,o){if(!c||n){var i=c;c=!0;try{t.emit(e,r,o,n)}catch(a){l([a,e,r,o])}c=i}}function d(t,n){if(Object.defineProperty&&Object.keys)try{var e=Object.keys(t);return e.forEach(function(e){Object.defineProperty(n,e,{get:function(){return t[e]},set:function(n){return t[e]=n,n}})}),n}catch(r){l([r])}for(var o in t)s.call(t,o)&&(n[o]=t[o]);return n}function l(n){try{t.emit("internal-error",n)}catch(e){}}return t||(t=o),e.inPlace=f,e.flag=a,e}},{}],ee:[function(t,n,e){function r(){}function o(t){function n(t){return t&&t instanceof r?t:t?c(t,s,i):i()}function e(e,r,o,i){if(!l.aborted||i){t&&t(e,r,o);for(var a=n(o),s=h(e),c=s.length,f=0;f<c;f++)s[f].apply(a,r);var d=u[y[e]];return d&&d.push([g,e,r,a]),a}}function p(t,n){v[t]=h(t).concat(n)}function h(t){return v[t]||[]}function m(t){return d[t]=d[t]||o(e)}function w(t,n){f(t,function(t,e){n=n||"feature",y[e]=n,n in u||(u[n]=[])})}var v={},y={},g={on:p,emit:e,get:m,listeners:h,context:n,buffer:w,abort:a,aborted:!1};return g}function i(){return new r}function a(){(u.api||u.feature)&&(l.aborted=!0,u=l.backlog={})}var s="nr@context",c=t("gos"),f=t(15),u={},d={},l=n.exports=o();l.backlog=u},{}],gos:[function(t,n,e){function r(t,n,e){if(o.call(t,n))return t[n];var r=e();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(t,n,e){function r(t,n,e,r){o.buffer([t],r),o.emit(t,n,e)}var o=t("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(t,n,e){function r(t){var n=typeof t;return!t||"object"!==n&&"function"!==n?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");n.exports=r},{}],loader:[function(t,n,e){function r(){if(!x++){var t=b.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&n))return u.abort();f(y,function(n,e){t[n]||(t[n]=e)}),c("mark",["onload",a()+b.offset],null,"api");var e=l.createElement("script");e.src="https://"+t.agent,n.parentNode.insertBefore(e,n)}}function o(){"complete"===l.readyState&&i()}function i(){c("mark",["domContent",a()+b.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(s=Math.max((new Date).getTime(),s))-b.offset}var s=(new Date).getTime(),c=t("handle"),f=t(15),u=t("ee"),d=window,l=d.document,p="addEventListener",h="attachEvent",m=d.XMLHttpRequest,w=m&&m.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:m,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1044.min.js"},g=m&&w&&w[p]&&!/CriOS/.test(navigator.userAgent),b=n.exports={offset:s,now:a,origin:v,features:{},xhrWrappable:g};t(12),l[p]?(l[p]("DOMContentLoaded",i,!1),d[p]("load",r,!1)):(l[h]("onreadystatechange",o),d[h]("onload",r)),c("mark",["firstbyte",s],null,"api");var x=0,E=t(17)},{}]},{},["loader",2,10,4,3]);</script> 
+            <title>Coordinator of Resource Acquisitions Management Job Opening in Boone, North Carolina - ALA JobLIST | Jobs in Library & Information Science & Technology</title>
+        
+            <meta name="description" content="A new Coordinator of Resource Acquisitions Management job is available in Boone, North Carolina. Check it out on ALA JobLIST | Jobs in Library & Information Science & Technology.">
+        <link rel="canonical" href="https://joblist.ala.org/job/coordinator-of-resource-acquisitions-management/38049659/">
+
+
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        
+        
+            <link rel="icon" href="/favicon.ico?v=1" />
+        
+			
+			<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+		
+		
+		
+		<link href='https://fonts.googleapis.com/css?family=Oswald:400' rel='stylesheet' type='text/css'>
+		
+		<link rel="stylesheet" href="//use.fontawesome.com/e7f7322296.css">
+        <style>.tabcontrol,.wizard{display:block;width:100%;overflow:hidden}.tabcontrol a,.wizard a{outline:0}.tabcontrol ul,.wizard ul{list-style:none!important;padding:0;margin:0}.tabcontrol>.content>.body ul,.wizard>.content>.body ul{list-style:disc!important}.tabcontrol ul>li,.wizard ul>li{display:block;padding:0}.tabcontrol>.content>.title,.tabcontrol>.steps .current-info,.wizard>.content>.title,.wizard>.steps .current-info{position:absolute;left:-999em}.wizard>.steps{position:relative;display:block;width:100%}.wizard.vertical>.steps{display:inline;float:left;width:30%}.wizard>.steps .number{font-size:1.429em}.wizard>.steps>ul>li{width:25%}.wizard>.actions>ul>li,.wizard>.steps>ul>li{float:left}.wizard.vertical>.steps>ul>li{float:none;width:100%}.wizard>.steps a,.wizard>.steps a:active,.wizard>.steps a:hover{display:block;width:auto;margin:0 .5em .5em;padding:1em;text-decoration:none;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px}.wizard>.steps .disabled a,.wizard>.steps .disabled a:active,.wizard>.steps .disabled a:hover{background:#eee;color:#aaa;cursor:default}.wizard>.steps .current a,.wizard>.steps .current a:active,.wizard>.steps .current a:hover{background:#2184be;color:#fff;cursor:default}.wizard>.steps .done a,.wizard>.steps .done a:active,.wizard>.steps .done a:hover{background:#9dc8e2;color:#fff}.wizard>.steps .error a,.wizard>.steps .error a:active,.wizard>.steps .error a:hover{background:#ff3111;color:#fff}.wizard>.content{background:#eee;display:block;margin:.5em;overflow:hidden;position:relative;width:auto;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px}.wizard.vertical>.content{display:inline;float:left;margin:0 2.5% .5em;width:65%}.wizard>.content>.body{float:left;position:absolute;width:95%;padding:2.5%}.wizard>.content>.body ul>li{display:list-item}.wizard>.content>.body>iframe{border:0;width:100%;height:100%}.wizard>.content>.body input{display:block;border:1px solid #ccc}.wizard>.content>.body input[type=checkbox]{display:inline-block}.wizard>.content>.body input.error{background:#fbe3e4;border:1px solid #fbc2c4;color:#8a1f11}.wizard>.content>.body label{display:inline-block;margin-bottom:.5em}.wizard>.content>.body label.error{color:#8a1f11;display:inline-block;margin-left:1.5em}.wizard>.actions{position:relative;display:block;text-align:right;width:100%}.wizard.vertical>.actions{display:inline;float:right;margin:0 2.5%;width:95%}.wizard>.actions>ul{display:inline-block;text-align:right}.wizard>.actions>ul>li{margin:0 .5em}.wizard.vertical>.actions>ul>li{margin:0 0 0 1em}.wizard>.actions a,.wizard>.actions a:active,.wizard>.actions a:hover{background:#2184be;color:#fff;display:block;padding:.5em 1em;text-decoration:none;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px}.wizard>.actions .disabled a,.wizard>.actions .disabled a:active,.wizard>.actions .disabled a:hover{background:#eee;color:#aaa}.tabcontrol>.steps{position:relative;display:block;width:100%}.tabcontrol>.steps>ul{position:relative;margin:6px 0 0;top:1px;z-index:1}.tabcontrol>.steps>ul>li{float:left;margin:5px 2px 0 0;padding:1px;-webkit-border-top-left-radius:5px;-webkit-border-top-right-radius:5px;-moz-border-radius-topleft:5px;-moz-border-radius-topright:5px;border-top-left-radius:5px;border-top-right-radius:5px}.tabcontrol>.steps>ul>li:hover{background:#edecec;border:1px solid #bbb;padding:0}.tabcontrol>.steps>ul>li.current{background:#fff;border:1px solid #bbb;border-bottom:0 none;padding:0 0 1px;margin-top:0}.tabcontrol>.steps>ul>li>a{color:#5f5f5f;display:inline-block;border:0;margin:0;padding:10px 30px;text-decoration:none}.tabcontrol>.steps>ul>li>a:hover{text-decoration:none}.tabcontrol>.steps>ul>li.current>a{padding:15px 30px 10px}.tabcontrol>.content{position:relative;display:inline-block;width:100%;height:35em;overflow:hidden;border-top:1px solid #bbb;padding-top:20px}.tabcontrol>.content>.body{float:left;position:absolute;width:95%;height:95%;padding:2.5%}.tabcontrol>.content>.body ul>li{display:list-item}</style>
+		<link type="text/css" rel="stylesheet" href="/headers/cc/responsive/stylesheets/screen.css">
+        <style>.owl-carousel,.owl-carousel .owl-item,.owl-theme .owl-dots{-webkit-tap-highlight-color:transparent}.owl-carousel .animated{-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-fill-mode:both;animation-fill-mode:both}.owl-carousel .owl-animated-in{z-index:0}.owl-carousel .owl-animated-out{z-index:1}.owl-carousel .fadeOut{-webkit-animation-name:fadeOut;animation-name:fadeOut}@-webkit-keyframes fadeOut{0%{opacity:1}100%{opacity:0}}@keyframes fadeOut{0%{opacity:1}100%{opacity:0}}.owl-height{-webkit-transition:height .5s ease-in-out;-moz-transition:height .5s ease-in-out;-ms-transition:height .5s ease-in-out;-o-transition:height .5s ease-in-out;transition:height .5s ease-in-out}.owl-carousel{display:none;position:relative;z-index:1}.owl-carousel .owl-stage{position:relative;-ms-touch-action:pan-Y}.owl-carousel .owl-stage:after{content:".";display:block;clear:both;visibility:hidden;line-height:0;height:0}.owl-carousel .owl-stage-outer{position:relative;overflow:hidden;-webkit-transform:translate3d(0,0,0)}.owl-carousel .owl-item{position:relative;min-height:1px;float:left;-webkit-backface-visibility:hidden;-webkit-touch-callout:none}.owl-carousel .owl-item img{-webkit-transform-style:preserve-3d}.owl-carousel .owl-dots.disabled,.owl-carousel .owl-nav.disabled{display:none}.owl-carousel .owl-dot,.owl-carousel .owl-nav .owl-next,.owl-carousel .owl-nav .owl-prev{cursor:pointer;cursor:hand;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.owl-carousel.owl-loaded{display:block}.owl-carousel.owl-loading{opacity:0;display:block}.owl-carousel .owl-video-playing .owl-video-play-icon,.owl-carousel .owl-video-playing .owl-video-tn,.owl-carousel.owl-refresh .owl-item{display:none}.owl-carousel.owl-hidden{opacity:0}.owl-carousel.owl-drag .owl-item{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.owl-carousel.owl-grab{cursor:move;cursor:-webkit-grab;cursor:-o-grab;cursor:-ms-grab;cursor:grab}.owl-carousel.owl-rtl{direction:rtl}.owl-carousel.owl-rtl .owl-item{float:right}.no-js .owl-carousel{display:block}.owl-carousel .owl-item .owl-lazy{opacity:0;-webkit-transition:opacity .4s ease;-moz-transition:opacity .4s ease;-ms-transition:opacity .4s ease;-o-transition:opacity .4s ease;transition:opacity .4s ease}.owl-carousel .owl-video-wrapper{position:relative;height:100%;background:#000}.owl-carousel .owl-video-play-icon{position:absolute;height:80px;width:80px;left:50%;top:50%;margin-left:-40px;margin-top:-40px;background:url(owl.video.play.png) no-repeat;cursor:pointer;z-index:1;-webkit-backface-visibility:hidden;-webkit-transition:scale .1s ease;-moz-transition:scale .1s ease;-ms-transition:scale .1s ease;-o-transition:scale .1s ease;transition:scale .1s ease}.owl-carousel .owl-video-play-icon:hover{-webkit-transition:scale(1.3,1.3);-moz-transition:scale(1.3,1.3);-ms-transition:scale(1.3,1.3);-o-transition:scale(1.3,1.3);transition:scale(1.3,1.3)}.owl-carousel .owl-video-tn{opacity:0;height:100%;background-position:center center;background-repeat:no-repeat;-webkit-background-size:contain;-moz-background-size:contain;-o-background-size:contain;background-size:contain;-webkit-transition:opacity .4s ease;-moz-transition:opacity .4s ease;-ms-transition:opacity .4s ease;-o-transition:opacity .4s ease;transition:opacity .4s ease}.owl-carousel .owl-video-frame{position:relative;z-index:1;height:100%;width:100%}.owl-carousel{width:100%;margin:0 auto}.owl-carousel .owl-item img{transform-style:preserve-3d;display:block;margin:0 auto;max-width:100%;width:auto}.owl-carousel .owl-item .h5,.owl-carousel .owl-item h5{text-align:center;margin-bottom:10px;font-size:16px}.owl-carousel .owl-nav{position:absolute;top:33%;width:100%;padding:0 10px;box-sizing:border-box;pointer-events:none}.owl-carousel .owl-nav [class*=owl-]{background:rgba(255,255,255,.6);border-radius:50%;color:#333;cursor:pointer;display:inline-block;font-size:26px;height:40px;line-height:40px;text-align:center;margin:5px;box-sizing:border-box;padding:0;width:40px;position:relative}.owl-carousel .owl-nav [class*=owl-]:hover{background:#5B6871;color:#fff}.owl-carousel .owl-prev{float:left;pointer-events:auto}.owl-carousel .owl-next{float:right;pointer-events:auto}.owl-carousel .owl-nav .fa{margin:0;line-height:35px}.owl-carousel .owl-prev .fa{margin-left:-4px}.owl-carousel .owl-next .fa{margin-right:-4px}.owl-carousel .owl-dots{margin-top:10px;text-align:center}.owl-carousel .owl-nav .disabled{opacity:.2;cursor:default}.queryTest{float:left;display:none}.owl-theme .owl-nav .disabled{opacity:.5;cursor:default}.owl-theme .owl-nav.disabled+.owl-dots{margin-top:10px}.owl-theme .owl-dots{text-align:center}.owl-theme .owl-dots .owl-dot{display:inline-block;zoom:1}.owl-theme .owl-dots .owl-dot span{width:10px;height:10px;margin:5px 7px;background:#D6D6D6;display:block;-webkit-backface-visibility:visible;-webkit-transition:opacity .2s ease;-moz-transition:opacity .2s ease;-ms-transition:opacity .2s ease;-o-transition:opacity .2s ease;transition:opacity .2s ease;-webkit-border-radius:30px;-moz-border-radius:30px;border-radius:30px}.owl-theme .owl-dots .owl-dot.active span,.owl-theme .owl-dots .owl-dot:hover span{background:#5B6871}@media all and (max-width:480px){.queryTest{float:none}.owl-stage-outer.owl-height{height:auto!important}.owl-carousel{display:block}.owl-carousel li{text-align:center;margin:10px}}</style>
+        
+        
+        <style>
+			/* PRIMARY */
+            .primary {background-color:  #009900;}
+            #job-listing .listings .job-summary h3, #job-listing .listings .job-summary .h3{color: #009900;}
+
+            /* SECONDARY */
+            .secondary {background-color: #3463aa;}
+            #featured-job-listing ul li a h3, #featured-job-listing ul li a .h3 {color: #3463aa}
+
+            /* TERTIARY */
+            .tertiary {background-color: #eaf0f4;}
+            #basic-page .create-resume .default-form-box a.right {background-color: #eaf0f4}
+            .more-company-jobs a {background-color: #eaf0f4;}
+            
+            /* nav bg*/
+            
+            
+            /* nav color*/
+            
+            
+            .sideboard-adspace em {
+            
+            }
+            
+            .sideboard-adspace div > div {
+                background: transparent url('/headers/cc/responsive/img/photos/bkgrd-upload-resume-2.jpg') no-repeat scroll right top;
+            }
+        </style>
+        
+        
+			<link type="text/css" rel="stylesheet" href="/headers/cc/responsive/partner_lib/21926/custom.css">
+        
+
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+        
+        
+			
+			<link rel="stylesheet" href="/styles/upload/jquery.fileupload.css">
+			<link rel="stylesheet" href="/styles/upload/jquery.fileupload-ui.css">
+			
+			<noscript><link rel="stylesheet" href="/styles/upload/jquery.fileupload-noscript.css"></noscript>
+			<noscript><link rel="stylesheet" href="/styles/upload/jquery.fileupload-ui-noscript.css"></noscript>
+		
+
+		<script>/*
+	By Osvaldas Valutis, www.osvaldas.info
+	Available for use under the MIT License
+*/
+
+
+
+;(function(e,t,n,r){e.fn.doubleTapToGo=function(r){if(!("ontouchstart"in t)&&!navigator.msMaxTouchPoints&&!navigator.userAgent.toLowerCase().match(/windows phone os 7/i))return false;this.each(function(){var t=false;e(this).on("click",function(n){var r=e(this);if(r[0]!=t[0]){n.preventDefault();t=r}});e(n).on("click touchstart MSPointerDown",function(n){var r=true,i=e(n.target).parents();for(var s=0;s<i.length;s++)if(i[s]==t[0])r=false;if(r)t=false})});return this}})(jQuery,window,document);</script>
+        
+        <script type="text/javascript">
+            document.createElement('header');
+            document.createElement('nav');
+            document.createElement('menu');
+            document.createElement('section');
+            document.createElement('article');
+            document.createElement('aside');
+            document.createElement('footer');
+			
+			$(document).ready(function(){
+			$("#nav-trigger").click(function(){
+			if (jQuery('.header-content #menu ul').css('display') == 'none') { jQuery('.header-content #menu ul').css('display', 'block'); } else if(jQuery('.header-content #menu ul').css('display') == 'block') { jQuery('.header-content #menu ul').css('display', 'none'); }});
+			});
+        </script>
+		
+        
+        	
+
+	<script type="text/javascript">
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','gajt');
+
+		
+		
+			gajt('create', 'UA-61185027-27',{'cookieName': 'ccenter','cookieDomain': 'auto','name':'CCSC','allowLinker':true});
+			
+			gajt('CCSC.send', 'pageview', {transport: 'beacon'});
+		
+				gajt('create', 'UA-466934-14', {'cookieName': 'ccenter','cookieDomain': 'auto','name':'CCPC1','allowLinker':true});
+				
+				gajt('CCPC1.send', 'pageview', {transport: 'beacon'});
+			
+		
+		gajt('create', 'UA-60071809-2', {'cookieName': 'ccenter','cookieDomain': 'auto','name':'CCGC','allowLinker':true});
+		
+		gajt('CCGC.send', 'pageview', {transport: 'beacon'});
+	</script>
+
+	<script>if (typeof jQuery != 'undefined') {
+$(function() {function e(e){return"undefined"==typeof gajt?!0:(e.preventDefault(),void e.stopPropagation())}function n(e,n,t,i){var o=setTimeout(function(){window.location=e},500);gajt("CCSC.send","event",n,t,i,{nonInteraction:1,transport:"beacon",hitCallback:function(){clearTimeout(o),window.location=e}})}function t(e,n,t,i){var o=setTimeout(function(){$("#"+e)[0].submit()},500);$("#"+e),gajt("CCSC.send","event",n,t,i,{nonInteraction:1,transport:"beacon",hitCallback:function(){clearTimeout(o),$("#"+e)[0].submit()}})}function i(e,n,t,i){var o=setTimeout(function(){window.location=e},500);gajt("CCSC.send","event",n,t,e,{dimension5:i,nonInteraction:1,transport:"beacon",hitCallback:function(){clearTimeout(o),window.location=e}})}function s(e,n,t,h){gajt("CCSC.send","event",e,n,t,{dimension3:h,nonInteraction:1,transport:"beacon"})}function o(e,n,t,h,i){gajt("CCSC.send","event",e,n,t,{dimension3:i,dimension14:h,nonInteraction:1,transport:"beacon"})}function a(e,n,t,h,i,o){gajt("CCSC.send","event",e,n,t,{dimension3:i,dimension9:o,dimension14:h,nonInteraction:1,transport:"beacon"})}function l(e,n,t,i,o,a,l){var r=setTimeout(function(){window.location=e},500);gajt("CCSC.send","event",n,t,i,{dimension3:o,dimension4:a,dimension10:l,nonInteraction:1,transport:"beacon",hitCallback:function(){clearTimeout(r),window.location=e}})}function r(e,n,t){gajt("CCSC.send","event",e,n,t,{nonInteraction:1,transport:"beacon"})}
+$(document).on('click', '.primary.ga_apply', function(e){return"undefined"==typeof gajt?!0:void o("Job","Job Apply","Primary","010",ga_j_id,this.href)
+}), $(document).on('click', '.secondary.ga_ext', function(e){return"undefined"==typeof gajt?!0:void a("Job","Job Apply","External_M","010",ga_j_id,this.href)
+}), $(document).on('click', '.primary.ga_ext', function(e){return"undefined"==typeof gajt?!0:void a("Job","Job Apply","External_S","010",ga_j_id,this.href)
+}), $(document).on('click', '.secondary.ga_eml', function(e){return"undefined"==typeof gajt?!0:void o("Job","Job Apply","Initial_Email_M","010",ga_j_id)
+}), $(document).on('click', '.primary.ga_eml', function(e){return"undefined"==typeof gajt?!0:void o("Job","Job Apply","Initial_Email_S","010",ga_j_id)
+}), $(document).on('click', '#apply_email_cancel_single', function(e){return"undefined"==typeof gajt?!0:void o("Job","Job Apply","Cancel_Email_S","010",ga_j_id)
+}), $(document).on('click', '.primary.ga_int', function(e){return"undefined"==typeof gajt?!0:void o("Job","Job Apply","Initial_Internal_S","010",ga_j_id)
+}), $(document).on('click', '.secondary.ga_int', function(e){return"undefined"==typeof gajt?!0:void o("Job","Job Apply","Initial_Internal_M","010",ga_j_id)
+}), $(document).on('click', '#ga_print', function(e){s("Job", "Job Print", "Job View", "38049659")
+}), $(document).on('click', '.linkedin-icon', function(e){s("Job", "Job Share", "Linkedin","38049659")
+}), $(document).on('click', '.twitter-icon', function(e){s("Job", "Job Share", "Twitter","38049659")
+}), $(document).on('click', '.facebook-icon', function(e){s("Job", "Job Share", "Facebook","38049659")
+}), $("#share").on('shown.bs.modal', function(e){s("Job", "Job Share", "Initial","38049659")
+}), $(document).on('click', '#share .cancel', function(e){s("Job", "Job Share", "Cancel","38049659")
+}), $(document).on('click', '.fa-phone', function(e){s("Job", "Call", "Job View","38049659")
+}), $(document).on('click', '.company-logo a', function(e){s("Button", "Employer Logo Click", "Job View","38049659")
+}), $(document).on('click', '.description-text a', function(e){s("Link", "Outbound Link - Job View", this.href,"38049659")
+})
+// text highlight codes
+function getSelectionText() {
+  var text = "";
+    if (window.getSelection) {
+        text = window.getSelection().toString();
+    } else if (document.selection && document.selection.type != "Control") {
+        text = document.selection.createRange().text;
+    }
+    return text;}
+document.onmouseup = function() {
+    if(getSelectionText() != "")
+        if(getSelectionText().includes("@"))
+            s("Job", "Job Detail Highlight", "email_hidden","38049659");
+        else
+            s("Job", "Job Detail Highlight", getSelectionText(),"38049659");
+};
+/*!
+ * @preserve
+ * jquery.scrolldepth.js | v0.4.1
+ * Copyright (c) 2014 Rob Flaherty (@robflaherty)
+ * Licensed under the MIT and GPL licenses.
+ */
+;(function ( $, window, document, undefined ) {
+  "use strict";
+  var defaults = {
+    elements: [],
+    minHeight: 0,
+    percentage: true,
+    testing: false
+  },
+  $window = $(window),
+  cache = [];
+ 
+  $.scrollDepth = function(options) {
+    var startTime = +new Date;
+    options = $.extend({}, defaults, options);
+    if ( $(document).height() < options.minHeight ) {
+      return;
+    }
+    // Establish baseline (0% scroll)
+    sendEvent('Baseline', $(document).height());
+    function sendEvent(label, docHeight) {
+        gajt("CCSC.send", "event", "Job Scroll", label, String(docHeight), {dimension3: "38049659", nonInteraction: 1, transport: "beacon"});
+    }
+ 
+    function calculateMarks(docHeight) {
+      return {
+        '50%' : parseInt(docHeight * 0.50, 10),
+        '60%' : parseInt(docHeight * 0.60, 10),
+        '70%' : parseInt(docHeight * 0.70, 10),
+        '80%' : parseInt(docHeight * 0.80, 10),
+        '90%' : parseInt(docHeight * 0.90, 10),
+        // 1px cushion to trigger 100% event in iOS
+        '100%': docHeight - 1
+      };}
+ 
+    function checkMarks(marks, scrollDistance, docHeight) {
+      // Check each active mark
+      $.each(marks, function(key, val) {
+        if ( $.inArray(key, cache) === -1 && scrollDistance >= val ) {
+         sendEvent(key, docHeight);
+         cache.push(key);
+        }});}
+ 
+    /*
+     * Throttle function borrowed from:
+     * Underscore.js 1.5.2
+     * http://underscorejs.org
+     * (c) 2009-2013 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
+     * Underscore may be freely distributed under the MIT license.
+     */
+ 
+    function throttle(func, wait) {
+      var context, args, result;
+      var timeout = null;
+      var previous = 0;
+      var later = function() {
+        previous = new Date;
+        timeout = null;
+        result = func.apply(context, args);
+      };
+      return function() {
+        var now = new Date;
+        if (!previous) previous = now;
+        var remaining = wait - (now - previous);
+        context = this;
+        args = arguments;
+        if (remaining <= 0) {
+          clearTimeout(timeout);
+          timeout = null;
+          previous = now;
+          result = func.apply(context, args);
+        } else if (!timeout) {
+          timeout = setTimeout(later, remaining);
+        }
+        return result;
+      };}
+    $window.on('scroll.scrollDepth', throttle(function() {
+      var docHeight = $(document).height(),
+        winHeight = window.innerHeight ? window.innerHeight : $window.height(),
+        scrollDistance = $window.scrollTop() + winHeight,
+        marks = calculateMarks(docHeight);
+      // If all marks already hit, unbind scroll event
+      if (cache.length >= 6) {
+        $window.off('scroll.scrollDepth');
+        return;
+      }
+      if (options.percentage)
+        checkMarks(marks, scrollDistance, docHeight);
+    }, 500));};
+})( jQuery, window, document );
+jQuery.scrollDepth();
+
+});}
+else{
+
+}
+
+
+
+</script>
+	
+
+        
+    </head>
+    
+
+
+<body class="wide-page inner-jobseeker-page">
+
+    
+    <header class="header super" id="header">
+	<div class="top-header site clearfix">
+		<ul class="ALA-top-nav">
+			<li><a href="http://www.ala.org" title="ALA Homepage">ALA</a></li>
+			<li><a href="http://connect.ala.org" title="">ALA Connect</a></li>
+			<li><a href="http://www.ala.org/membership/renew" title="">Join ALA</a></li>
+		</ul>
+		<a id="logo" href="http://joblist.ala.org/home/index.cfm?site_id=21926"><img alt="Company Name" src="/headers/cc/responsive/partner_lib/21926/img/logo-21926.png"></a>
+		<span>A SERVICE OF THE AMERICAN LIBRARY ASSOCIATION AND THE ASSOCIATION OF COLLEGE & RESEARCH LIBRARIES</span>
+	</div>
+	<div class="header-content super clearfix" id="header-content">
+		<div class="site">
+		
+	<nav id="menu" role="navigation" aria-label="Navigation">
+		<a id="nav-trigger"><i class="fa fa-bars"></i></a>
+		<ul class="clearfix">
+			<li><a class="mobile-hide">Employers</a>
+				<ul class="sub-navigation">
+					<li class="collapse">Employers</li>
+					
+						<li><a href="/employer/pricing/">Products</a></li>
+					
+						<li><a href="/employer/post/">Post a Job</a></li>
+					
+						<li><a href="/employer/my-account/">My Account</a></li>
+					
+						<li><a href="/employer/my-jobs/">My Jobs</a></li>
+					
+						<li><a href="/employer/clients/">My Clients</a></li>
+					
+						<li><a href="/employer/resumes/bank/">Resume Bank</a></li>
+					
+						<li><a href="/employer/candidates/">My Candidates</a></li>
+					
+						<li><a href="/employer/company/">My Company</a></li>
+					
+						<li><a href="/employer/templates/">My Templates</a></li>
+					
+						<li><a href="/employer/help/">Help</a></li>
+					
+				</ul>
+			</li>
+			<li><a class="mobile-hide">Job Seekers</a>
+				<ul class="sub-navigation">
+					<li class="collapse">Job Seekers</li>
+					
+						<li><a href="/jobseeker/my-account/">My Account</a></li>
+						
+						<li><a href="/jobseeker/search/">Job Search</a></li>
+						
+						<li><a href="/jobseeker/resumes/">Manage Resumes</a></li>
+						
+						<li><a href="/jobseeker/job-alerts/">Job Alerts</a></li>
+						
+						<li><a href="/jobseeker/resources/">Resources</a></li>
+						
+						<li><a href="/jobseeker/help/">Help</a></li>
+						
+				</ul>
+			</li>	
+			
+		<li class="sign-in"><a class="mobile-hide">Sign-in or Create Account</a>
+			<ul class="sub-navigation">
+				<li class="collapse">Sign-in or Create Account</li>
+				<li><a href="/employer/login?site_id=21926">Employer</a></li>
+				<li><a href="/jobseeker/login?site_id=21926">Job Seeker</a></li>
+			</ul>
+		</li>
+	
+		</ul>
+	</nav>
+	<a href="/employer/pricing/?site_id=21926&extre=1" class="call-to-action secondary">Post a Job</a> 
+
+		</div>
+	</div>
+</header> 
+	<script language="javascript" type="text/javascript">
+
+		function toggleApplyEmail(btn){	
+			if(btn == 'apply_email_cancel'){
+				gajt("CCSC.send", "event", "Job", "Job Apply", "Cancel_Email_M", {
+		            dimension3: ga_j_id,
+		            dimension14: "010",
+		            nonInteraction: 1,
+		            transport: "beacon"});
+
+				
+					$('#jt_apply_email').find("textarea, input[type=file], input[type=email]").val("");
+					$('#apply_email').val("");
+					$('#apply_name').val("");
+					$('#file-upload-filename').html("No file selected");
+				
+				$('#apply_position').val("Application for: Coordinator of Resource Acquisitions Management");
+				$('#apply_user_resume').prop('selectedIndex',0);					
+				$('#form-error-container').hide();		
+			}		
+			$("table tbody.files").empty();
+			$('#modal-email-content').toggle();		
+			return false;
+		}
+
+		function emailJob(job, show, elm, jobtitle) {
+			setEmailForm();
+			$('#email').modal('show');
+			return false;
+		}
+		
+		function shareJob(job, show, elm, jobtitle, url) {
+			setEmailForm(jobtitle, url);
+			$('#share').modal('show');
+			return false;
+		}
+		
+		function protect_email2(username, domain, subject) {
+			email = username + '&#64;' + domain;
+			email2 = username + '@' + domain;
+
+			if(subject)
+				document.write('<a href="mailto:' + email2 + '?subject=' + subject + '">' + email + '</a>');
+			else
+				document.write('<a href="mailto:' + email2 + '">' + email + '</a>');
+
+			return false;
+		}
+
+		function sendEmail(form) {
+			var error = "";
+			if(!form.email.value) error += " - Please enter the email address to which you would like to send this job.\n";
+			else if(!form.email.value.match(/^[\w\d\.\&\-_+']+@[\w\d\.\-]+[\w\d]{2,4}$/i)) error += " - Please enter an email address in the form abc@xyz.com.\n";
+			
+				if(!form.your_email.value) error += " - Please enter a reply to email address.\n";
+				else if(!form.your_email.value.match(/^[\w\d\.\&\-_+']+@[\w\d\.\-]+[\w\d]{2,4}$/i)) error += " - Please enter an reply to email address in the form abc@xyz.com.\n";
+			
+			if(error){
+				alert("The following error(s) have occurred:\n" + error);
+				gajt("CCSC.send", "event", "Job", "Job Share", "Email-Fail", {dimension3: "38049659",nonInteraction:1, transport: "beacon"});
+			}
+			else {
+				gajt("CCSC.send", "event", "Job", "Job Share", "Email-Success", {dimension3: "38049659",nonInteraction:1, transport: "beacon"});
+				
+				var jqxhr = $.post( "/c/functions/emailjob.cfm?site_id=21926", $( form ).serialize(), function() {
+					var newContent = '<header class="header"><h5>Job has been sent.</h5><a class="close" data-dismiss="modal" aria-hidden="true">&times;</a></header><br /><br /><button class="primary" data-dismiss="modal">OK</button>';
+					$("#share .modal-content").html(newContent);
+				}).fail(function() {
+					alert( "error" );
+				  });
+				
+			}
+
+			return false;
+		}
+		
+		/*** set form content again as it might have been replaced by the successfuly message when the job was emailed ***/
+		function setEmailForm(jobtitle, url){
+			url = encodeURIComponent(url);
+			var emailForm = '<header class="header">';
+			emailForm = emailForm + '<h5>Share this Job with a Friend</h5>';
+			emailForm = emailForm + '<a aria-hidden="true" data-dismiss="modal" class="close">&times;</a></header>';
+			emailForm = emailForm + '<h2>' +  jobtitle + '</h2>';
+			emailForm = emailForm + '<div>';
+			emailForm = emailForm + '<nav class="social-media clearfix">';
+			emailForm = emailForm + '<ul>';
+			emailForm = emailForm + '<li> <a class="facebook-icon" target="_blank" href="https://facebook.com/sharer.php?u=' + url + '"><span class="fa fa-facebook-square"></span></a> </li>';
+			emailForm = emailForm + '<li> <a class="twitter-icon" target="_blank" href="https://twitter.com/intent/tweet?url=' + url + '"><span class="fa fa-twitter-square"></span></a> </li>';
+			emailForm = emailForm + '<li> <a class="linkedin-icon" target="_blank" href="https://www.linkedin.com/cws/share?url=' + url + '"><span class="fa fa-linkedin-square"></span></a> </li>';
+			emailForm = emailForm + '</ul>';
+			emailForm = emailForm + '</nav>';
+			/*emailForm = emailForm + '<span class="socialShare"> <!-- The share buttons will be inserted here --> </span>';
+			emailForm = emailForm + '<span class="socials opened" style="width: 330px; margin-left: -145px;"><a href="https://twitter.com/intent/tweet?url=http%3A%2F%2Ftutorialzine.com%2F2014%2F08%2Fcool-share-jquery-plugin%2F&amp;text=Check%20out%20this%20awesome%20jQuery%20Social%20Buttons%20Plugin!%20&amp;via=Tutorialzine" class="fa fa-twitter"></a><a href="https://facebook.com/sharer.php?u=http%3A%2F%2Ftutorialzine.com%2F2014%2F08%2Fcool-share-jquery-plugin%2F" class="fa fa-facebook"></a><a href="https://plus.google.com/share?url=http%3A%2F%2Ftutorialzine.com%2F2014%2F08%2Fcool-share-jquery-plugin%2F" class="fa fa-google-plus"></a></span>';*/
+			emailForm = emailForm + '</div>';
+			emailForm = emailForm + '<div>';
+			emailForm = emailForm + '<form id="jt_job_email" onsubmit="return sendEmail(this);" method="post">';
+			emailForm = emailForm + '<input type="hidden" value="38049659" name="job">';
+			emailForm = emailForm + '<span class="alert"></span>';
+			emailForm = emailForm + '<fieldset class="full">';
+			emailForm = emailForm + '<legend style="position: absolute;left: -999em;">From (your email)</legend>';
+			emailForm = emailForm + '<label>From (your email)</label>'; 
+			emailForm = emailForm + '<input type="email" required="" placeholder="Enter your email address" class="form-text" id="emailFrom" name="your_email">';
+			emailForm = emailForm + '</fieldset>';
+			emailForm = emailForm + '<fieldset class="full">';
+			emailForm = emailForm + '<legend style="position: absolute;left: -999em;">To (recipient\'s emails)</legend>';
+			emailForm = emailForm + '<label>To (recipient\'s emails)</label>'; 
+			emailForm = emailForm + '<input type="email" required="" placeholder="Enter recipient\'s email address" class="form-text" id="emailTo" name="email">';
+			emailForm = emailForm + '</fieldset>';
+			emailForm = emailForm + '<fieldset class="full">';
+			emailForm = emailForm + '<legend style="position: absolute;left: -999em;">Your Name</legend>';
+			emailForm = emailForm + '<label>Your Name</label>';
+			emailForm = emailForm + '<input type="text" placeholder="Enter your name" class="form-text" id="name" name="your_name">';
+			emailForm = emailForm + '</fieldset>';
+			emailForm = emailForm + '<fieldset class="full">';
+			emailForm = emailForm + '<legend style="position: absolute;left: -999em;">Notes</legend>';
+			emailForm = emailForm + '<label>Notes</label>';
+			emailForm = emailForm + '<textarea id="notes" placeholder="Notes" name="message" rows="4"></textarea>';
+			emailForm = emailForm + '</fieldset>';
+			emailForm = emailForm + '<fieldset class="full">';
+			emailForm = emailForm + '<legend style="position: absolute;left: -999em;">Send Email</legend>';	
+			emailForm = emailForm + '<button type="submit" class="primary" id="send-email-btn">Send Email</button>';
+			emailForm = emailForm + '<a aria-hidden="true" data-dismiss="modal" class="cancel">Cancel</a>';
+			emailForm = emailForm + '</fieldset>';
+			emailForm = emailForm + '</form>';
+			emailForm = emailForm + '</div>';
+				
+			$("#share .modal-content").html(emailForm)	;
+		
+			return false;
+		}
+
+		function setApply( email, online, external){
+			$("#loading").hide();
+			$("#modal-email-content").hide();
+			
+			var emailForm =		'<div class="header">';		
+			emailForm = emailForm + '		<style>';		
+			emailForm = emailForm + '			#apply-options .modal-content div.header {display: block; text-align: left;}';		
+			emailForm = emailForm + '			#jt_apply_email {width:100%; padding:20px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}';		
+			emailForm = emailForm + '			#jt_apply_email fieldset.full  {float:none; clear:both}';		
+			emailForm = emailForm + '			#jt_apply_email fieldset input, #apply_user_resume {width:100%}';		
+			emailForm = emailForm + '			#jt_apply_email fieldset textarea {display:block; width:100%; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}';		
+			emailForm = emailForm + '			#holder {border:20px; background-color:#f5f5f5; }';
+			emailForm = emailForm + '		</style>';	
+			
+			emailForm = emailForm + '		<span class="h5"> Apply for: </span>';		
+			emailForm = emailForm + '		<a class="close" data-dismiss="modal" aria-hidden="true">&times;</a>'; 		
+			emailForm = emailForm + '	</div>';		
+			emailForm = emailForm + '	<div role="grid" aria-label="job-title"><div role="row" class="job-title-container"><span role="gridcell"> Coordinator of Resource Acquisitions Management</span></div></div>';		
+			emailForm = emailForm + '	<span class="alert error fa" id="form-error-container" style="display:none"><u id="form-error"></u></span>';		
+			if (email == 1 && online == 0 && external == 0 ){
+				emailForm = emailForm + '	<div id="modal-email-content" style="display:block">';
+				emailForm = emailForm + '	<input type="hidden" value="S" id="ga_apply_method">';
+			}
+			else{
+				emailForm = emailForm + '	<input type="hidden" value="M" id="ga_apply_method">';
+				emailForm = emailForm + '	<p> How would you like to apply to this job? </p>';				
+				emailForm = emailForm + '	<div>';
+				if(online == 1){
+					emailForm = emailForm + '<a class="secondary ga_int" title="" onclick="window.open(&quot;/c/apply/apply.cfm?site_id=21926&jb=38049659&quot;, &quot;newwindow&quot;); return false;">Job Board</a>';}
+				if(external == 1){
+					emailForm = emailForm + '<a href=" https://hr.appstate.edu/employment/faculty-vacancies/569 " class="secondary ga_ext" target="_blank">Company Website</a>';}
+				if(email == 1){
+					emailForm = emailForm + '<a href="" class="secondary ga_eml" onclick="return toggleApplyEmail(this.id)" id="apply_email_button">Email</a>';}
+				emailForm = emailForm + '	</div>';
+				emailForm = emailForm + '	<div id="modal-email-content" style="display:none">';
+			}
+		
+			emailForm = emailForm + '	';		
+			emailForm = emailForm + '		<div id="holder"><form id="jt_apply_email" name="jt_apply_email" method="post" enctype="multipart/form-data">';				
+			emailForm = emailForm + '			<input type="hidden" value=" Coordinator of Resource Acquisitions Management" name="apply_position_hid" id="apply_position_hid">';		
+			emailForm = emailForm + '			<input type="hidden" value="" name="job">';		
+			emailForm = emailForm + '				<span class="alert"></span>';		
+			emailForm = emailForm + '			<fieldset class="full">';		
+			emailForm = emailForm + '				<legend style="position: absolute;left: -999em;">From (your email address)</legend>';
+			emailForm = emailForm + '				<label>* From (your email address)</label>';		
+			emailForm = emailForm + '				<input type="email" required placeholder="Enter your email address" id="apply_email" aria-label="Email Address" name="apply_email" value="">';
+			emailForm = emailForm + '			</fieldset>';		
+			emailForm = emailForm + '			<fieldset class="full">';	
+			emailForm = emailForm + '				<legend style="position: absolute;left: -999em;">Full Name</legend>';
+			emailForm = emailForm + '				<label>* Full Name</label>';		
+			emailForm = emailForm + '				<input type="text" required placeholder="Enter your name" id="apply_name" aria-label="Full Name" name="apply_name" value="">';
+			emailForm = emailForm + '			</fieldset>';		
+			emailForm = emailForm + '			<fieldset class="full">';	
+			emailForm = emailForm + '				<legend style="position: absolute;left: -999em;">Subject</legend>';	
+			emailForm = emailForm + '				<label>Subject</label>';		
+			emailForm = emailForm + '				<input type="text" disabled required placeholder="Enter position" id="apply_position" aria-label="Subject" name="apply_position" value="Application for: Coordinator of Resource Acquisitions Management">';		
+			emailForm = emailForm + '			</fieldset>';		
+			emailForm = emailForm + '			<fieldset class="full">';		
+			emailForm = emailForm + '				<legend style="position: absolute;left: -999em;">Message</legend>';
+			emailForm = emailForm + '				<label>Message</label>';		
+			emailForm = emailForm + '				<label>Copy and paste your resume below or upload your resume and use this field to include a cover letter or comments. Employers  will only receive the information that you include with this form. Please include all pertinent information, such as your contact information.</label>';		
+			emailForm = emailForm + '				<textarea id="apply_notes" name="apply_notes" aria-label="Resume Text Field" rows="5"></textarea>';		
+			emailForm = emailForm + '			</fieldset>';		
+			emailForm = emailForm + '			<fieldset class="full">';	
+			emailForm = emailForm + '				<legend style="position: absolute;left: -999em;">Upload Resume</legend>';		
+			emailForm = emailForm + '				<label>Upload Resume (max 10MB)</label>';		
+			emailForm = emailForm + '				<div id="addFiles_btn"><span class="secondary btn btn-success fileinput-button"><i class="glyphicon glyphicon-plus"></i><span>Drop files here or click to upload.</span><input id="fileupload" type="file" name="files[]" aria-label="file upload" multiple accept="text/plain, application/msword, application/pdf, application/octet-stream, application/vnd.openxmlformats-officedocument.wordprocessingml.document, application/x-tika-msoffice"></span></div> <table role="presentation" class="table table-striped"><tbody class="files"></tbody></table>';		
+			emailForm = emailForm + '			</fieldset>';		
+			emailForm = emailForm + '			';		
+			emailForm = emailForm + '			<fieldset class="full">';	
+			emailForm = emailForm + '				<legend style="position: absolute;left: -999em;">Send Email</legend>';				
+			emailForm = emailForm + '				<button type="submit" class="primary" id="send_apply_email" name="send_apply_email">Send Email</button>';		 
+			if (email == 1 && online == 0 && external == 0 ){
+				emailForm = emailForm + '				<a data-dismiss="modal" aria-hidden="true" id="apply_email_cancel_single">Cancel</a>';}
+			else{
+				emailForm = emailForm + '				<a onclick="return toggleApplyEmail(this.id)" class="cancel" id="apply_email_cancel">Cancel</a>';}
+			emailForm = emailForm + '			</fieldset>';		
+			emailForm = emailForm + '			<fieldset>';	
+			emailForm = emailForm + 				'<legend style="position: absolute;left: -999em;">Recaptcha</legend>';
+			
+				emailForm = emailForm + '<script type="text/javascript">\n';
+			
+				emailForm = emailForm + '						function closest(el, selector) {\n';
+			
+				emailForm = emailForm + '							var matchesFn;\n';
+			
+				emailForm = emailForm + '							["matches","webkitMatchesSelector","mozMatchesSelector","msMatchesSelector","oMatchesSelector"].some(function(fn) {\n';
+			
+				emailForm = emailForm + '								if (typeof document.body[fn] == "function") {\n';
+			
+				emailForm = emailForm + '									matchesFn = fn;\n';
+			
+				emailForm = emailForm + '									return true;\n';
+			
+				emailForm = emailForm + '								}\n';
+			
+				emailForm = emailForm + '								return false;\n';
+			
+				emailForm = emailForm + '							})\n';
+			
+				emailForm = emailForm + '							var parent;\n';
+			
+				emailForm = emailForm + '							while (el) {\n';
+			
+				emailForm = emailForm + '								parent = el.parentElement;\n';
+			
+				emailForm = emailForm + '								if (parent && parent[matchesFn](selector)) {\n';
+			
+				emailForm = emailForm + '									return parent;\n';
+			
+				emailForm = emailForm + '								}\n';
+			
+				emailForm = emailForm + '								el = parent;\n';
+			
+				emailForm = emailForm + '							}\n';
+			
+				emailForm = emailForm + '							return null;\n';
+			
+				emailForm = emailForm + '						}\n';
+			
+				emailForm = emailForm + '						\n';
+			
+				emailForm = emailForm + '						// this is for legacy sites that use an inline onclick handler on an anchor tag\n';
+			
+				emailForm = emailForm + '						function handleClick(ev) {\n';
+			
+				emailForm = emailForm + '							ev.preventDefault();\n';
+			
+				emailForm = emailForm + '							grecaptcha.execute();\n';
+			
+				emailForm = emailForm + '							ev.stopPropagation();\n';
+			
+				emailForm = emailForm + '						}\n';
+			
+				emailForm = emailForm + '						\n';
+			
+				emailForm = emailForm + '						// this is for the /employer/help page which has inline javascript validation\n';
+			
+				emailForm = emailForm + '						function handleClick2(ev) {\n';
+			
+				emailForm = emailForm + '							ev.preventDefault();\n';
+			
+				emailForm = emailForm + '							if(verify($(this).up("form"))) {\n';
+			
+				emailForm = emailForm + '								grecaptcha.execute();\n';
+			
+				emailForm = emailForm + '								ev.stopPropagation();\n';
+			
+				emailForm = emailForm + '							} else {\n';
+			
+				emailForm = emailForm + '								grecaptcha.reset();\n';
+			
+				emailForm = emailForm + '							}\n';
+			
+				emailForm = emailForm + '						}\n';
+			
+				emailForm = emailForm + '						\n';
+			
+				emailForm = emailForm + '						function processCaptcha() {\n';
+			
+				emailForm = emailForm + '							var formElement = closest(document.getElementById("invisible-recaptcha"), "form");\n';
+			
+				emailForm = emailForm + '							var links = document.getElementsByClassName("jt_cte_button");\n';
+			
+				emailForm = emailForm + '							var links2 = document.getElementsByClassName("jt_cte_short_button");\n';
+			
+				emailForm = emailForm + '							\n';
+			
+				emailForm = emailForm + '							// this is for responsive sites that use a submit button\n';
+			
+				emailForm = emailForm + '							formElement.addEventListener("submit", function(e){\n';
+			
+				emailForm = emailForm + '								e.preventDefault();\n';
+			
+				emailForm = emailForm + '								grecaptcha.execute();\n';
+			
+				emailForm = emailForm + '							});\n';
+			
+				emailForm = emailForm + '							Array.prototype.forEach.call(links, function(elem) {\n';
+			
+				emailForm = emailForm + '								var btnForm = closest(elem, "form");\n';
+			
+				emailForm = emailForm + '								if(btnForm.id != "jt_login") {\n';
+			
+				emailForm = emailForm + '									elem.onclick = handleClick;\n';
+			
+				emailForm = emailForm + '								}\n';
+			
+				emailForm = emailForm + '							});\n';
+			
+				emailForm = emailForm + '							\n';
+			
+				emailForm = emailForm + '							Array.prototype.forEach.call(links2, function(elem) {\n';
+			
+				emailForm = emailForm + '								var btnForm = closest(elem, "form");\n';
+			
+				emailForm = emailForm + '								if(btnForm.id != "jt_login") {\n';
+			
+				emailForm = emailForm + '									elem.onclick = handleClick2;\n';
+			
+				emailForm = emailForm + '								}\n';
+			
+				emailForm = emailForm + '							});\n';
+			
+				emailForm = emailForm + '						}\n';
+			
+				emailForm = emailForm + '						\n';
+			
+				emailForm = emailForm + '						var onSubmit = function(token) {\n';
+			
+				emailForm = emailForm + '							\n';
+			
+				emailForm = emailForm + '								submitModal();\n';
+			
+				emailForm = emailForm + '							\n';
+			
+				emailForm = emailForm + '						};\n';
+			
+				emailForm = emailForm + '					<\/script>\n';
+			
+				emailForm = emailForm + '					<script src="https://www.google.com/recaptcha/api.js" async defer><\/script>\n';
+			
+				emailForm = emailForm + '					<div id="invisible-recaptcha" class="g-recaptcha" data-sitekey="6Lef_xETAAAAAKhT0sAbIDfgz13CyKI5eX4PD-o1" data-callback="onSubmit" data-size="invisible"></div>\n';
+			
+						
+			emailForm = emailForm + '			</fieldset>';	
+			emailForm = emailForm + '		</div></form>';		
+			emailForm = emailForm + '		';		
+			emailForm = emailForm + '	</div>';		
+					
+			$("#apply-options .modal-content").html(emailForm)	;	
+
+			processCaptcha();
+
+			return false;		
+		}		
+		
+		function submitModal() {
+			sendApplyEmail();
+		}
+
+		function sendApplyEmail() {		
+				
+			var error = "";		
+			var uploading_err = false;
+			var ga_apply_method = $('#ga_apply_method').val();
+			var files = $('tbody.files').find('tr.template-download').find('p.name').find('span'); 
+			
+			if($('.template-upload')){
+				$('.template-upload').each(function(){
+					if($(this).find('.progress').attr('aria-valuenow') > 0)
+						uploading_err = true;
+				})
+				
+				if (uploading_err == true)
+					error+= " - Please wait for files to complete uploading.<br>";	
+			}
+			
+			var apply_email = $.trim($('#apply_email').val());
+			var apply_name = $.trim($('#apply_name').val());
+			var apply_notes = $.trim($('#apply_notes').val());
+			var apply_user_resume = $('#apply_user_resume').val();
+			
+			if(apply_email == "")		
+				error+= " - Please enter your email address.<br>";		
+			if(apply_email != "" && !apply_email.match(/^[\w\d\.\&\-_+']+@[\w\d\.\-]+[\w\d]{2,4}$/i))		
+				error += " - Please enter an email address in the form abc@xyz.com.<br>";		
+			if(apply_name == "")		
+				error+= " - Please enter your name.<br>";	
+			
+					
+				if(files.length == 0 && apply_notes == "")		
+					error+= " - Please upload your resume or enter it into the message field to apply for this position.<br>";		
+					
+
+			if(error) {		
+				$("#form-error-container").show();		
+				document.getElementById("form-error").innerHTML = error;	
+				grecaptcha.reset();				
+			}		
+			else{		
+				var data = new FormData($('#jt_apply_email')[0]);	
+				
+				if(files.length > 0) {
+					for (var i = 0; i < files.length; i++)
+					{
+						data.append('resume_uploaded' + i, files[i].innerHTML);
+					}
+					
+				} else{
+					data.append('resume_uploaded', "");
+				}
+				
+				var newContent = '<p class="header"><span class="h5">Your job application is being processed.</span><span id="loading"><br/><img src="/headers/cc/responsive/img/graphics/loading-blue.gif" alt="process request" class="load"/></span></div><br /><br />';		
+				$("#apply-options .modal-content").html(newContent);
+
+				
+				
+				$.ajax({		
+					url: '/c/apply/email.cfm?site_id=21926&submitEmail=1&jb=38049659',		
+					type: 'post',		
+					data: data,		
+					processData:false,		
+					contentType:false,		
+					success: function(html) {
+						if ($('#job-view-page').children('#status').length)
+							$('#job-view-page').children('#status').remove();
+
+						$('#job-view-page').append(html);
+						var newContent = "";
+						var result = $('#job-view-page').children('#status').val();
+						
+						if ( result == 'true'){
+							gajt("CCSC.send", "event", "Job", "Job Apply", "Success_Email_"+ga_apply_method, {
+					            dimension3: ga_j_id,
+					            dimension14: "010",
+					            nonInteraction: 1,
+					            transport: "beacon"});
+							newContent = '<p class="header"><span class="h5">Your job application has been sent.</span><a class="close" data-dismiss="modal" aria-hidden="true">&times;</a></p><br /><br /><button class="primary full" data-dismiss="modal" id="apply_confirm" onclick="location.reload();">OK</button>';		
+						}
+						else{
+							gajt("CCSC.send", "event", "Job", "Job Apply", "Fail_Email_"+ga_apply_method, {
+					            dimension3: ga_j_id,
+					            dimension14: "010",
+					            nonInteraction: 1,
+					            transport: "beacon"});
+							newContent = '<p class="header"><span class="h5">Failed to send your job application.'+ result +'</span><a class="close" data-dismiss="modal" aria-hidden="true">&times;</a></p><br /><br /><button class="primary full" data-dismiss="modal" id="apply_confirm">OK</button>';		
+						}
+						
+						$("#apply-options .modal-content").html(newContent);		
+					},
+					error: function(html){
+						gajt("CCSC.send", "event", "Job", "Job Apply", "Fail_Email_"+ga_apply_method, {
+				            dimension3: ga_j_id,
+				            dimension14: "010",
+				            nonInteraction: 1,
+				            transport: "beacon"});
+
+						var newContent = '<header class="header"><h5>Failed to send your job application.</h5><a class="close" data-dismiss="modal" aria-hidden="true">&times;</a></header><br /><br /><button class="primary full" data-dismiss="modal" id="apply_confirm">OK</button>';		
+					
+						$("#apply-options .modal-content").html(newContent);
+					}		
+				});		
+			}		
+			return false;		
+		}
+	</script>
+	
+	<div id="job-view-page">
+		<div id="main-content" class="super" role="main">
+			<div class="interior site">
+			
+				
+				
+				<section id="inner-page-header" class="clearfix">
+					<div class="site-name-tag">
+						<h1>ALA JobLIST | Jobs in Library & Information Science & Technology</h1>
+					</div>
+					
+			<div id="job-search-form" class="clearfix" role="search">
+				<form id="jt_search" class="clearfix" action="/jobseeker/search/results/" method="get">
+					<input type="hidden" name="site_id" value="21926">
+					<fieldset>
+						<legend style="position: absolute;left: -999em;">Job Search Keywords</legend>
+						<input maxlength="500" aria-label="Job Keyword Search" type="search" title="keywords" value="" id="keywords" name="keywords" maxlength="500" tab-index="10" placeholder="Enter Keyword or Job Title">
+					</fieldset>
+					
+						<fieldset>
+							<legend style="position: absolute;left: -999em;">Select Location</legend>
+							<div class="select-style">
+								<select aria-label="Job Search Location" tab-index="20" name="t15">
+									<option selected="" value="">All States
+											</option>
+									<option value="162" >Other / Non-US</option> <option value="114" >Alabama</option> <option value="115" >Alaska</option> <option value="116" >Alberta</option> <option value="117" >Arizona</option> <option value="118" >Arkansas</option> <option value="119" >British Columbia</option> <option value="120" >California</option> <option value="121" >Colorado</option> <option value="122" >Connecticut</option> <option value="123" >Delaware</option> <option value="124" >Dist. Columbia</option> <option value="125" >Florida</option> <option value="126" >Georgia</option> <option value="127" >Guam</option> <option value="128" >Hawaii</option> <option value="129" >Idaho</option> <option value="130" >Illinois</option> <option value="131" >Indiana</option> <option value="132" >Iowa</option> <option value="133" >Kansas</option> <option value="134" >Kentucky</option> <option value="135" >Louisiana</option> <option value="136" >Maine</option> <option value="137" >Manitoba</option> <option value="138" >Maryland</option> <option value="139" >Massachusetts</option> <option value="140" >Michigan</option> <option value="141" >Minnesota</option> <option value="142" >Mississippi</option> <option value="143" >Missouri</option> <option value="144" >Montana</option> <option value="145" >Nebraska</option> <option value="146" >Nevada</option> <option value="147" >New Brunswick</option> <option value="148" >New Hampshire</option> <option value="149" >New Jersey</option> <option value="150" >New Mexico</option> <option value="151" >New York</option> <option value="152" >Newfoundland</option> <option value="153" >North Carolina</option> <option value="154" >North Dakota</option> <option value="155" >Northwest Terr.</option> <option value="156" >Nova Scotia</option> <option value="157" >Nunavut</option> <option value="158" >Ohio</option> <option value="159" >Oklahoma</option> <option value="160" >Ontario</option> <option value="161" >Oregon</option> <option value="163" >Pennsylvania</option> <option value="164" >Prince Ed. Is.</option> <option value="165" >Puerto Rico</option> <option value="166" >Quebec</option> <option value="167" >Rhode Island</option> <option value="168" >Saskatchewan</option> <option value="169" >South Carolina</option> <option value="170" >South Dakota</option> <option value="171" >Tennessee</option> <option value="172" >Texas</option> <option value="173" >Utah</option> <option value="174" >Vermont</option> <option value="175" >Virgin Islands</option> <option value="176" >Virginia</option> <option value="177" >Washington</option> <option value="178" >West Virginia</option> <option value="179" >Wisconsin</option> <option value="180" >Wyoming</option> <option value="181" >Yukon Territory</option>  
+									
+								</select>
+							</div>
+							
+						</fieldset>
+					
+					<fieldset class="call-to-action">
+						<legend style="position: absolute;left: -999em;">Submit Search</legend>
+						<button aria-label="Submit Job Search" class="secondary fa fa-search" tab-index="30" type="submit" onclick="$('#jt_search').submit(); return false;"></button>
+					</fieldset>
+				</form>
+			</div>
+		
+				</section>
+				
+<div class="breadcrumbs site" role="navigation">
+	<ol>
+		<li><a href="http://joblist.ala.org">Career Center Home</a></li>	
+	
+		
+			<li><a href="/jobseeker/search/results/">Search Jobs</a></li>
+			
+				<li>Coordinator of Resource Acquisitions Management</li>
+			
+	</ol>
+</div>
+
+
+
+
+				
+				<div class="clearfix">
+					
+					
+					
+					
+					<script>
+						var referrer = document.createElement('a');
+						referrer.href = document.referrer;
+
+						if(!document.referrer){
+							ga_ref = "Direct";
+						}
+						else if(referrer.hostname==location.hostname){
+							ga_ref = "Internal";
+						}
+						else{
+							ga_ref = document.referrer;
+						}
+
+						gajt("CCSC.send", "event", "Job", "Job View", ga_ref,{
+							dimension3: "38049659",
+							dimension5: "Appalachian State University Libraries",
+							dimension6: "Coordinator of Resource Acquisitions Management",
+							dimension7: "academic/research (college/university)",
+							dimension8: "collection development/acquisitions",
+							nonInteraction: 1,
+							transport: "beacon"});
+					</script>
+					
+					
+					<script>
+						var ga_j_id = '38049659';
+						var ga_s_id = '21926';
+					</script>
+											
+					
+
+					<section id="job-detail-view">
+						<div class="top-info">
+							
+							<div class="title-CTA-tools clearfix">
+								<em><a class="inactive tooltip tooltipstered " title="This company does not have a company profile">Appalachian State University Libraries</a></em>
+								
+								
+								<h2>
+									Coordinator of Resource Acquisitions Management
+								</h2>
+								
+								
+								
+											<a id="applyBtn" href="https://hr.appstate.edu/employment/faculty-vacancies/569" class="primary ga_ext" target="_blank">Apply Now</a>
+										
+									
+									<ul class="tools">
+										
+										<li><a href="#" id="ga_print" onclick="window.location='/jobseeker/printjob/38049659/';return false;"><em class="fa fa-print"></em>Print</a></li>
+										
+										
+											<li><a href="#" onclick="return saveJob(38049659, event, this, '/jobseeker/login/?msg=1&goto=%2Fc%2Fjob%2Ecfm%3Fjb%3D38049659%26site%5Fid%3D21926');" id="save-job-38049659"><em class="fa fa-bookmark"></em>Save</a></li>
+										
+											<li><a href="#" onclick="return shareJob(38049659, true, this, 'Coordinator\x20of\x20Resource\x20Acquisitions\x20Management', 'http://joblist.ala.org/c/job.cfm?jb\x3D38049659');"><em class="fa fa-share-alt"></em>Share</a></li>
+											
+											
+									</ul>
+								
+							</div>
+						</div>
+					
+						<!-- Option 2 - Display job data basics within detail view -->
+						
+						
+						
+						
+						
+						<div class="description-text">
+							<div class="generic-details-text">
+								
+									<span class="h5">Description</span>
+									<pre><p>The University Libraries at Appalachian State University seek a Coordinator of the Resource Acquisitions Management (RAM) team. RAM is responsible for monographic and serial acquisitions in all formats, electronic resource management, collections budget management, cataloging in all formats, metadata creation for the Libraries&rsquo; digital collections, interlibrary borrowing and document delivery, physical processing, and adding content to the University's institutional repository. The successful candidate will be a creative and analytical thinker and will have experience leading and managing technical services, a record of successful projects, and the ability to manage change and to adapt to new expectations.&nbsp; As part of the Libraries&rsquo; middle management group, the RAM Coordinator will work to fulfill the Libraries&rsquo; mission and to meet strategic goals. The Libraries seek to recruit and retain faculty and staff from a variety of backgrounds to enrich the social, cultural, and intellectual missions of the University.</p> <p>Appalachian State University is located in the beautiful mountains of western North Carolina. The University is committed to promoting sustainability and creating global connections.&nbsp;</p> <p>University Libraries faculty work in a collegial team-based environment, participate in the University Libraries&rsquo; liaison program, and engage in active programs of scholarship and professional service. The Libraries offer strong support for professional development activities, including publishing, presenting, and attending conferences and workshops.</p>
+									</pre>
+								
+							</div>
+							
+							
+								<div class="generic-details-text">
+									<span class="h5">Requirements</span>
+									<pre><p>Required Qualifications:</p> <ul> <li>American Library Association accredited master&rsquo;s degree or equivalent advanced degree</li> <li>Minimum five years experience in library technical services</li> <li>Minimum three years progressively responsible management and supervisory experience</li> <li>Effectiveness in change and project management</li> <li>Excellent communication, presentation, and interpersonal skills</li> <li>Ability to meet criteria for scholarship and service</li> </ul> <p>Preferred Qualifications:</p> <ul> <li>A second advanced degree</li> <li>Experience in academic libraries or understanding of issues in higher education</li> <li>Commitment to excellent services, teamwork, diversity, and inclusiveness</li> <li>Strong record of scholarship and service</li> <li>Commitment to shared governance and the faculty model</li> </ul>
+									</pre>
+								</div>
+							
+						</div>
+						
+						<div class="job-data-contain">
+							<div class="job-data-basics clearfix">
+								<strong>Job Information</strong>
+								<ul>
+									<li class="clearfix">
+										<label>Location: </label>
+										<span>
+											
+											Boone, North Carolina, United States 
+											
+										</span>
+									</li>
+									
+									<li class="clearfix">
+										<label>Job ID: </label>
+										<span>38049659</span>
+									</li>							
+									<li class="clearfix">
+										<label>Posted: </label>
+										<span>November 8, 2017</span>
+									</li>
+
+									
+										<li class="clearfix">
+											<label>Position Title:</label>
+											<span>Coordinator of Resource Acquisitions Management</span>
+										</li>
+									
+										<li class="clearfix">
+											<label>Company Name:</label>
+											<span>Appalachian State University Libraries</span>
+										</li>
+									
+										<li class="clearfix">
+											<label>Library Type:</label>
+											<span>Academic/Research (College/University)</span>
+										</li>
+									
+										<li class="clearfix">
+											
+											<label>Job Category:</label>
+											<span class="break-all">Collection Development/Acquisitions</span>
+										</li>
+									
+										<li class="clearfix">
+											
+											<label>Job Type:</label>
+											<span class="break-all">Full-Time</span>
+										</li>
+									
+										<li class="clearfix">
+											
+											<label>Min Education:</label>
+											<span class="break-all">Master's Degree</span>
+										</li>
+									
+										<li class="clearfix">
+											
+											<label>Min Experience:</label>
+											<span class="break-all">5-7 Years</span>
+										</li>
+									
+									
+								</ul>
+								
+				
+							
+							
+							
+							
+							
+							<ul class="company-contact">
+							
+
+							</ul>
+							</div>
+						</div>
+						
+						
+			<div class="similar-jobs clearfix">
+				<span class="h5">
+					Jobs You May Like
+				</span>
+				<div class="similar-jobs-row clearfix">
+					
+							<div class="similar-jobs-tile">								
+								
+								
+								<a href="/job/associate-dean-of-libraries/38049154/" title="Associate Dean of Libraries" aria-label="Associate Dean of Libraries">Associate Dean of Libraries</a>
+								<div class="company">Appalachian State University...</div>
+								<div class="location">Boone, NC, United States</div>
+								
+								
+							</div>
+						
+							<div class="similar-jobs-tile">								
+								
+								
+								<a href="/job/leland-m-park-director-of-the-davidson-college/37631301/" title="Leland M. Park Director of the Davidson College..." aria-label="Leland M. Park Director of the Davidson College...">Leland M. Park Director of the Davidson College...</a>
+								<div class="company">Davidson College</div>
+								<div class="location">Davidson, NC, United States</div>
+								
+								
+							</div>
+						
+							<div class="similar-jobs-tile">								
+								
+								
+								<a href="/job/head-of-content-services/37944279/" title="Head of Content Services" aria-label="Head of Content Services">Head of Content Services</a>
+								<div class="company">Winthrop University</div>
+								<div class="location">Rock Hill, SC, United States</div>
+								
+								
+							</div>
+						
+							<div class="similar-jobs-tile">								
+								
+								
+								<a href="/job/university-librarian/38035864/" title="University Librarian" aria-label="University Librarian">University Librarian</a>
+								<div class="company">University of North Carolina...</div>
+								<div class="location">Winston Salem, NC, United States</div>
+								
+								
+							</div>
+						
+				</div>
+			</div>
+									
+					
+					</section>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+
+	
+		<!-- //Modal framework ////-->
+		<div class="modal fade" id="share" tabindex="-1" role="dialog" aria-labelledby="share" aria-hidden="true">
+			<div class="modal-dialog captcha-holder">
+				<div class="modal-content">
+					
+				</div>
+			</div>
+		</div>
+		
+		<div class="modal fade" id="apply-options" tabindex="-1" role="dialog" aria-labelledby="apply-options" aria-hidden="true">
+			<div class="modal-dialog captcha-holder">
+				<div class="modal-content" role="region">
+					
+				</div>
+			</div>
+		</div>
+	
+
+
+<script id="template-upload" type="text/x-tmpl">
+{% for (var i=0, file; file=o.files[i]; i++) { %}
+    <tr class="template-upload fade">
+        <td>
+            <p class="name">{%=file.name%}</p>
+            <strong class="error text-danger"></strong>
+        </td>
+        <td>
+            <p class="size">Processing...</p>
+			<span class="size_hidden" style="display:none">{%=file.size%}</span>
+            <div class="progress progress-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><div class="progress-bar progress-bar-success" style="width:0%;"></div></div>
+        </td>
+        <td>
+            {% if (!i && !o.options.autoUpload) { %}
+                <button class="secondary btn btn-primary start" disabled>
+                    <i class="glyphicon glyphicon-upload"></i>
+                    <span>Start</span>
+                </button>
+            {% } %}
+            {% if (!i) { %}
+                <button class="secondary btn btn-warning cancel">
+                    <i class="glyphicon glyphicon-ban-circle"></i>
+                    <span>Cancel</span>
+                </button>
+            {% } %}
+        </td>
+    </tr>
+{% } %}
+</script>
+
+<script id="template-download" type="text/x-tmpl">
+{% for (var i=0, file; file=o.files[i]; i++) { %}
+    <tr class="template-download fade">
+        <td>
+            <p class="name"><span>{%=file.name%}</span></p>
+            {% if (file.error) { %}
+				 <p class="name">{%=file.name%}</p>
+				<strong class="error text-danger">File empty</strong>
+            {% } %}
+        </td>
+        <td>
+            <span class="size">{%=o.formatFileSize(file.size)%}</span><span class="size_hidden" style="display:none">{%=file.size%}</span>
+        </td>
+        <td>
+            {% if (file.deleteUrl) { %}
+                <button class="secondary btn btn-danger delete" data-type="{%=file.deleteType%}" data-url="{%=file.deleteUrl%}"{% if (file.deleteWithCredentials) { %} data-xhr-fields='{"withCredentials":true}'{% } %}>
+                    <i class="glyphicon glyphicon-trash"></i>
+                    <span>Delete</span>
+                </button>
+            {% } else { %}
+                <button class="secondary btn btn-warning cancel">
+                    <i class="glyphicon glyphicon-ban-circle"></i>
+                    <span>Cancel</span>
+                </button>
+            {% } %}
+        </td>
+    </tr>
+{% } %}
+</script> <footer id="footer" class="footer super" role="contentinfo" aria-label="Content Info">
+	<div class="powered-by site clearfix">
+		<span class="dotted-rule"></span><a href="http://www.yourmembership.com/products/career-center/" rel="nofollow">Job sites powered by <img src="/headers/cc/responsive/img/logo-powered-by.png" alt="Job Target logo" /></a> 
+	</div>
+	<div class="footer-content clearfix">
+		<div class="footer-content-inner site">
+			<div class="social-media clearfix"> 
+				<ul>
+					<li> <a aria-label="facebook-icon" href="http://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.ala.org%2Facrl%2F" target="_blank" class="facebook-icon"><span class="fa fa-facebook-square"></span></a> </li>
+					<li> <a aria-label="twitter-icon" href="http://www.twitter.com/intent/tweet?status=Association+of+College+&+Research+Libraries+(ACRL):+http://www.ala.org/acrl/&url=http://www.ala.org/acrl/" target="_blank" class="twitter-icon"><span class="fa fa-twitter-square"></span></a> </li>
+					<li> <a aria-label="stumbleupon-icon" href="http://www.stumbleupon.com/submit?url=http%3A%2F%2Fwww.ala.org%2Facrl%2F&title=Association+of+College+&+Research+Libraries+(ACRL)" target="_blank" class="stumbleupon-icon"><span class="fa fa-stumbleupon"></span></a> </li>
+					<li> <a aria-label="reddit-icon-first" href="http://www.reddit.com/submit?url=http%3A%2F%2Fwww.ala.org%2Facrl%2F&title=Association+of+College+&+Research+Libraries+(ACRL)" target="_blank" class="reddit-icon"><span class="fa fa-reddit-square"></span></a> </li>
+					<li> <a aria-label="reddit-icon-second" href="http://www.reddit.com/submit?url=http%3A%2F%2Fwww.ala.org%2Facrl%2F&title=Association+of+College+&+Research+Libraries+(ACRL)" target="_blank" class="digg-icon"><span class="fa fa-digg"></span></a> </li>
+					<li> <a aria-label="linkedin-icon" href="http://www.linkedin.com/shareArticle?&url=http%3A%2F%2Fwww.ala.org%2Facrl%2F&ro=false&source=&title=Association+of+College+&+Research+Libraries+(ACRL)&mini=true" target="_blank" class="linkedin-icon"><span class="fa fa-linkedin-square"></span></a> </li>
+					<li> <a aria-label="google-plus-icon" href="https://www.plus.google.com/share?url=http%3A%2F%2Fwww.ala.org%2Facrl%2F" target="_blank" class="google-plus-icon"><span class="fa fa-google-plus-square"></span></a> </li>
+					<li> <a aria-label="pinterest-icon" href="https://pinterest.com/pin/create/button/?url=http%3A%2F%2Fwww.ala.org%2Facrl%2F" target="_blank" class="pinterest-icon"><span class="fa fa-pinterest-square"></span></a> </li>
+					<li> <a aria-label="tumbler-icon" a href="http://www.tumblr.com/share?v=3&u=http%3A%2F%2Fwww.ala.org%2Facrl%2F&t=Association+of+College+&+Research+Libraries+(ACRL)" target="_blank" class="tumblr-icon"><span class="fa fa-tumblr-square"></span></a> </li>
+					<li> <a aria-label="addthis-icon" href="http://www.addthis.com/bookmark.php?v=152&source=men-152&lng=en&s=more&url=http%3A%2F%2Fwww.ala.org%2Facrl%2F&title=Association+of+College+&+Research+Libraries+(ACRL)" target="_blank" class="share-icon"><span class="fa fa-share-alt-square"></span></a> </li>
+				</ul>
+			</div>
+			<div class="footer-nav"> 
+				<div>
+					<ul>
+						<li> <a href="/c/sitemap.cfm?site_id=21926">JobLIST Site Map</a> </li>
+						<li> <a href="/c/terms/tou.cfm?site_id=21926">JobLIST Terms of Use</a> </li>
+						<li> <a href="/c/terms/privacy.cfm?site_id=21926">JobLIST Privacy Policy</a> </li>
+						<li> <a href="http://www.ala.org/privacypolicy">ALA Privacy Policy</a> </li>
+						<li> <a href="http://www.ala.org/copyright">ALA Copyright Statement</a> </li>
+					</ul>
+				</div>
+			</div> 
+			<div class="copyright-contact center">
+				<p>
+				<img src="/headers/cc/responsive/partner_lib/21926/img/ALA-footer-logo.png" alt="American Library Association" />
+				</p>
+				<p class="copyright">
+					©1996–2017 American Library Association 
+				</p>
+				<p>
+					<b class="address-1">50 E Huron St., Chicago IL 60611 |</b> <b class="phone"> 1.800.545.2433</b> 
+				</p>
+			</div>
+			<div class="footer-badges">
+				<img src="/headers/cc/responsive/partner_lib/21926/img/tatech-member-seal-21926.png" alt="TA Tech Member Seal" />
+				<a href="http://www.weddles.com/awards/"><img src="/headers/cc/responsive/partner_lib/21926/img/user-choice-21296.jpg" alt="Weddles User Choice Award Winner 2016" /></a>
+			</div>
+		</div>
+	</div>
+</footer> 
+
+    <!-- //Modal framework ////-->
+    <div class="modal fade" id="alert" tabindex="-1" role="dialog" aria-labelledby="alert" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                    
+                    <header class="header">
+                        <h5 class="icon-attention-circled error-modal">{Error Message Title}</h5>
+                        
+            <!--    // Alternate headers //
+                        <h5 class="icon-attention-circled warning-modal">{Warning Message Title}</h5>
+                        <h5 class="fa fa-check success-modal">{Success Message Title}</h5>
+            --> 
+                    <a class="close" data-dismiss="modal" aria-hidden="true">&times;</a>
+                    </header>
+                
+                    <p>Insert additional messaging here.</p>
+
+                    <!-- // Processing gif //// 
+                    <img src="/headers/cc/responsive/img/graphics/processing.gif" alt="Processing"/>
+                    -->
+            </div>
+        </div>
+    </div>
+
+    
+    
+
+
+    
+    <script>/*!
+ * jQuery Cookie Plugin v1.3.1
+ * https://github.com/carhartl/jquery-cookie
+ *
+ * Copyright 2013 Klaus Hartl
+ * Released under the MIT license
+ */
+(function (factory) {
+	if (typeof define === 'function' && define.amd) {
+		// AMD. Register as anonymous module.
+		define(['jquery'], factory);
+	} else {
+		// Browser globals.
+		factory(jQuery);
+	}
+}(function ($) {
+
+	var pluses = /\+/g;
+
+	function raw(s) {
+		return s;
+	}
+
+	function decoded(s) {
+		return decodeURIComponent(s.replace(pluses, ' '));
+	}
+
+	function converted(s) {
+		if (s.indexOf('"') === 0) {
+			// This is a quoted cookie as according to RFC2068, unescape
+			s = s.slice(1, -1).replace(/\\"/g, '"').replace(/\\\\/g, '\\');
+		}
+		try {
+			return config.json ? JSON.parse(s) : s;
+		} catch(er) {}
+	}
+
+	var config = $.cookie = function (key, value, options) {
+
+		// write
+		if (value !== undefined) {
+			options = $.extend({}, config.defaults, options);
+
+			if (typeof options.expires === 'number') {
+				var days = options.expires, t = options.expires = new Date();
+				t.setDate(t.getDate() + days);
+			}
+
+			value = config.json ? JSON.stringify(value) : String(value);
+
+			return (document.cookie = [
+				config.raw ? key : encodeURIComponent(key),
+				'=',
+				config.raw ? value : encodeURIComponent(value),
+				options.expires ? '; expires=' + options.expires.toUTCString() : '', // use expires attribute, max-age is not supported by IE
+				options.path    ? '; path=' + options.path : '',
+				options.domain  ? '; domain=' + options.domain : '',
+				options.secure  ? '; secure' : ''
+			].join(''));
+		}
+
+		// read
+		var decode = config.raw ? raw : decoded;
+		var cookies = document.cookie.split('; ');
+		var result = key ? undefined : {};
+		for (var i = 0, l = cookies.length; i < l; i++) {
+			var parts = cookies[i].split('=');
+			var name = decode(parts.shift());
+			var cookie = decode(parts.join('='));
+
+			if (key && key === name) {
+				result = converted(cookie);
+				break;
+			}
+
+			if (!key) {
+				result[name] = converted(cookie);
+			}
+		}
+
+		return result;
+	};
+
+	config.defaults = {};
+
+	$.removeCookie = function (key, options) {
+		if ($.cookie(key) !== undefined) {
+			// Must not alter options, thus extending a fresh object...
+			$.cookie(key, '', $.extend({}, options, { expires: -1 }));
+			return true;
+		}
+		return false;
+	};
+
+}));
+
+</script>
+    <script>!function(e,t){function n(e,t){h(e).push(t)}function r(r,a,i){var s=r.children(a.headerTag),o=r.children(a.bodyTag);s.length>o.length?$(X,"contents"):s.length<o.length&&$(X,"titles");var l=a.startIndex;if(i.stepCount=s.length,a.saveState&&e.cookie){var d=e.cookie(R+m(r)),u=parseInt(d,0);!isNaN(u)&&u<i.stepCount&&(l=u)}i.currentIndex=l,s.each(function(a){var i=e(this),s=o.eq(a),l=s.data("mode"),d=null==l?Y.html:g(Y,/^\s*$/.test(l)||isNaN(l)?l:parseInt(l,0)),u=d===Y.html||s.data("url")===t?"":s.data("url"),c=d!==Y.html&&"1"===s.data("loaded"),f=e.extend({},te,{title:i.html(),content:d===Y.html?s.html():"",contentUrl:u,contentMode:d,contentLoaded:c});n(r,f)})}function a(e){e.triggerHandler("canceled")}function i(e,t){return e.currentIndex-t}function s(t,n){var r=l(t);t.unbind(r).removeData("uid").removeData("options").removeData("state").removeData("steps").removeData("eventNamespace").find(".actions a").unbind(r),t.removeClass(n.clearFixCssClass+" vertical");var a=t.find(".content > *");a.removeData("loaded").removeData("mode").removeData("url"),a.removeAttr("id").removeAttr("role").removeAttr("tabindex").removeAttr("class").removeAttr("style")._removeAria("labelledby")._removeAria("hidden"),t.find(".content > [data-mode='async'],.content > [data-mode='iframe']").empty();var i=e('<{0} class="{1}"></{0}>'.format(t.get(0).tagName,t.attr("class"))),s=t._id();return null!=s&&""!==s&&i._id(s),i.html(t.find(".content").html()),t.after(i),t.remove(),i}function o(e,t){var n=e.find(".steps li").eq(t.currentIndex);e.triggerHandler("finishing",[t.currentIndex])?(n.addClass("done").removeClass("error"),e.triggerHandler("finished",[t.currentIndex])):n.addClass("error")}function l(e){var t=e.data("eventNamespace");return null==t&&(t="."+m(e),e.data("eventNamespace",t)),t}function d(e,t){var n=m(e);return e.find("#"+n+V+t)}function u(e,t){var n=m(e);return e.find("#"+n+W+t)}function c(e,t){var n=m(e);return e.find("#"+n+G+t)}function f(e){return e.data("options")}function p(e){return e.data("state")}function h(e){return e.data("steps")}function v(e,t){var n=h(e);return(0>t||t>=n.length)&&$(J),n[t]}function m(e){var t=e.data("uid");return null==t&&(t=e._id(),null==t&&(t="steps-uid-".concat(K),e._id(t)),K++,e.data("uid",t)),t}function g(e,n){if(Q("enumType",e),Q("keyOrValue",n),"string"==typeof n){var r=e[n];return r===t&&$("The enum key '{0}' does not exist.",n),r}if("number"==typeof n){for(var a in e)if(e[a]===n)return n;$("Invalid enum value '{0}'.",n)}else $("Invalid key or value type.")}function C(e,t,n){return T(e,t,n,y(n,1))}function b(e,t,n){return T(e,t,n,i(n,1))}function x(e,t,n,r){if((0>r||r>=n.stepCount)&&$(J),!(t.forceMoveForward&&r<n.currentIndex)){var a=n.currentIndex;return e.triggerHandler("stepChanging",[n.currentIndex,r])?(n.currentIndex=r,j(e,t,n),q(e,t,n,a),S(e,t,n),F(e,t,n),U(e,t,n,r,a,function(){e.triggerHandler("stepChanged",[r,a])})):e.find(".steps li").eq(a).addClass("error"),!0}}function y(e,t){return e.currentIndex+t}function I(t){var n=e.extend(!0,{},ne,t);return this.each(function(){var t=e(this),a={currentIndex:n.startIndex,currentStep:null,stepCount:0,transitionElement:null};t.data("options",n),t.data("state",a),t.data("steps",[]),r(t,n,a),L(t,n,a),E(t,n),n.autoFocus&&0===K&&d(t,n.startIndex).focus(),t.triggerHandler("init",[n.startIndex])})}function _(t,n,r,a,i){(0>a||a>r.stepCount)&&$(J),i=e.extend({},te,i),A(t,a,i),r.currentIndex!==r.stepCount&&r.currentIndex>=a&&(r.currentIndex++,j(t,n,r)),r.stepCount++;var s=t.find(".content"),o=e("<{0}>{1}</{0}>".format(n.headerTag,i.title)),l=e("<{0}></{0}>".format(n.bodyTag));return(null==i.contentMode||i.contentMode===Y.html)&&l.html(i.content),0===a?s.prepend(l).prepend(o):u(t,a-1).after(l).after(o),O(t,r,l,a),P(t,n,r,o,a),D(t,n,r,a),a===r.currentIndex&&q(t,n,r),S(t,n,r),t}function A(e,t,n){h(e).splice(t,0,n)}function w(t){var n=e(this),r=f(n),a=p(n);if(r.suppressPaginationOnFocus&&n.find(":focus").is(":input"))return t.preventDefault(),!1;var i={left:37,right:39};t.keyCode===i.left?(t.preventDefault(),b(n,r,a)):t.keyCode===i.right&&(t.preventDefault(),C(n,r,a))}function F(t,n,r){if(r.stepCount>0){var a=r.currentIndex,i=v(t,a);if(!n.enableContentCache||!i.contentLoaded)switch(g(Y,i.contentMode)){case Y.iframe:t.find(".content > .body").eq(r.currentIndex).empty().html('<iframe src="'+i.contentUrl+'" frameborder="0" scrolling="no" />').data("loaded","1");break;case Y.async:var s=u(t,a)._aria("busy","true").empty().append(H(n.loadingTemplate,{text:n.labels.loading}));e.ajax({url:i.contentUrl,cache:!1}).done(function(e){s.empty().html(e)._aria("busy","false").data("loaded","1"),t.triggerHandler("contentLoaded",[a])})}}}function T(e,t,n,r){var a=n.currentIndex;if(r>=0&&r<n.stepCount&&!(t.forceMoveForward&&r<n.currentIndex)){var i=d(e,r),s=i.parent(),o=s.hasClass("disabled");return s._enableAria(),i.click(),a===n.currentIndex&&o?(s._enableAria(!1),!1):!0}return!1}function k(t){t.preventDefault();var n=e(this),r=n.parent().parent().parent().parent(),i=f(r),s=p(r),l=n.attr("href");switch(l.substring(l.lastIndexOf("#")+1)){case"cancel":a(r);break;case"finish":o(r,s);break;case"next":C(r,i,s);break;case"previous":b(r,i,s)}}function S(e,t,n){if(t.enablePagination){var r=e.find(".actions a[href$='#finish']").parent(),a=e.find(".actions a[href$='#next']").parent();if(!t.forceMoveForward){var i=e.find(".actions a[href$='#previous']").parent();i._enableAria(n.currentIndex>0)}t.enableFinishButton&&t.showFinishButtonAlways?(r._enableAria(n.stepCount>0),a._enableAria(n.stepCount>1&&n.stepCount>n.currentIndex+1)):(r._showAria(t.enableFinishButton&&n.stepCount===n.currentIndex+1),a._showAria(0===n.stepCount||n.stepCount>n.currentIndex+1)._enableAria(n.stepCount>n.currentIndex+1||!t.enableFinishButton))}}function q(t,n,r,a){var i=d(t,r.currentIndex),s=e('<b class="current-info audible">'+n.labels.current+" </span>"),o=t.find(".content > .title");if(null!=a){var l=d(t,a);l.parent().addClass("done").removeClass("error")._selectAria(!1),o.eq(a).removeClass("current").next(".body").removeClass("current"),s=l.find(".current-info"),i.focus()}i.prepend(s).parent()._selectAria().removeClass("done")._enableAria(),o.eq(r.currentIndex).addClass("current").next(".body").addClass("current"),o.eq(r.currentIndex).next(".body").each(function(){var t=e(this).height(),n=e(this).innerHeight()-t;t+=n,e(this).parent().animate({height:t},"slow")})}function D(e,t,n,r){for(var a=m(e),i=r;i<n.stepCount;i++){var s=a+V+i,o=a+W+i,l=a+G+i,d=e.find(".title").eq(i)._id(l);e.find(".steps a").eq(i)._id(s)._aria("controls",o).attr("href","#"+l).html(H(t.titleTemplate,{index:i+1,title:d.html()})),e.find(".body").eq(i)._id(o)._aria("labelledby",l)}}function E(e,t){var n=l(e);e.bind("canceled"+n,t.onCanceled),e.bind("contentLoaded"+n,t.onContentLoaded),e.bind("finishing"+n,t.onFinishing),e.bind("finished"+n,t.onFinished),e.bind("init"+n,t.onInit),e.bind("stepChanging"+n,t.onStepChanging),e.bind("stepChanged"+n,t.onStepChanged),t.enableKeyNavigation&&e.bind("keyup"+n,w),e.find(".actions a").bind("click"+n,k)}function M(e,t,n,r){return 0>r||r>=n.stepCount||n.currentIndex===r?!1:(N(e,r),n.currentIndex>r&&(n.currentIndex--,j(e,t,n)),n.stepCount--,c(e,r).remove(),u(e,r).remove(),d(e,r).parent().remove(),0===r&&e.find(".steps li").first().addClass("first"),r===n.stepCount&&e.find(".steps li").eq(r).addClass("last"),D(e,t,n,r),S(e,t,n),!0)}function N(e,t){h(e).splice(t,1)}function L(t,n,r){var a='<{0} class="{1}">{2}</{0}>',i=g(Z,n.stepsOrientation),s=i===Z.vertical?" vertical":"",o=e(a.format(n.contentContainerTag,"content "+n.clearFixCssClass,t.html())),l=e(a.format(n.stepsContainerTag,"steps "+n.clearFixCssClass,'<ul role="tablist"></ul>')),d=o.children(n.headerTag),u=o.children(n.bodyTag);t.attr("role","application").empty().append(l).append(o).addClass(n.cssClass+" "+n.clearFixCssClass+s),u.each(function(n){O(t,r,e(this),n)}),d.each(function(a){P(t,n,r,e(this),a)}),q(t,n,r),B(t,n,r)}function O(e,t,n,r){var a=m(e),i=a+W+r,s=a+G+r;n._id(i).attr("role","tabpanel")._aria("labelledby",s).addClass("body")._showAria(t.currentIndex===r)}function B(e,t,n){if(t.enablePagination){var r='<{0} class="actions {1}"><ul role="menu" aria-label="{2}">{3}</ul></{0}>',a='<li role="menuitem" aria-label="li-{1}"><a href="#{0}" role="button">{1}</a></li>',i="";t.forceMoveForward||(i+=a.format("previous",t.labels.previous)),i+=a.format("next",t.labels.next),t.enableFinishButton&&(i+=a.format("finish",t.labels.finish)),t.enableCancelButton&&(i+=a.format("cancel",t.labels.cancel)),e.append(r.format(t.actionContainerTag,t.clearFixCssClass,t.labels.pagination,i)),S(e,t,n),F(e,t,n)}}function H(e,n){for(var r=e.match(/#([a-z]*)#/gi),a=0;a<r.length;a++){var i=r[a],s=i.substring(1,i.length-1);n[s]===t&&$("The key '{0}' does not exist in the substitute collection!",s),e=e.replace(i,n[s])}return e}function P(t,n,r,a,i){var s=m(t),o=s+V+i,d=s+W+i,u=s+G+i,c=t.find(".steps > ul"),f=H(n.titleTemplate,{index:i+1,title:a.html()}),p=e('<li role="tab"><a id="'+o+'" href="#'+u+'" aria-controls="'+d+'">'+f+"</a></li>");p._enableAria(n.enableAllSteps||r.currentIndex>i),r.currentIndex>i&&p.addClass("done"),a._id(u).attr("tabindex","-1").addClass("title"),0===i?c.prepend(p):c.find("li").eq(i-1).after(p),0===i&&c.find("li").removeClass("first").eq(i).addClass("first"),i===r.stepCount-1&&c.find("li").removeClass("last").eq(i).addClass("last"),p.children("a").bind("click"+l(t),z)}function j(t,n,r){n.saveState&&e.cookie&&e.cookie(R+m(t),r.currentIndex)}function U(t,n,r,a,i,s){var o=t.find(".content > .body"),l=g(ee,n.transitionEffect),d=n.transitionEffectSpeed,u=o.eq(a),c=o.eq(i);switch(l){case ee.fade:case ee.slide:var f=l===ee.fade?"fadeOut":"slideUp",h=l===ee.fade?"fadeIn":"slideDown";r.transitionElement=u,c[f](d,function(){var t=e(this)._showAria(!1).parent().parent(),n=p(t);n.transitionElement&&(n.transitionElement[h](d,function(){e(this)._showAria()}).promise().done(s),n.transitionElement=null)});break;case ee.slideLeft:var v=c.outerWidth(!0),m=a>i?-v:v,C=a>i?v:-v;e.when(c.animate({left:m},d,function(){e(this)._showAria(!1)}),u.css("left",C+"px")._showAria().animate({left:0},d)).done(s);break;default:e.when(c._showAria(!1),u._showAria()).done(s)}}function z(t){t.preventDefault();var n=e(this),r=n.parent().parent().parent().parent(),a=f(r),i=p(r),s=i.currentIndex;if(n.parent().is(":not(.disabled):not(.current)")){var o=n.attr("href"),l=parseInt(o.substring(o.lastIndexOf("-")+1),0);x(r,a,i,l)}return s===i.currentIndex?(d(r,s).focus(),!1):void 0}function $(e){throw arguments.length>1&&(e=e.format(Array.prototype.slice.call(arguments,1))),new Error(e)}function Q(e,t){null==t&&$("The argument '{0}' is null or undefined.",e)}e.fn.extend({_aria:function(e,t){return this.attr("aria-"+e,t)},_removeAria:function(e){return this.removeAttr("aria-"+e)},_enableAria:function(e){return null==e||e?this.removeClass("disabled")._aria("disabled","false"):this.addClass("disabled")._aria("disabled","true")},_showAria:function(e){return null==e||e?this.show()._aria("hidden","false"):this.hide()._aria("hidden","true")},_selectAria:function(e){return null==e||e?this.addClass("current")._aria("selected","true"):this.removeClass("current")._aria("selected","false")},_id:function(e){return e?this.attr("id",e):this.attr("id")}}),String.prototype.format||(String.prototype.format=function(){for(var t=1===arguments.length&&e.isArray(arguments[0])?arguments[0]:arguments,n=this,r=0;r<t.length;r++){var a=new RegExp("\\{"+r+"\\}","gm");n=n.replace(a,t[r])}return n});var K=0,R="jQu3ry_5teps_St@te_",V="-t-",W="-p-",G="-h-",J="Index out of range.",X="One or more corresponding step {0} are missing.";e.fn.steps=function(t){return e.fn.steps[t]?e.fn.steps[t].apply(this,Array.prototype.slice.call(arguments,1)):"object"!=typeof t&&t?void e.error("Method "+t+" does not exist on jQuery.steps"):I.apply(this,arguments)},e.fn.steps.add=function(e){var t=p(this);return _(this,f(this),t,t.stepCount,e)},e.fn.steps.destroy=function(){return s(this,f(this))},e.fn.steps.finish=function(){o(this,p(this))},e.fn.steps.getCurrentIndex=function(){return p(this).currentIndex},e.fn.steps.getCurrentStep=function(){return v(this,p(this).currentIndex)},e.fn.steps.getStep=function(e){return v(this,e)},e.fn.steps.insert=function(e,t){return _(this,f(this),p(this),e,t)},e.fn.steps.next=function(){return C(this,f(this),p(this))},e.fn.steps.previous=function(){return b(this,f(this),p(this))},e.fn.steps.remove=function(e){return M(this,f(this),p(this),e)},e.fn.steps.setStep=function(e,t){throw new Error("Not yet implemented!")},e.fn.steps.skip=function(e){throw new Error("Not yet implemented!")};var Y=e.fn.steps.contentMode={html:0,iframe:1,async:2},Z=e.fn.steps.stepsOrientation={horizontal:0,vertical:1},ee=e.fn.steps.transitionEffect={none:0,fade:1,slide:2,slideLeft:3},te=e.fn.steps.stepModel={title:"",content:"",contentUrl:"",contentMode:Y.html,contentLoaded:!1},ne=e.fn.steps.defaults={headerTag:"h1",bodyTag:"div",contentContainerTag:"div",actionContainerTag:"div",stepsContainerTag:"div",cssClass:"wizard",clearFixCssClass:"clearfix",stepsOrientation:Z.horizontal,titleTemplate:'<span class="number">#index#.</span> #title#',loadingTemplate:'<span class="spinner"></span> #text#',autoFocus:!1,enableAllSteps:!1,enableKeyNavigation:!0,enablePagination:!0,suppressPaginationOnFocus:!0,enableContentCache:!0,enableCancelButton:!1,enableFinishButton:!0,preloadContent:!1,showFinishButtonAlways:!1,forceMoveForward:!1,saveState:!1,startIndex:0,transitionEffect:ee.none,transitionEffectSpeed:200,onStepChanging:function(e,t,n){return!0},onStepChanged:function(e,t,n){},onCanceled:function(e){},onFinishing:function(e,t){return!0},onFinished:function(e,t){},onContentLoaded:function(e,t){},onInit:function(e,t){},labels:{cancel:"Cancel",current:"current step:",pagination:"Pagination",finish:"Finish",next:"Next",previous:"Previous",loading:"Loading ..."}}}(jQuery);</script>
+    <script>/*
+	By Osvaldas Valutis, www.osvaldas.info
+	Available for use under the MIT License
+*/
+
+
+
+;(function(e,t,n,r){e.fn.doubleTapToGo=function(r){if(!("ontouchstart"in t)&&!navigator.msMaxTouchPoints&&!navigator.userAgent.toLowerCase().match(/windows phone os 7/i))return false;this.each(function(){var t=false;e(this).on("click",function(n){var r=e(this);if(r[0]!=t[0]){n.preventDefault();t=r}});e(n).on("click touchstart MSPointerDown",function(n){var r=true,i=e(n.target).parents();for(var s=0;s<i.length;s++)if(i[s]==t[0])r=false;if(r)t=false})});return this}})(jQuery,window,document);</script>
+    <script>/* Tooltipster v3.2.1 */;(function(e,t,n){function s(t,n){this.bodyOverflowX;this.callbacks={hide:[],show:[]};this.checkInterval=null;this.Content;this.$el=e(t);this.$elProxy;this.elProxyPosition;this.enabled=true;this.options=e.extend({},i,n);this.mouseIsOverProxy=false;this.namespace="tooltipster-"+Math.round(Math.random()*1e5);this.Status="hidden";this.timerHide=null;this.timerShow=null;this.$tooltip;this.options.iconTheme=this.options.iconTheme.replace(".","");this.options.theme=this.options.theme.replace(".","");this._init()}function o(t,n){var r=true;e.each(t,function(e,i){if(typeof n[e]==="undefined"||t[e]!==n[e]){r=false;return false}});return r}function f(){return!a&&u}function l(){var e=n.body||n.documentElement,t=e.style,r="transition";if(typeof t[r]=="string"){return true}v=["Moz","Webkit","Khtml","O","ms"],r=r.charAt(0).toUpperCase()+r.substr(1);for(var i=0;i<v.length;i++){if(typeof t[v[i]+r]=="string"){return true}}return false}var r="tooltipster",i={animation:"fade",arrow:true,arrowColor:"",autoClose:true,content:null,contentAsHTML:false,contentCloning:true,delay:200,fixedWidth:0,maxWidth:0,functionInit:function(e,t){},functionBefore:function(e,t){t()},functionReady:function(e,t){},functionAfter:function(e){},icon:"(?)",iconCloning:true,iconDesktop:false,iconTouch:false,iconTheme:"tooltipster-icon",interactive:false,interactiveTolerance:350,multiple:false,offsetX:0,offsetY:0,onlyOne:false,position:"top",positionTracker:false,speed:350,timer:0,theme:"tooltipster-default",touchDevices:true,trigger:"hover",updateAnimation:true};s.prototype={_init:function(){var t=this;if(n.querySelector){if(t.options.content!==null){t._content_set(t.options.content)}else{var r=t.$el.attr("title");if(typeof r==="undefined")r=null;t._content_set(r)}var i=t.options.functionInit.call(t.$el,t.$el,t.Content);if(typeof i!=="undefined")t._content_set(i);t.$el.removeAttr("title").addClass("tooltipstered");if(!u&&t.options.iconDesktop||u&&t.options.iconTouch){if(typeof t.options.icon==="string"){t.$elProxy=e('<span class="'+t.options.iconTheme+'"></span>');t.$elProxy.text(t.options.icon)}else{if(t.options.iconCloning)t.$elProxy=t.options.icon.clone(true);else t.$elProxy=t.options.icon}t.$elProxy.insertAfter(t.$el)}else{t.$elProxy=t.$el}if(t.options.trigger=="hover"){t.$elProxy.on("mouseenter."+t.namespace,function(){if(!f()||t.options.touchDevices){t.mouseIsOverProxy=true;t._show()}}).on("mouseleave."+t.namespace,function(){if(!f()||t.options.touchDevices){t.mouseIsOverProxy=false}});if(u&&t.options.touchDevices){t.$elProxy.on("touchstart."+t.namespace,function(){t._showNow()})}}else if(t.options.trigger=="click"){t.$elProxy.on("click."+t.namespace,function(){if(!f()||t.options.touchDevices){t._show()}})}}},_show:function(){var e=this;if(e.Status!="shown"&&e.Status!="appearing"){if(e.options.delay){e.timerShow=setTimeout(function(){if(e.options.trigger=="click"||e.options.trigger=="hover"&&e.mouseIsOverProxy){e._showNow()}},e.options.delay)}else e._showNow()}},_showNow:function(n){var r=this;r.options.functionBefore.call(r.$el,r.$el,function(){if(r.enabled&&r.Content!==null){if(n)r.callbacks.show.push(n);r.callbacks.hide=[];clearTimeout(r.timerShow);r.timerShow=null;clearTimeout(r.timerHide);r.timerHide=null;if(r.options.onlyOne){e(".tooltipstered").not(r.$el).each(function(t,n){var r=e(n),i=r.data("tooltipster-ns");e.each(i,function(e,t){var n=r.data(t),i=n.status(),s=n.option("autoClose");if(i!=="hidden"&&i!=="disappearing"&&s){n.hide()}})})}var i=function(){r.Status="shown";e.each(r.callbacks.show,function(e,t){t.call(r.$el)});r.callbacks.show=[]};if(r.Status!=="hidden"){var s=0;if(r.Status==="disappearing"){r.Status="appearing";if(l()){r.$tooltip.clearQueue().removeClass("tooltipster-dying").addClass("tooltipster-"+r.options.animation+"-show");if(r.options.speed>0)r.$tooltip.delay(r.options.speed);r.$tooltip.queue(i)}else{r.$tooltip.stop().fadeIn(i)}}else if(r.Status==="shown"){i()}}else{r.Status="appearing";var s=r.options.speed;r.bodyOverflowX=e("body").css("overflow-x");e("body").css("overflow-x","hidden");var o="tooltipster-"+r.options.animation,a="-webkit-transition-duration: "+r.options.speed+"ms; -webkit-animation-duration: "+r.options.speed+"ms; -moz-transition-duration: "+r.options.speed+"ms; -moz-animation-duration: "+r.options.speed+"ms; -o-transition-duration: "+r.options.speed+"ms; -o-animation-duration: "+r.options.speed+"ms; -ms-transition-duration: "+r.options.speed+"ms; -ms-animation-duration: "+r.options.speed+"ms; transition-duration: "+r.options.speed+"ms; animation-duration: "+r.options.speed+"ms;",f=r.options.fixedWidth>0?"width:"+Math.round(r.options.fixedWidth)+"px;":"",c=r.options.maxWidth>0?"max-width:"+Math.round(r.options.maxWidth)+"px;":"",h=r.options.interactive?"pointer-events: auto;":"";r.$tooltip=e('<div class="tooltipster-base '+r.options.theme+'" style="'+f+" "+c+" "+h+" "+a+'"><div class="tooltipster-content"></div></div>');if(l())r.$tooltip.addClass(o);r._content_insert();r.$tooltip.appendTo("body");r.reposition();r.options.functionReady.call(r.$el,r.$el,r.$tooltip);if(l()){r.$tooltip.addClass(o+"-show");if(r.options.speed>0)r.$tooltip.delay(r.options.speed);r.$tooltip.queue(i)}else{r.$tooltip.css("display","none").fadeIn(r.options.speed,i)}r._interval_set();e(t).on("scroll."+r.namespace+" resize."+r.namespace,function(){r.reposition()});if(r.options.autoClose){e("body").off("."+r.namespace);if(r.options.trigger=="hover"){if(u){setTimeout(function(){e("body").on("touchstart."+r.namespace,function(){r.hide()})},0)}if(r.options.interactive){if(u){r.$tooltip.on("touchstart."+r.namespace,function(e){e.stopPropagation()})}var p=null;r.$elProxy.add(r.$tooltip).on("mouseleave."+r.namespace+"-autoClose",function(){clearTimeout(p);p=setTimeout(function(){r.hide()},r.options.interactiveTolerance)}).on("mouseenter."+r.namespace+"-autoClose",function(){clearTimeout(p)})}else{r.$elProxy.on("mouseleave."+r.namespace+"-autoClose",function(){r.hide()})}}else if(r.options.trigger=="click"){setTimeout(function(){e("body").on("click."+r.namespace+" touchstart."+r.namespace,function(){r.hide()})},0);if(r.options.interactive){r.$tooltip.on("click."+r.namespace+" touchstart."+r.namespace,function(e){e.stopPropagation()})}}}}if(r.options.timer>0){r.timerHide=setTimeout(function(){r.timerHide=null;r.hide()},r.options.timer+s)}}})},_interval_set:function(){var t=this;t.checkInterval=setInterval(function(){if(e("body").find(t.$el).length===0||e("body").find(t.$elProxy).length===0||t.Status=="hidden"||e("body").find(t.$tooltip).length===0){if(t.Status=="shown"||t.Status=="appearing")t.hide();t._interval_cancel()}else{if(t.options.positionTracker){var n=t._repositionInfo(t.$elProxy),r=false;if(o(n.dimension,t.elProxyPosition.dimension)){if(t.$elProxy.css("position")==="fixed"){if(o(n.position,t.elProxyPosition.position))r=true}else{if(o(n.offset,t.elProxyPosition.offset))r=true}}if(!r){t.reposition()}}}},200)},_interval_cancel:function(){clearInterval(this.checkInterval);this.checkInterval=null},_content_set:function(e){if(typeof e==="object"&&e!==null&&this.options.contentCloning){e=e.clone(true)}this.Content=e},_content_insert:function(){var e=this,t=this.$tooltip.find(".tooltipster-content");if(typeof e.Content==="string"&&!e.options.contentAsHTML){t.text(e.Content)}else{t.empty().append(e.Content)}},_update:function(e){var t=this;t._content_set(e);if(t.Content!==null){if(t.Status!=="hidden"){t._content_insert();t.reposition();if(t.options.updateAnimation){if(l()){t.$tooltip.css({width:"","-webkit-transition":"all "+t.options.speed+"ms, width 0ms, height 0ms, left 0ms, top 0ms","-moz-transition":"all "+t.options.speed+"ms, width 0ms, height 0ms, left 0ms, top 0ms","-o-transition":"all "+t.options.speed+"ms, width 0ms, height 0ms, left 0ms, top 0ms","-ms-transition":"all "+t.options.speed+"ms, width 0ms, height 0ms, left 0ms, top 0ms",transition:"all "+t.options.speed+"ms, width 0ms, height 0ms, left 0ms, top 0ms"}).addClass("tooltipster-content-changing");setTimeout(function(){if(t.Status!="hidden"){t.$tooltip.removeClass("tooltipster-content-changing");setTimeout(function(){if(t.Status!=="hidden"){t.$tooltip.css({"-webkit-transition":t.options.speed+"ms","-moz-transition":t.options.speed+"ms","-o-transition":t.options.speed+"ms","-ms-transition":t.options.speed+"ms",transition:t.options.speed+"ms"})}},t.options.speed)}},t.options.speed)}else{t.$tooltip.fadeTo(t.options.speed,.5,function(){if(t.Status!="hidden"){t.$tooltip.fadeTo(t.options.speed,1)}})}}}}else{t.hide()}},_repositionInfo:function(e){return{dimension:{height:e.outerHeight(false),width:e.outerWidth(false)},offset:e.offset(),position:{left:parseInt(e.css("left")),top:parseInt(e.css("top"))}}},hide:function(n){var r=this;if(n)r.callbacks.hide.push(n);r.callbacks.show=[];clearTimeout(r.timerShow);r.timerShow=null;clearTimeout(r.timerHide);r.timerHide=null;var i=function(){e.each(r.callbacks.hide,function(e,t){t.call(r.$el)});r.callbacks.hide=[]};if(r.Status=="shown"||r.Status=="appearing"){r.Status="disappearing";var s=function(){r.Status="hidden";if(typeof r.Content=="object"&&r.Content!==null){r.Content.detach()}r.$tooltip.remove();r.$tooltip=null;e(t).off("."+r.namespace);e("body").off("."+r.namespace).css("overflow-x",r.bodyOverflowX);e("body").off("."+r.namespace);r.$elProxy.off("."+r.namespace+"-autoClose");r.options.functionAfter.call(r.$el,r.$el);i()};if(l()){r.$tooltip.clearQueue().removeClass("tooltipster-"+r.options.animation+"-show").addClass("tooltipster-dying");if(r.options.speed>0)r.$tooltip.delay(r.options.speed);r.$tooltip.queue(s)}else{r.$tooltip.stop().fadeOut(r.options.speed,s)}}else if(r.Status=="hidden"){i()}return r},show:function(e){this._showNow(e);return this},update:function(e){return this.content(e)},content:function(e){if(typeof e==="undefined"){return this.Content}else{this._update(e);return this}},reposition:function(){var n=this;if(e("body").find(n.$tooltip).length!==0){n.$tooltip.css("width","");n.elProxyPosition=n._repositionInfo(n.$elProxy);var r=null,i=e(t).width(),s=n.elProxyPosition,o=n.$tooltip.outerWidth(false),u=n.$tooltip.innerWidth()+1,a=n.$tooltip.outerHeight(false);if(n.$elProxy.is("area")){var f=n.$elProxy.attr("shape"),l=n.$elProxy.parent().attr("name"),c=e('img[usemap="#'+l+'"]'),h=c.offset().left,p=c.offset().top,d=n.$elProxy.attr("coords")!==undefined?n.$elProxy.attr("coords").split(","):undefined;if(f=="circle"){var v=parseInt(d[0]),m=parseInt(d[1]),g=parseInt(d[2]);s.dimension.height=g*2;s.dimension.width=g*2;s.offset.top=p+m-g;s.offset.left=h+v-g}else if(f=="rect"){var v=parseInt(d[0]),m=parseInt(d[1]),y=parseInt(d[2]),b=parseInt(d[3]);s.dimension.height=b-m;s.dimension.width=y-v;s.offset.top=p+m;s.offset.left=h+v}else if(f=="poly"){var w=[],E=[],S=0,x=0,T=0,N=0,C="even";for(var k=0;k<d.length;k++){var L=parseInt(d[k]);if(C=="even"){if(L>T){T=L;if(k===0){S=T}}if(L<S){S=L}C="odd"}else{if(L>N){N=L;if(k==1){x=N}}if(L<x){x=L}C="even"}}s.dimension.height=N-x;s.dimension.width=T-S;s.offset.top=p+x;s.offset.left=h+S}else{s.dimension.height=c.outerHeight(false);s.dimension.width=c.outerWidth(false);s.offset.top=p;s.offset.left=h}}if(n.options.fixedWidth===0){n.$tooltip.css({width:Math.round(u)+"px","padding-left":"0px","padding-right":"0px"})}var A=0,O=0,M=0,_=parseInt(n.options.offsetY),D=parseInt(n.options.offsetX),P=n.options.position;function H(){var n=e(t).scrollLeft();if(A-n<0){r=A-n;A=n}if(A+o-n>i){r=A-(i+n-o);A=i+n-o}}function B(n,r){if(s.offset.top-e(t).scrollTop()-a-_-12<0&&r.indexOf("top")>-1){P=n}if(s.offset.top+s.dimension.height+a+12+_>e(t).scrollTop()+e(t).height()&&r.indexOf("bottom")>-1){P=n;M=s.offset.top-a-_-12}}if(P=="top"){var j=s.offset.left+o-(s.offset.left+s.dimension.width);A=s.offset.left+D-j/2;M=s.offset.top-a-_-12;H();B("bottom","top")}if(P=="top-left"){A=s.offset.left+D;M=s.offset.top-a-_-12;H();B("bottom-left","top-left")}if(P=="top-right"){A=s.offset.left+s.dimension.width+D-o;M=s.offset.top-a-_-12;H();B("bottom-right","top-right")}if(P=="bottom"){var j=s.offset.left+o-(s.offset.left+s.dimension.width);A=s.offset.left-j/2+D;M=s.offset.top+s.dimension.height+_+12;H();B("top","bottom")}if(P=="bottom-left"){A=s.offset.left+D;M=s.offset.top+s.dimension.height+_+12;H();B("top-left","bottom-left")}if(P=="bottom-right"){A=s.offset.left+s.dimension.width+D-o;M=s.offset.top+s.dimension.height+_+12;H();B("top-right","bottom-right")}if(P=="left"){A=s.offset.left-D-o-12;O=s.offset.left+D+s.dimension.width+12;var F=s.offset.top+a-(s.offset.top+s.dimension.height);M=s.offset.top-F/2-_;if(A<0&&O+o>i){var I=parseFloat(n.$tooltip.css("border-width"))*2,q=o+A-I;n.$tooltip.css("width",q+"px");a=n.$tooltip.outerHeight(false);A=s.offset.left-D-q-12-I;F=s.offset.top+a-(s.offset.top+s.dimension.height);M=s.offset.top-F/2-_}else if(A<0){A=s.offset.left+D+s.dimension.width+12;r="left"}}if(P=="right"){A=s.offset.left+D+s.dimension.width+12;O=s.offset.left-D-o-12;var F=s.offset.top+a-(s.offset.top+s.dimension.height);M=s.offset.top-F/2-_;if(A+o>i&&O<0){var I=parseFloat(n.$tooltip.css("border-width"))*2,q=i-A-I;n.$tooltip.css("width",q+"px");a=n.$tooltip.outerHeight(false);F=s.offset.top+a-(s.offset.top+s.dimension.height);M=s.offset.top-F/2-_}else if(A+o>i){A=s.offset.left-D-o-12;r="right"}}if(n.options.arrow){var R="tooltipster-arrow-"+P;if(n.options.arrowColor.length<1){var U=n.$tooltip.css("background-color")}else{var U=n.options.arrowColor}if(!r){r=""}else if(r=="left"){R="tooltipster-arrow-right";r=""}else if(r=="right"){R="tooltipster-arrow-left";r=""}else{r="left:"+Math.round(r)+"px;"}if(P=="top"||P=="top-left"||P=="top-right"){var z=parseFloat(n.$tooltip.css("border-bottom-width")),W=n.$tooltip.css("border-bottom-color")}else if(P=="bottom"||P=="bottom-left"||P=="bottom-right"){var z=parseFloat(n.$tooltip.css("border-top-width")),W=n.$tooltip.css("border-top-color")}else if(P=="left"){var z=parseFloat(n.$tooltip.css("border-right-width")),W=n.$tooltip.css("border-right-color")}else if(P=="right"){var z=parseFloat(n.$tooltip.css("border-left-width")),W=n.$tooltip.css("border-left-color")}else{var z=parseFloat(n.$tooltip.css("border-bottom-width")),W=n.$tooltip.css("border-bottom-color")}if(z>1){z++}var X="";if(z!==0){var V="",J="border-color: "+W+";";if(R.indexOf("bottom")!==-1){V="margin-top: -"+Math.round(z)+"px;"}else if(R.indexOf("top")!==-1){V="margin-bottom: -"+Math.round(z)+"px;"}else if(R.indexOf("left")!==-1){V="margin-right: -"+Math.round(z)+"px;"}else if(R.indexOf("right")!==-1){V="margin-left: -"+Math.round(z)+"px;"}X='<span class="tooltipster-arrow-border" style="'+V+" "+J+';"></span>'}n.$tooltip.find(".tooltipster-arrow").remove();var K='<div class="'+R+' tooltipster-arrow" style="'+r+'">'+X+'<span style="border-color:'+U+';"></span></div>';n.$tooltip.append(K)}n.$tooltip.css({top:Math.round(M)+"px",left:Math.round(A)+"px"})}return n},enable:function(){this.enabled=true;return this},disable:function(){this.hide();this.enabled=false;return this},destroy:function(){var t=this;t.hide();if(t.$el[0]!==t.$elProxy[0])t.$elProxy.remove();t.$el.removeData(t.namespace).off("."+t.namespace);var n=t.$el.data("tooltipster-ns");if(n.length===1){var r=typeof t.Content==="string"?t.Content:e("<div></div>").append(t.Content).html();t.$el.removeClass("tooltipstered").attr("title",r).removeData(t.namespace).removeData("tooltipster-ns").off("."+t.namespace)}else{n=e.grep(n,function(e,n){return e!==t.namespace});t.$el.data("tooltipster-ns",n)}return t},elementIcon:function(){return this.$el[0]!==this.$elProxy[0]?this.$elProxy[0]:undefined},elementTooltip:function(){return this.$tooltip?this.$tooltip[0]:undefined},option:function(e){return this.options[e]},status:function(e){return this.Status}};e.fn[r]=function(){var t=arguments;if(this.length===0){if(typeof t[0]==="string"){var n=true;switch(t[0]){case"setDefaults":e.extend(i,t[1]);break;default:n=false;break}if(n)return true;else return this}else{return this}}else{if(typeof t[0]==="string"){var r="#*$~&";this.each(function(){var n=e(this).data("tooltipster-ns"),i=n?e(this).data(n[0]):null;if(i){if(typeof i[t[0]]==="function"){var s=i[t[0]](t[1])}else{throw new Error('Unknown method .tooltipster("'+t[0]+'")')}if(s!==i){r=s;return false}}else{throw new Error("You called Tooltipster's \""+t[0]+'" method on an uninitialized element')}});return r!=="#*$~&"?r:this}else{var o=[],u=t[0]&&typeof t[0].multiple!=="undefined",a=u&&t[0].multiple||!u&&i.multiple;this.each(function(){var n=false,r=e(this).data("tooltipster-ns"),i=null;if(!r){n=true}else{if(a)n=true;else console.log('Tooltipster: one or more tooltips are already attached to this element: ignoring. Use the "multiple" option to attach more tooltips.')}if(n){i=new s(this,t[0]);if(!r)r=[];r.push(i.namespace);e(this).data("tooltipster-ns",r);e(this).data(i.namespace,i)}o.push(i)});if(a)return o;else return this}}};var u=!!("ontouchstart"in t);var a=false;e("body").one("mousemove",function(){a=true})})(jQuery,window,document);</script>
+    <script src="/headers/cc/responsive/js/libraries/bootstrap.min.js"></script>
+    <script>/*!
+ * jQuery Mousewheel 3.1.13
+ *
+ * Copyright 2015 jQuery Foundation and other contributors
+ * Released under the MIT license.
+ * http://jquery.org/license
+ */
+!function(a){"function"==typeof define&&define.amd?define(["jquery"],a):"object"==typeof exports?module.exports=a:a(jQuery)}(function(a){function b(b){var g=b||window.event,h=i.call(arguments,1),j=0,l=0,m=0,n=0,o=0,p=0;if(b=a.event.fix(g),b.type="mousewheel","detail"in g&&(m=-1*g.detail),"wheelDelta"in g&&(m=g.wheelDelta),"wheelDeltaY"in g&&(m=g.wheelDeltaY),"wheelDeltaX"in g&&(l=-1*g.wheelDeltaX),"axis"in g&&g.axis===g.HORIZONTAL_AXIS&&(l=-1*m,m=0),j=0===m?l:m,"deltaY"in g&&(m=-1*g.deltaY,j=m),"deltaX"in g&&(l=g.deltaX,0===m&&(j=-1*l)),0!==m||0!==l){if(1===g.deltaMode){var q=a.data(this,"mousewheel-line-height");j*=q,m*=q,l*=q}else if(2===g.deltaMode){var r=a.data(this,"mousewheel-page-height");j*=r,m*=r,l*=r}if(n=Math.max(Math.abs(m),Math.abs(l)),(!f||f>n)&&(f=n,d(g,n)&&(f/=40)),d(g,n)&&(j/=40,l/=40,m/=40),j=Math[j>=1?"floor":"ceil"](j/f),l=Math[l>=1?"floor":"ceil"](l/f),m=Math[m>=1?"floor":"ceil"](m/f),k.settings.normalizeOffset&&this.getBoundingClientRect){var s=this.getBoundingClientRect();o=b.clientX-s.left,p=b.clientY-s.top}return b.deltaX=l,b.deltaY=m,b.deltaFactor=f,b.offsetX=o,b.offsetY=p,b.deltaMode=0,h.unshift(b,j,l,m),e&&clearTimeout(e),e=setTimeout(c,200),(a.event.dispatch||a.event.handle).apply(this,h)}}function c(){f=null}function d(a,b){return k.settings.adjustOldDeltas&&"mousewheel"===a.type&&b%120===0}var e,f,g=["wheel","mousewheel","DOMMouseScroll","MozMousePixelScroll"],h="onwheel"in document||document.documentMode>=9?["wheel"]:["mousewheel","DomMouseScroll","MozMousePixelScroll"],i=Array.prototype.slice;if(a.event.fixHooks)for(var j=g.length;j;)a.event.fixHooks[g[--j]]=a.event.mouseHooks;var k=a.event.special.mousewheel={version:"3.1.12",setup:function(){if(this.addEventListener)for(var c=h.length;c;)this.addEventListener(h[--c],b,!1);else this.onmousewheel=b;a.data(this,"mousewheel-line-height",k.getLineHeight(this)),a.data(this,"mousewheel-page-height",k.getPageHeight(this))},teardown:function(){if(this.removeEventListener)for(var c=h.length;c;)this.removeEventListener(h[--c],b,!1);else this.onmousewheel=null;a.removeData(this,"mousewheel-line-height"),a.removeData(this,"mousewheel-page-height")},getLineHeight:function(b){var c=a(b),d=c["offsetParent"in a.fn?"offsetParent":"parent"]();return d.length||(d=a("body")),parseInt(d.css("fontSize"),10)||parseInt(c.css("fontSize"),10)||16},getPageHeight:function(b){return a(b).height()},settings:{adjustOldDeltas:!0,normalizeOffset:!0}};a.fn.extend({mousewheel:function(a){return a?this.bind("mousewheel",a):this.trigger("mousewheel")},unmousewheel:function(a){return this.unbind("mousewheel",a)}})});</script>
+    <script src="/headers/cc/responsive/js/owl.carousel.min.js"></script>
+    <script>var owl = $('.owl-carousel');
+
+$(window).on("resize", function () { 
+       if ($('.queryTest').css('float') == 'none' ){
+           owl.trigger('destroy.owl.carousel').removeClass('owl-loaded');
+           owl.find('.owl-stage-outer').children().unwrap();
+       } else {
+        owl.owlCarousel({
+            margin:10,
+            nav:true,
+            navText: [
+              "<em class='fa fa-angle-left'></em>",
+              "<em class='fa fa-angle-right'></em>"
+              ],
+            
+            responsive:{
+                0:{
+                    items:1
+                },
+                480:{
+                    items:2
+                },
+                768:{
+                    items:3
+                }
+            }
+        });
+       }
+}).resize();
+
+owl.on('mousewheel', '.owl-stage', function (e) {
+    if (e.deltaY>0) {
+        owl.trigger('prev.owl');
+    } else {
+        owl.trigger('next.owl');
+    }
+    e.preventDefault();
+});
+
+$(document).on('keydown', function( event ) {
+    if(event.keyCode ==37) {
+        owl.trigger('prev.owl')
+    }
+    if(event.keyCode ==39) {
+        owl.trigger('next.owl')
+    }
+});</script>
+
+    
+        <script type="text/javascript">
+            $(document).ready(function(){
+                //Collapsable Listing Details
+                $('.listing-detail').hide();
+                
+                // do not execute this since it already exists on search results local.head
+                    $('.detail-trigger').on('click', function(){
+                        //Target the Details td
+                        $(this).parent().parent().next('.listing-detail').slideToggle();
+                        $(this).parent().parent().next('.listing-detail').css('display', '');
+                        //Change the Arrow direction for showing and closing the Details
+                        if ($(this).html() == '<a class="fa fa-chevron-down"></a>' || $(this).html() == '<a class="fa fa-chevron-down" title="Edit"></a>'){
+                            $(this).html('<a class="fa fa-chevron-up"></a>');
+                        } else {
+                            $(this).html('<a class="fa fa-chevron-down" title="Edit"></a>');
+                        };
+                    });
+                
+                //Submenu Support for Mobile
+                $(function() {
+                    $('#menu li:has(ul)').doubleTapToGo();
+                });
+                
+                $('.tooltip').tooltipster({
+                    theme: 'tooltipster-shadow'
+                });
+
+                //WGAC Compliance For Carousel
+                $('.owl-nav div, .owl-dots div').each(function( index ) {
+                    $( this ).attr('role', 'button').attr('aria-label', 'button'+Math.floor(Math.random()*1000));
+                });
+
+            });
+    
+        </script>
+    
+    
+    <script type="text/javascript">
+        var RecaptchaOptions = { theme : 'clean' };
+    </script>
+
+    
+		<script type="text/javascript">
+			$(document).ready(function(){
+				// call saveJob function if user is logged in
+				
+			});
+			
+			function saveJob(jobID, e, elem, redirectUrl) {	
+				var parent_elem = $(elem).parent();
+				
+				//store job ID in session for later processing and redirect user to login page before saving job
+				if(redirectUrl){
+					$.ajax({
+						/* Since setting up a session is domain specific, we need to make sure that we set sjid session to both careerwebsite.com domain and into the 
+						site's domain to support SSO enabled sites. 
+						*/
+						url: 'https://www.careerwebsite.com/c/functions/savejob.cfm?setSession=1&job=' + jobID,
+						dataType: 'jsonp',
+						success: function(json){
+							if(json.status){
+								sessionStorage.setItem('sjid', json.sjid);
+								window.location = redirectUrl; //redirect to login page
+							}
+							else{
+								alert('Failed to save job: ' + jobID + '\nPlease try again later.');
+							}
+						}, error: function(e){
+							alert('Failed to save job: ' + jobID + '\nPlease try again later.');
+						}
+					});
+				}
+				else if(e == null && elem == null ){
+					var jqxhr = $.get('/c/functions/savejob.cfm?site_id=' + 21926 + '&job=' + jobID, function(response) {
+						if(response == 'true'){
+							$('#save-job-' + jobID).parent().html('<a class="inactive"><em class="fa fa-check"></em>Saved</a>');
+							document.getElementById("apply-options").classList.add('in');
+							$('#apply-options').html("<div class='modal-dialog'><div class='modal-content clearfix'><header class='header clearfix'><span class='h5'><em class='fa fa-check fa-4'></em>Your job has been saved to your account</span></header></div></div>");
+							$('#apply-options').show();
+							setTimeout(function(){
+								$('#apply-options').hide(); 
+								sessionStorage.removeItem('sjid');
+								
+							}, 2000);
+							gajt('CCSC.send', 'event', 'Job', 'Job Save', 'Success', {'dimension3':jobID.toString(),'nonInteraction' : 1});
+						}
+					}).fail(function() {
+						alert('Failed to save job: ' + jobID + '\nPlease try again later.');
+						gajt('CCSC.send', 'event', 'Job', 'Job Save', 'Fail', {'dimension3':jobID.toString(),'nonInteraction' : 1});
+						$(parent_elem).html('<a onclick="saveJob('+ jobID +', event, this); return  false;"><b class="fa fa-bookmark"></b>Save</a>');
+					})
+				
+				}
+				else{
+					$(parent_elem).html('<li><a class="inactive">Saving...</a></li>');
+					var jqxhr = $.get('/c/functions/savejob.cfm?site_id=' + 21926 + '&job=' + jobID, function(response) {
+						$(parent_elem).html('<a class="inactive"><i class="fa fa-check"></i>Saved</a>');
+					}).fail(function() {
+						alert('Failed to save job: ' + jobID + '\nPlease try again later.');
+						$(parent_elem).html('<a onclick="saveJob('+ jobID +', event, this); return  false;"><b class="fa fa-bookmark"></b>Save</a>');
+					})
+				
+					//event handler / not sure why this is needed
+					e = e||window.event;
+					if(e && e.stopPropagation)
+						e.stopPropagation();
+					else
+						e.cancelBubble = true;
+				}
+			}
+			
+		</script>
+	
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"errorBeacon":"bam.nr-data.net","licenseKey":"fbe52127be","agent":"","beacon":"bam.nr-data.net","applicationTime":735,"applicationID":"11063831","transactionName":"b1FaNUtUV0dWV0xYClYbawRLQ1VRQxt7VwhrUUoXVVBN","queueTime":0}</script>
+		<script type="application/ld+json">
+		{
+			"@context": "http://schema.org",
+			"@graph":[ {
+					"@type": "WebSite",
+					"name": "ALA JobLIST ",
+					"alternateName": "ALA JobLIST | Jobs in Library & Information Science & Technology Jobs",
+					"url": "https://joblist.ala.org"
+				},
+					{
+						"@type": "JobPosting",
+						"educationRequirements": "Master's Degree",
+						"datePosted": "2017-11-08",
+						"description": "<p>The University Libraries at Appalachian State University seek a Coordinator of the Resource Acquisitions Management (RAM) team. RAM is responsible for monographic and serial acquisitions in all formats, electronic resource management, collections budget management, cataloging in all formats, metadata creation for the Libraries&rsquo; digital collections, interlibrary borrowing and document delivery, physical processing, and adding content to the University's institutional repository. The successful candidate will be a creative and analytical thinker and will have experience leading and managing technical services, a record of successful projects, and the ability to manage change and to adapt to new expectations.&nbsp; As part of the Libraries&rsquo; middle management group, the RAM Coordinator will work to fulfill the Libraries&rsquo; mission and to meet strategic goals. The Libraries seek to recruit and retain faculty and staff from a variety of backgrounds to enrich the social, cultural, and intellectual missions of the University.</p> <p>Appalachian State University is located in the beautiful mountains of western North Carolina. The University is committed to promoting sustainability and creating global connections.&nbsp;</p> <p>University Libraries faculty work in a collegial team-based environment, participate in the University Libraries&rsquo; liaison program, and engage in active programs of scholarship and professional service. The Libraries offer strong support for professional development activities, including publishing, presenting, and attending conferences and workshops.</p>",
+						"employmentType": "Full-Time",
+						"experienceRequirements": "5-7 Years",
+						"hiringOrganization": "Appalachian State University Libraries",
+						"identifier": "38049659",
+						"industry": "Academic/Research (College/University)",
+						"jobLocation": [
+								{
+									"@type": "Place",
+									"address": {
+										"@type": "PostalAddress",
+										"addressLocality": "Boone",
+										"addressRegion": "NC",
+										"addressCountry": "US"
+									}
+								}
+						],
+						"qualifications": "<p>Required Qualifications:</p> <ul> <li>American Library Association accredited master&rsquo;s degree or equivalent advanced degree</li> <li>Minimum five years experience in library technical services</li> <li>Minimum three years progressively responsible management and supervisory experience</li> <li>Effectiveness in change and project management</li> <li>Excellent communication, presentation, and interpersonal skills</li> <li>Ability to meet criteria for scholarship and service</li> </ul> <p>Preferred Qualifications:</p> <ul> <li>A second advanced degree</li> <li>Experience in academic libraries or understanding of issues in higher education</li> <li>Commitment to excellent services, teamwork, diversity, and inclusiveness</li> <li>Strong record of scholarship and service</li> <li>Commitment to shared governance and the faculty model</li> </ul>",
+						"title": "Coordinator of Resource Acquisitions Management",
+						"validThrough": "2017-12-08"
+					}
+			]
+		}
+		
+		</script> 
+			<script src="/javascript/upload/jquery.ui.widget.js"></script>
+			<script src="//blueimp.github.io/JavaScript-Templates/js/tmpl.min.js"></script>
+			
+			<script src="//blueimp.github.io/JavaScript-Load-Image/js/load-image.all.min.js"></script>
+			
+			<script src="//blueimp.github.io/JavaScript-Canvas-to-Blob/js/canvas-to-blob.min.js"></script>
+	
+			
+			
+			<script src="/javascript/upload/jquery.iframe-transport.js"></script>
+			
+			<script src="/javascript/upload/jquery.fileupload.js"></script>
+			
+			<script src="/javascript/upload/jquery.fileupload-process.js"></script>
+			
+			<script src="/javascript/upload/jquery.fileupload-image.js"></script>
+			
+			<script src="/javascript/upload/jquery.fileupload-audio.js"></script>
+			
+			<script src="/javascript/upload/jquery.fileupload-video.js"></script>
+			
+			<script src="/javascript/upload/jquery.fileupload-validate.js"></script>
+			
+			<script src="/javascript/upload/jquery.fileupload-ui.js"></script>
+			
+			<script type="text/javascript">
+				$('#applyBtn').click(function () {
+					'use strict';
+					
+					// Initialize the jQuery File Upload widget:
+					$('#jt_apply_email').fileupload({url: '/services/upload/upload.cfm'});
+					$('#jt_apply_email').fileupload('option', {autoUpload:true, acceptFileTypes:/\.(doc|docx|pdf|txt)/i, maxFileSize: 10485760});
+				});
+			</script>
+		
+
+</body>
+
+
+</html>
+
+

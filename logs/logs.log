@@ -2777,3 +2777,1100 @@
 2017-11-02 15:12:01,024 INFO main(138) didn't found this link in the db
 2017-11-02 15:12:01,024 INFO main(140) Fetching content from https://joblist.ala.org/job/educational-services-librarian-redding-library/37629064/ 
 2017-11-02 15:12:10,039 INFO main(124) There is no jobs from this page https://joblist.ala.org/jobseeker/search/results/?str=301&max=100&vnet=0&long=1 
+2017-11-03 00:20:19,161 INFO <module>(57) Downloading new jobs... if there is some new :)
+2017-11-03 00:20:24,093 INFO main(138) didn't found this link in the db
+2017-11-03 00:20:24,093 INFO main(140) Fetching content from https://joblist.ala.org/job/referenceinstruction-librarian/37925433/ 
+2017-11-03 00:20:29,788 INFO main(138) didn't found this link in the db
+2017-11-03 00:20:29,788 INFO main(140) Fetching content from https://joblist.ala.org/job/dean-of-library-and-associate-vice-provost-for-information-technology/37925392/ 
+2017-11-03 00:20:33,598 INFO main(138) didn't found this link in the db
+2017-11-03 00:20:33,598 INFO main(140) Fetching content from https://joblist.ala.org/job/instructional-services-librarian/37607379/ 
+2017-11-03 00:20:37,460 INFO main(138) didn't found this link in the db
+2017-11-03 00:20:37,460 INFO main(140) Fetching content from https://joblist.ala.org/job/library-manager-sr/37925650/ 
+2017-11-03 00:20:40,973 INFO main(138) didn't found this link in the db
+2017-11-03 00:20:40,974 INFO main(140) Fetching content from https://joblist.ala.org/job/digital-collections-librarian/37925594/ 
+2017-11-03 00:20:44,418 INFO main(138) didn't found this link in the db
+2017-11-03 00:20:44,418 INFO main(140) Fetching content from https://joblist.ala.org/job/electronic-resources-discovery-manager/37925509/ 
+2017-11-03 00:20:48,265 INFO main(138) didn't found this link in the db
+2017-11-03 00:20:48,265 INFO main(140) Fetching content from https://joblist.ala.org/job/head-of-instruction-and-assessment/37925497/ 
+2017-11-03 00:20:52,339 INFO main(138) didn't found this link in the db
+2017-11-03 00:20:52,339 INFO main(140) Fetching content from https://joblist.ala.org/job/health-sciences-librarian/37291843/ 
+2017-11-03 00:20:56,239 INFO add_to_db(217) Recording this 37925433 into the db 
+2017-11-03 00:20:56,254 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/referenceinstruction-librarian/37925433/ 
+2017-11-03 00:20:57,859 INFO add_to_db(217) Recording this 37925392 into the db 
+2017-11-03 00:20:57,871 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/dean-of-library-and-associate-vice-provost-for-information-technology/37925392/ 
+2017-11-03 00:20:59,207 INFO add_to_db(217) Recording this 37925650 into the db 
+2017-11-03 00:20:59,220 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/library-manager-sr/37925650/ 
+2017-11-03 00:21:00,603 INFO add_to_db(217) Recording this 37925594 into the db 
+2017-11-03 00:21:00,613 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/digital-collections-librarian/37925594/ 
+2017-11-03 00:21:01,944 INFO add_to_db(217) Recording this 37925509 into the db 
+2017-11-03 00:21:01,958 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/electronic-resources-discovery-manager/37925509/ 
+2017-11-03 00:21:03,514 INFO add_to_db(217) Recording this 37925497 into the db 
+2017-11-03 00:21:03,526 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/head-of-instruction-and-assessment/37925497/ 
+2017-11-03 00:21:07,053 INFO main(138) didn't found this link in the db
+2017-11-03 00:21:07,053 INFO main(140) Fetching content from https://joblist.ala.org/job/archivist-for-digital-programs/37681587/ 
+2017-11-03 00:21:12,346 INFO main(138) didn't found this link in the db
+2017-11-03 00:21:12,346 INFO main(140) Fetching content from https://joblist.ala.org/job/foreign-language-catalogers-immediate-openings-updated/36948792/ 
+2017-11-03 00:21:17,530 INFO main(138) didn't found this link in the db
+2017-11-03 00:21:17,530 INFO main(140) Fetching content from https://joblist.ala.org/job/educational-services-librarian-redding-library/37629064/ 
+2017-11-03 00:21:26,748 INFO main(124) There is no jobs from this page https://joblist.ala.org/jobseeker/search/results/?str=301&max=100&vnet=0&long=1 
+2017-11-03 23:56:05,614 INFO <module>(57) Downloading new jobs... if there is some new :)
+2017-11-03 23:56:08,133 INFO main(138) didn't found this link in the db
+2017-11-03 23:56:08,133 INFO main(140) Fetching content from https://joblist.ala.org/job/director/37353192/ 
+2017-11-03 23:56:11,581 INFO main(138) didn't found this link in the db
+2017-11-03 23:56:11,581 INFO main(140) Fetching content from https://joblist.ala.org/job/business-research-instruction-librarian/37942929/ 
+2017-11-03 23:56:15,434 INFO main(138) didn't found this link in the db
+2017-11-03 23:56:15,434 INFO main(140) Fetching content from https://joblist.ala.org/job/instructional-services-librarian/37607379/ 
+2017-11-03 23:56:19,396 INFO main(138) didn't found this link in the db
+2017-11-03 23:56:19,396 INFO main(140) Fetching content from https://joblist.ala.org/job/share-director/37949465/ 
+2017-11-03 23:56:23,526 INFO main(138) didn't found this link in the db
+2017-11-03 23:56:23,527 INFO main(140) Fetching content from https://joblist.ala.org/job/electronic-resources-reference-librarian/37946184/ 
+2017-11-03 23:56:27,382 INFO main(138) didn't found this link in the db
+2017-11-03 23:56:27,382 INFO main(140) Fetching content from https://joblist.ala.org/job/chief-conservator/37944484/ 
+2017-11-03 23:56:31,120 INFO main(138) didn't found this link in the db
+2017-11-03 23:56:31,120 INFO main(140) Fetching content from https://joblist.ala.org/job/divisional-librarian-for-youth-services/37941802/ 
+2017-11-03 23:56:36,160 INFO main(138) didn't found this link in the db
+2017-11-03 23:56:36,160 INFO main(140) Fetching content from https://joblist.ala.org/job/access-services-librarian/37935474/ 
+2017-11-03 23:56:40,020 INFO main(138) didn't found this link in the db
+2017-11-03 23:56:40,020 INFO main(140) Fetching content from https://joblist.ala.org/job/health-sciences-librarian/37291843/ 
+2017-11-03 23:56:44,115 INFO add_to_db(217) Recording this 37353192 into the db 
+2017-11-03 23:56:44,129 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/director/37353192/ 
+2017-11-03 23:56:45,722 INFO add_to_db(217) Recording this 37942929 into the db 
+2017-11-03 23:56:45,731 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/business-research-instruction-librarian/37942929/ 
+2017-11-03 23:56:48,501 INFO add_to_db(217) Recording this 37949465 into the db 
+2017-11-03 23:56:48,512 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/share-director/37949465/ 
+2017-11-03 23:56:50,998 INFO add_to_db(217) Recording this 37946184 into the db 
+2017-11-03 23:56:51,006 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/electronic-resources-reference-librarian/37946184/ 
+2017-11-03 23:56:53,249 INFO add_to_db(217) Recording this 37944484 into the db 
+2017-11-03 23:56:53,259 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/chief-conservator/37944484/ 
+2017-11-03 23:56:55,557 INFO add_to_db(217) Recording this 37941802 into the db 
+2017-11-03 23:56:55,565 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/divisional-librarian-for-youth-services/37941802/ 
+2017-11-03 23:56:58,147 INFO add_to_db(217) Recording this 37935474 into the db 
+2017-11-03 23:56:58,154 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/access-services-librarian/37935474/ 
+2017-11-03 23:57:02,835 INFO main(138) didn't found this link in the db
+2017-11-03 23:57:02,835 INFO main(140) Fetching content from https://joblist.ala.org/job/archivist-for-digital-programs/37681587/ 
+2017-11-03 23:57:07,507 INFO main(138) didn't found this link in the db
+2017-11-03 23:57:07,507 INFO main(140) Fetching content from https://joblist.ala.org/job/foreign-language-catalogers-immediate-openings-updated/36948792/ 
+2017-11-03 23:57:12,146 INFO main(138) didn't found this link in the db
+2017-11-03 23:57:12,146 INFO main(140) Fetching content from https://joblist.ala.org/job/learning-and-performance-consultant/37634129/ 
+2017-11-03 23:57:15,962 INFO main(138) didn't found this link in the db
+2017-11-03 23:57:15,962 INFO main(140) Fetching content from https://joblist.ala.org/job/educational-services-librarian-redding-library/37629064/ 
+2017-11-03 23:57:18,500 INFO main(138) didn't found this link in the db
+2017-11-03 23:57:18,500 INFO main(140) Fetching content from https://joblist.ala.org/job/ux-designer/37627082/ 
+2017-11-03 23:57:23,073 INFO main(138) didn't found this link in the db
+2017-11-03 23:57:23,073 INFO main(140) Fetching content from https://joblist.ala.org/job/curator/37607690/ 
+2017-11-03 23:57:26,753 INFO main(138) didn't found this link in the db
+2017-11-03 23:57:26,753 INFO main(140) Fetching content from https://joblist.ala.org/job/medical-writerresearcherlibrarian/37589829/ 
+2017-11-03 23:57:30,641 INFO main(138) didn't found this link in the db
+2017-11-03 23:57:30,641 INFO main(140) Fetching content from https://joblist.ala.org/job/prospect-research-analyst/37589693/ 
+2017-11-03 23:57:34,387 INFO main(138) didn't found this link in the db
+2017-11-03 23:57:34,387 INFO main(140) Fetching content from https://joblist.ala.org/job/human-resources-manager/37549148/ 
+2017-11-03 23:57:38,174 INFO add_to_db(217) Recording this 37634129 into the db 
+2017-11-03 23:57:38,185 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/learning-and-performance-consultant/37634129/ 
+2017-11-03 23:57:40,152 INFO add_to_db(217) Recording this 37627082 into the db 
+2017-11-03 23:57:40,164 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/ux-designer/37627082/ 
+2017-11-03 23:57:42,529 INFO add_to_db(217) Recording this 37607690 into the db 
+2017-11-03 23:57:42,541 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/curator/37607690/ 
+2017-11-03 23:57:44,216 INFO add_to_db(217) Recording this 37589829 into the db 
+2017-11-03 23:57:44,228 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/medical-writerresearcherlibrarian/37589829/ 
+2017-11-03 23:57:46,612 INFO add_to_db(217) Recording this 37589693 into the db 
+2017-11-03 23:57:46,626 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/prospect-research-analyst/37589693/ 
+2017-11-03 23:57:49,063 INFO add_to_db(217) Recording this 37549148 into the db 
+2017-11-03 23:57:49,075 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/human-resources-manager/37549148/ 
+2017-11-03 23:57:56,811 INFO main(124) There is no jobs from this page https://joblist.ala.org/jobseeker/search/results/?str=301&max=100&vnet=0&long=1 
+2017-11-04 02:20:51,093 INFO <module>(57) Downloading new jobs... if there is some new :)
+2017-11-04 02:20:55,815 INFO main(138) didn't found this link in the db
+2017-11-04 02:20:55,816 INFO main(140) Fetching content from https://joblist.ala.org/job/instructional-services-librarian/37607379/ 
+2017-11-04 02:20:59,854 INFO main(138) didn't found this link in the db
+2017-11-04 02:20:59,855 INFO main(140) Fetching content from https://joblist.ala.org/job/fiscal-services-manager/37945131/ 
+2017-11-04 02:21:03,873 INFO main(138) didn't found this link in the db
+2017-11-04 02:21:03,873 INFO main(140) Fetching content from https://joblist.ala.org/job/head-of-content-services/37944279/ 
+2017-11-04 02:21:07,299 INFO main(138) didn't found this link in the db
+2017-11-04 02:21:07,299 INFO main(140) Fetching content from https://joblist.ala.org/job/health-sciences-librarian/37291843/ 
+2017-11-04 02:21:11,091 INFO add_to_db(217) Recording this 37945131 into the db 
+2017-11-04 02:21:11,105 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/fiscal-services-manager/37945131/ 
+2017-11-04 02:21:12,445 INFO add_to_db(217) Recording this 37944279 into the db 
+2017-11-04 02:21:12,456 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/head-of-content-services/37944279/ 
+2017-11-04 02:21:16,793 INFO main(138) didn't found this link in the db
+2017-11-04 02:21:16,794 INFO main(140) Fetching content from https://joblist.ala.org/job/archivist-for-digital-programs/37681587/ 
+2017-11-04 02:21:21,159 INFO main(138) didn't found this link in the db
+2017-11-04 02:21:21,159 INFO main(140) Fetching content from https://joblist.ala.org/job/foreign-language-catalogers-immediate-openings-updated/36948792/ 
+2017-11-04 02:21:25,627 INFO main(138) didn't found this link in the db
+2017-11-04 02:21:25,627 INFO main(140) Fetching content from https://joblist.ala.org/job/educational-services-librarian-redding-library/37629064/ 
+2017-11-04 02:21:33,221 INFO main(124) There is no jobs from this page https://joblist.ala.org/jobseeker/search/results/?str=301&max=100&vnet=0&long=1 
+2017-11-05 01:29:18,229 INFO <module>(57) Downloading new jobs... if there is some new :)
+2017-11-05 01:29:21,087 INFO main(138) didn't found this link in the db
+2017-11-05 01:29:21,087 INFO main(140) Fetching content from https://joblist.ala.org/job/instructional-services-librarian/37607379/ 
+2017-11-05 01:29:24,931 INFO main(138) didn't found this link in the db
+2017-11-05 01:29:24,932 INFO main(140) Fetching content from https://joblist.ala.org/job/health-sciences-librarian/37291843/ 
+2017-11-05 01:29:31,998 INFO main(138) didn't found this link in the db
+2017-11-05 01:29:31,998 INFO main(140) Fetching content from https://joblist.ala.org/job/archivist-for-digital-programs/37681587/ 
+2017-11-05 01:29:36,443 INFO main(138) didn't found this link in the db
+2017-11-05 01:29:36,443 INFO main(140) Fetching content from https://joblist.ala.org/job/foreign-language-catalogers-immediate-openings-updated/36948792/ 
+2017-11-05 01:29:40,256 INFO main(138) didn't found this link in the db
+2017-11-05 01:29:40,257 INFO main(140) Fetching content from https://joblist.ala.org/job/educational-services-librarian-redding-library/37629064/ 
+2017-11-05 01:29:47,257 INFO main(124) There is no jobs from this page https://joblist.ala.org/jobseeker/search/results/?str=301&max=100&vnet=0&long=1 
+2017-11-07 06:50:33,282 INFO <module>(57) Downloading new jobs... if there is some new :)
+2017-11-07 06:50:35,847 INFO main(138) didn't found this link in the db
+2017-11-07 06:50:35,847 INFO main(140) Fetching content from https://joblist.ala.org/job/librarian-adult-services/38014478/ 
+2017-11-07 06:50:39,464 INFO main(138) didn't found this link in the db
+2017-11-07 06:50:39,464 INFO main(140) Fetching content from https://joblist.ala.org/job/system-wide-childrens-services-manager/36452394/ 
+2017-11-07 06:50:41,700 INFO main(138) didn't found this link in the db
+2017-11-07 06:50:41,700 INFO main(140) Fetching content from https://joblist.ala.org/job/science-information-specialist-librarian/37949667/ 
+2017-11-07 06:50:44,858 INFO main(138) didn't found this link in the db
+2017-11-07 06:50:44,858 INFO main(140) Fetching content from https://joblist.ala.org/job/undergraduate-instruction-and-assessment-librarian/37949665/ 
+2017-11-07 06:50:48,006 INFO main(138) didn't found this link in the db
+2017-11-07 06:50:48,006 INFO main(140) Fetching content from https://joblist.ala.org/job/assistant-professor-collection-development-and-electronic-resources-librarian/38009769/ 
+2017-11-07 06:50:51,454 INFO main(138) didn't found this link in the db
+2017-11-07 06:50:51,454 INFO main(140) Fetching content from https://joblist.ala.org/job/library-director/37990048/ 
+2017-11-07 06:50:55,322 INFO main(138) didn't found this link in the db
+2017-11-07 06:50:55,322 INFO main(140) Fetching content from https://joblist.ala.org/job/instructional-services-librarian/37607379/ 
+2017-11-07 06:50:59,030 INFO main(138) didn't found this link in the db
+2017-11-07 06:50:59,030 INFO main(140) Fetching content from https://joblist.ala.org/job/librarian-learning-support/37949590/ 
+2017-11-07 06:51:02,521 INFO main(138) didn't found this link in the db
+2017-11-07 06:51:02,521 INFO main(140) Fetching content from https://joblist.ala.org/job/regional-assistant-branch-manager-librarian-iii/38012951/ 
+2017-11-07 06:51:05,914 INFO main(138) didn't found this link in the db
+2017-11-07 06:51:05,914 INFO main(140) Fetching content from https://joblist.ala.org/job/clinical-assistance-professor/38011575/ 
+2017-11-07 06:51:09,534 INFO main(138) didn't found this link in the db
+2017-11-07 06:51:09,534 INFO main(140) Fetching content from https://joblist.ala.org/job/head-of-archives-user-engagement/37946567/ 
+2017-11-07 06:51:13,353 INFO main(138) didn't found this link in the db
+2017-11-07 06:51:13,353 INFO main(140) Fetching content from https://joblist.ala.org/job/senior-research-associate-curator/38011952/ 
+2017-11-07 17:51:25,921 INFO <module>(57) Downloading new jobs... if there is some new :)
+2017-11-07 17:51:28,570 INFO main(138) didn't found this link in the db
+2017-11-07 17:51:28,570 INFO main(140) Fetching content from https://joblist.ala.org/job/library-branch-manager/38034819/ 
+2017-11-07 17:51:33,898 INFO main(138) didn't found this link in the db
+2017-11-07 17:51:33,899 INFO main(140) Fetching content from https://joblist.ala.org/job/director-of-libraries/38032039/ 
+2017-11-07 17:51:36,425 INFO main(138) didn't found this link in the db
+2017-11-07 17:51:36,425 INFO main(140) Fetching content from https://joblist.ala.org/job/librarian-adult-services/38014478/ 
+2017-11-07 17:51:40,192 INFO main(138) didn't found this link in the db
+2017-11-07 17:51:40,192 INFO main(140) Fetching content from https://joblist.ala.org/job/system-wide-childrens-services-manager/36452394/ 
+2017-11-07 17:51:43,106 INFO main(138) didn't found this link in the db
+2017-11-07 17:51:43,106 INFO main(140) Fetching content from https://joblist.ala.org/job/science-information-specialist-librarian/37949667/ 
+2017-11-07 17:51:46,754 INFO main(138) didn't found this link in the db
+2017-11-07 17:51:46,754 INFO main(140) Fetching content from https://joblist.ala.org/job/undergraduate-instruction-and-assessment-librarian/37949665/ 
+2017-11-07 17:51:50,144 INFO main(138) didn't found this link in the db
+2017-11-07 17:51:50,144 INFO main(140) Fetching content from https://joblist.ala.org/job/assistant-professor-collection-development-and-electronic-resources-librarian/38009769/ 
+2017-11-07 17:51:53,916 INFO main(138) didn't found this link in the db
+2017-11-07 17:51:53,917 INFO main(140) Fetching content from https://joblist.ala.org/job/library-director/37990048/ 
+2017-11-07 17:51:58,283 INFO main(138) didn't found this link in the db
+2017-11-07 17:51:58,284 INFO main(140) Fetching content from https://joblist.ala.org/job/instructional-services-librarian/37607379/ 
+2017-11-07 17:52:02,142 INFO main(138) didn't found this link in the db
+2017-11-07 17:52:02,142 INFO main(140) Fetching content from https://joblist.ala.org/job/science-and-engineering-research-librarian/38036592/ 
+2017-11-07 17:52:05,559 INFO main(138) didn't found this link in the db
+2017-11-07 17:52:05,559 INFO main(140) Fetching content from https://joblist.ala.org/job/public-affairs-research-librarian/38036561/ 
+2017-11-07 17:52:09,081 INFO main(138) didn't found this link in the db
+2017-11-07 17:52:09,081 INFO main(140) Fetching content from https://joblist.ala.org/job/liaison-and-instruction-librarian/38036511/ 
+2017-11-07 17:52:12,611 INFO main(138) didn't found this link in the db
+2017-11-07 17:52:12,612 INFO main(140) Fetching content from https://joblist.ala.org/job/outreach-and-engagement-librarian/38036508/ 
+2017-11-07 17:52:16,671 INFO main(138) didn't found this link in the db
+2017-11-07 17:52:16,671 INFO main(140) Fetching content from https://joblist.ala.org/job/university-librarian/38035864/ 
+2017-11-07 17:52:20,054 INFO main(138) didn't found this link in the db
+2017-11-07 17:52:20,054 INFO main(140) Fetching content from https://joblist.ala.org/job/metadata-management-librarian/38035419/ 
+2017-11-07 17:52:23,824 INFO main(138) didn't found this link in the db
+2017-11-07 17:52:23,824 INFO main(140) Fetching content from https://joblist.ala.org/job/consumer-health-librarian/38033351/ 
+2017-11-07 17:52:26,296 INFO main(138) didn't found this link in the db
+2017-11-07 17:52:26,296 INFO main(140) Fetching content from https://joblist.ala.org/job/oerinstructional-design-librarian/38032053/ 
+2017-11-07 17:52:29,865 INFO main(138) didn't found this link in the db
+2017-11-07 17:52:29,865 INFO main(140) Fetching content from https://joblist.ala.org/job/deputy-director/38030730/ 
+2017-11-07 17:52:33,738 INFO main(138) didn't found this link in the db
+2017-11-07 17:52:33,738 INFO main(140) Fetching content from https://joblist.ala.org/job/records-manager-digital-archivist/38016077/ 
+2017-11-07 17:52:37,709 INFO main(138) didn't found this link in the db
+2017-11-07 17:52:37,710 INFO main(140) Fetching content from https://joblist.ala.org/job/librarian-learning-support/37949590/ 
+2017-11-07 17:52:41,011 INFO main(138) didn't found this link in the db
+2017-11-07 17:52:41,011 INFO main(140) Fetching content from https://joblist.ala.org/job/regional-assistant-branch-manager-librarian-iii/38012951/ 
+2017-11-07 17:52:44,524 INFO main(138) didn't found this link in the db
+2017-11-07 17:52:44,524 INFO main(140) Fetching content from https://joblist.ala.org/job/clinical-assistance-professor/38011575/ 
+2017-11-07 17:52:48,373 INFO main(138) didn't found this link in the db
+2017-11-07 17:52:48,373 INFO main(140) Fetching content from https://joblist.ala.org/job/head-of-archives-user-engagement/37946567/ 
+2017-11-07 17:52:51,822 INFO main(138) didn't found this link in the db
+2017-11-07 17:52:51,822 INFO main(140) Fetching content from https://joblist.ala.org/job/senior-research-associate-curator/38011952/ 
+2017-11-07 17:52:55,344 INFO main(138) didn't found this link in the db
+2017-11-07 17:52:55,344 INFO main(140) Fetching content from https://joblist.ala.org/job/scholarly-communications-librarian/38011651/ 
+2017-11-07 17:52:59,083 INFO main(138) didn't found this link in the db
+2017-11-07 17:52:59,083 INFO main(140) Fetching content from https://joblist.ala.org/job/metadata-editordigital-project-librarian/38011598/ 
+2017-11-07 17:53:02,514 INFO main(138) didn't found this link in the db
+2017-11-07 17:53:02,515 INFO main(140) Fetching content from https://joblist.ala.org/job/technology-innovation-librarian/38011547/ 
+2017-11-07 17:53:06,560 INFO main(138) didn't found this link in the db
+2017-11-07 17:53:06,560 INFO main(140) Fetching content from https://joblist.ala.org/job/associate-university-librarian-for-user-engagement/38011522/ 
+2017-11-07 17:53:11,385 INFO main(138) didn't found this link in the db
+2017-11-07 17:53:11,386 INFO main(140) Fetching content from https://joblist.ala.org/job/head-of-special-collections-and-university-archives/38010332/ 
+2017-11-07 17:53:14,830 INFO main(138) didn't found this link in the db
+2017-11-07 17:53:14,830 INFO main(140) Fetching content from https://joblist.ala.org/job/assistantassociate-cataloging-and-metadata-librarian/37925110/ 
+2017-11-07 17:53:18,589 INFO add_to_db(217) Recording this 38034819 into the db 
+2017-11-07 17:53:18,606 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/library-branch-manager/38034819/ 
+2017-11-07 17:53:20,288 INFO add_to_db(217) Recording this 38032039 into the db 
+2017-11-07 17:53:20,297 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/director-of-libraries/38032039/ 
+2017-11-07 17:53:22,010 INFO add_to_db(217) Recording this 38014478 into the db 
+2017-11-07 17:53:22,018 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/librarian-adult-services/38014478/ 
+2017-11-07 17:53:23,974 INFO add_to_db(217) Recording this 36452394 into the db 
+2017-11-07 17:53:23,985 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/system-wide-childrens-services-manager/36452394/ 
+2017-11-07 17:53:26,007 INFO add_to_db(217) Recording this 37949667 into the db 
+2017-11-07 17:53:26,017 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/science-information-specialist-librarian/37949667/ 
+2017-11-07 17:53:27,636 INFO add_to_db(217) Recording this 37949665 into the db 
+2017-11-07 17:53:27,648 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/undergraduate-instruction-and-assessment-librarian/37949665/ 
+2017-11-07 17:53:29,402 INFO add_to_db(217) Recording this 38009769 into the db 
+2017-11-07 17:53:29,412 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/assistant-professor-collection-development-and-electronic-resources-librarian/38009769/ 
+2017-11-07 17:53:31,257 INFO add_to_db(217) Recording this 37990048 into the db 
+2017-11-07 17:53:31,266 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/library-director/37990048/ 
+2017-11-07 17:53:33,407 INFO add_to_db(217) Recording this 38036592 into the db 
+2017-11-07 17:53:33,416 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/science-and-engineering-research-librarian/38036592/ 
+2017-11-07 17:53:35,058 INFO add_to_db(217) Recording this 38036561 into the db 
+2017-11-07 17:53:35,069 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/public-affairs-research-librarian/38036561/ 
+2017-11-07 17:53:36,503 INFO add_to_db(217) Recording this 38036511 into the db 
+2017-11-07 17:53:36,512 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/liaison-and-instruction-librarian/38036511/ 
+2017-11-07 17:53:38,220 INFO add_to_db(217) Recording this 38036508 into the db 
+2017-11-07 17:53:38,228 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/outreach-and-engagement-librarian/38036508/ 
+2017-11-07 17:53:39,782 INFO add_to_db(217) Recording this 38035864 into the db 
+2017-11-07 17:53:39,790 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/university-librarian/38035864/ 
+2017-11-07 17:53:41,844 INFO add_to_db(217) Recording this 38035419 into the db 
+2017-11-07 17:53:41,855 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/metadata-management-librarian/38035419/ 
+2017-11-07 17:53:43,591 INFO add_to_db(217) Recording this 38033351 into the db 
+2017-11-07 17:53:43,602 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/consumer-health-librarian/38033351/ 
+2017-11-07 17:53:45,198 INFO add_to_db(217) Recording this 38032053 into the db 
+2017-11-07 17:53:45,213 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/oerinstructional-design-librarian/38032053/ 
+2017-11-07 17:53:46,737 INFO add_to_db(217) Recording this 38030730 into the db 
+2017-11-07 17:53:46,746 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/deputy-director/38030730/ 
+2017-11-07 17:53:48,128 INFO add_to_db(217) Recording this 38016077 into the db 
+2017-11-07 17:53:48,140 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/records-manager-digital-archivist/38016077/ 
+2017-11-07 17:53:49,799 INFO add_to_db(217) Recording this 37949590 into the db 
+2017-11-07 17:53:49,807 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/librarian-learning-support/37949590/ 
+2017-11-07 17:53:51,291 INFO add_to_db(217) Recording this 38012951 into the db 
+2017-11-07 17:53:51,303 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/regional-assistant-branch-manager-librarian-iii/38012951/ 
+2017-11-07 17:53:52,805 INFO add_to_db(217) Recording this 38011575 into the db 
+2017-11-07 17:53:52,813 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/clinical-assistance-professor/38011575/ 
+2017-11-07 17:53:54,542 INFO add_to_db(217) Recording this 37946567 into the db 
+2017-11-07 17:53:54,554 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/head-of-archives-user-engagement/37946567/ 
+2017-11-07 17:53:56,022 INFO add_to_db(217) Recording this 38011952 into the db 
+2017-11-07 17:53:56,032 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/senior-research-associate-curator/38011952/ 
+2017-11-07 17:53:57,509 INFO add_to_db(217) Recording this 38011651 into the db 
+2017-11-07 17:53:57,518 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/scholarly-communications-librarian/38011651/ 
+2017-11-07 17:53:59,576 INFO add_to_db(217) Recording this 38011598 into the db 
+2017-11-07 17:53:59,586 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/metadata-editordigital-project-librarian/38011598/ 
+2017-11-07 17:54:01,094 INFO add_to_db(217) Recording this 38011547 into the db 
+2017-11-07 17:54:01,106 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/technology-innovation-librarian/38011547/ 
+2017-11-07 17:54:02,965 INFO add_to_db(217) Recording this 38011522 into the db 
+2017-11-07 17:54:02,977 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/associate-university-librarian-for-user-engagement/38011522/ 
+2017-11-07 17:54:04,745 INFO add_to_db(217) Recording this 38010332 into the db 
+2017-11-07 17:54:04,754 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/head-of-special-collections-and-university-archives/38010332/ 
+2017-11-07 17:54:06,206 INFO add_to_db(217) Recording this 37925110 into the db 
+2017-11-07 17:54:06,219 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/assistantassociate-cataloging-and-metadata-librarian/37925110/ 
+2017-11-07 17:54:10,103 INFO main(138) didn't found this link in the db
+2017-11-07 17:54:10,103 INFO main(140) Fetching content from https://joblist.ala.org/job/health-sciences-librarian/37291843/ 
+2017-11-07 17:54:13,604 INFO main(138) didn't found this link in the db
+2017-11-07 17:54:13,604 INFO main(140) Fetching content from https://joblist.ala.org/job/archivist-for-digital-programs/37681587/ 
+2017-11-07 17:54:17,441 INFO main(138) didn't found this link in the db
+2017-11-07 17:54:17,441 INFO main(140) Fetching content from https://joblist.ala.org/job/foreign-language-catalogers-immediate-openings-updated/36948792/ 
+2017-11-07 17:54:21,721 INFO main(138) didn't found this link in the db
+2017-11-07 17:54:21,721 INFO main(140) Fetching content from https://joblist.ala.org/job/educational-services-librarian-redding-library/37629064/ 
+2017-11-07 17:54:34,312 INFO main(124) There is no jobs from this page https://joblist.ala.org/jobseeker/search/results/?str=301&max=100&vnet=0&long=1 
+2017-11-13 05:05:42,262 INFO <module>(57) Downloading new jobs... if there is some new :)
+2017-11-13 05:05:48,740 INFO main(138) didn't found this link in the db
+2017-11-13 05:05:48,741 INFO main(140) Fetching content from https://joblist.ala.org/job/associate-university-librarian/38055360/ 
+2017-11-13 05:05:54,799 INFO main(138) didn't found this link in the db
+2017-11-13 05:05:54,799 INFO main(140) Fetching content from https://joblist.ala.org/job/special-collections-manager/38050262/ 
+2017-11-13 05:05:59,971 INFO main(138) didn't found this link in the db
+2017-11-13 05:05:59,971 INFO main(140) Fetching content from https://joblist.ala.org/job/cataloging-metadata-librarian/38051393/ 
+2017-11-13 05:06:06,522 INFO main(138) didn't found this link in the db
+2017-11-13 05:06:06,522 INFO main(140) Fetching content from https://joblist.ala.org/job/dean-sherrod-library/38050772/ 
+2017-11-13 05:06:11,515 INFO main(138) didn't found this link in the db
+2017-11-13 05:06:11,515 INFO main(140) Fetching content from https://joblist.ala.org/job/instructional-services-librarian/37607379/ 
+2017-11-13 05:06:16,368 INFO main(138) didn't found this link in the db
+2017-11-13 05:06:16,369 INFO main(140) Fetching content from https://joblist.ala.org/job/help-desk-director/38094267/ 
+2017-11-13 05:06:21,630 INFO main(138) didn't found this link in the db
+2017-11-13 05:06:21,630 INFO main(140) Fetching content from https://joblist.ala.org/job/systems-librarian/36211170/ 
+2017-11-13 05:06:27,602 INFO main(138) didn't found this link in the db
+2017-11-13 05:06:27,602 INFO main(140) Fetching content from https://joblist.ala.org/job/county-librarian/38091103/ 
+2017-11-13 05:06:32,977 INFO main(138) didn't found this link in the db
+2017-11-13 05:06:32,977 INFO main(140) Fetching content from https://joblist.ala.org/job/associate-dean-of-libraries-for-content-services-and-strategies/38090637/ 
+2017-11-13 05:06:37,698 INFO main(138) didn't found this link in the db
+2017-11-13 05:06:37,698 INFO main(140) Fetching content from https://joblist.ala.org/job/director-of-research-and-instruction/38085353/ 
+2017-11-13 05:06:43,137 INFO main(138) didn't found this link in the db
+2017-11-13 05:06:43,137 INFO main(140) Fetching content from https://joblist.ala.org/job/research-instruction-librarian-business/38085362/ 
+2017-11-13 05:06:48,181 INFO main(138) didn't found this link in the db
+2017-11-13 05:06:48,182 INFO main(140) Fetching content from https://joblist.ala.org/job/library-supervisor-iii/38074010/ 
+2017-11-13 05:06:53,825 INFO main(138) didn't found this link in the db
+2017-11-13 05:06:53,825 INFO main(140) Fetching content from https://joblist.ala.org/job/assistant-library-director/38074068/ 
+2017-11-13 05:06:58,899 INFO main(138) didn't found this link in the db
+2017-11-13 05:06:58,899 INFO main(140) Fetching content from https://joblist.ala.org/job/copyright-specialist/38071858/ 
+2017-11-13 05:07:04,438 INFO main(138) didn't found this link in the db
+2017-11-13 05:07:04,439 INFO main(140) Fetching content from https://joblist.ala.org/job/chief-communications-officer/38071885/ 
+2017-11-13 05:07:10,387 INFO main(138) didn't found this link in the db
+2017-11-13 05:07:10,387 INFO main(140) Fetching content from https://joblist.ala.org/job/digital-lifecycle-program-program-manager-library/38071902/ 
+2017-11-13 05:07:16,674 INFO main(138) didn't found this link in the db
+2017-11-13 05:07:16,674 INFO main(140) Fetching content from https://joblist.ala.org/job/digital-project-archivist-two-year-appointment-the-bancroft-library/38071492/ 
+2017-11-13 05:07:23,711 INFO main(138) didn't found this link in the db
+2017-11-13 05:07:23,711 INFO main(140) Fetching content from https://joblist.ala.org/job/instruction-and-reference-librarian-full-time-temporary/38070446/ 
+2017-11-13 05:07:30,669 INFO main(138) didn't found this link in the db
+2017-11-13 05:07:30,670 INFO main(140) Fetching content from https://joblist.ala.org/job/library-director/38069792/ 
+2017-11-13 05:07:37,439 INFO main(138) didn't found this link in the db
+2017-11-13 05:07:37,439 INFO main(140) Fetching content from https://joblist.ala.org/job/librarian-supervisor/38055397/ 
+2017-11-13 05:07:43,516 INFO main(138) didn't found this link in the db
+2017-11-13 05:07:43,516 INFO main(140) Fetching content from https://joblist.ala.org/job/systems-librarian/38062715/ 
+2017-11-13 05:07:49,445 INFO main(138) didn't found this link in the db
+2017-11-13 05:07:49,446 INFO main(140) Fetching content from https://joblist.ala.org/job/head-of-technical-services-westminster-law-library/38055651/ 
+2017-11-13 05:07:58,216 INFO main(138) didn't found this link in the db
+2017-11-13 05:07:58,216 INFO main(140) Fetching content from https://joblist.ala.org/job/childrens-community-engagement-librarian/38055522/ 
+2017-11-13 05:08:07,173 INFO main(138) didn't found this link in the db
+2017-11-13 05:08:07,173 INFO main(140) Fetching content from https://joblist.ala.org/job/youth-services-librarian/38055450/ 
+2017-11-13 05:08:16,677 INFO main(138) didn't found this link in the db
+2017-11-13 05:08:16,677 INFO main(140) Fetching content from https://joblist.ala.org/job/head-von-kleinsmid-center-library-334b/38052894/ 
+2017-11-13 05:08:22,739 INFO main(138) didn't found this link in the db
+2017-11-13 05:08:22,739 INFO main(140) Fetching content from https://joblist.ala.org/job/assistant-department-headasst-or-assoc-librarian/38054715/ 
+2017-11-13 05:08:29,768 INFO main(138) didn't found this link in the db
+2017-11-13 05:08:29,768 INFO main(140) Fetching content from https://joblist.ala.org/job/library-childrens-librarian/38053935/ 
+2017-11-13 05:08:37,427 INFO main(138) didn't found this link in the db
+2017-11-13 05:08:37,428 INFO main(140) Fetching content from https://joblist.ala.org/job/arts-sciences-librarian-subject-librarian/38053738/ 
+2017-11-13 05:08:44,338 INFO main(138) didn't found this link in the db
+2017-11-13 05:08:44,338 INFO main(140) Fetching content from https://joblist.ala.org/job/education-librarian-subject-librarian/38051378/ 
+2017-11-13 05:08:50,113 INFO main(138) didn't found this link in the db
+2017-11-13 05:08:50,113 INFO main(140) Fetching content from https://joblist.ala.org/job/deputy-director-of-library-services/38051036/ 
+2017-11-13 05:08:55,224 INFO main(138) didn't found this link in the db
+2017-11-13 05:08:55,224 INFO main(140) Fetching content from https://joblist.ala.org/job/digital-and-archival-services-librarian-woodstock-theological-center-library/38050756/ 
+2017-11-13 05:08:59,482 INFO main(138) didn't found this link in the db
+2017-11-13 05:08:59,482 INFO main(140) Fetching content from https://joblist.ala.org/job/reference-digital-projects-archivist/37947612/ 
+2017-11-13 05:09:04,395 INFO main(138) didn't found this link in the db
+2017-11-13 05:09:04,395 INFO main(140) Fetching content from https://joblist.ala.org/job/african-american-history-archivist/38012313/ 
+2017-11-13 05:09:09,451 INFO main(138) didn't found this link in the db
+2017-11-13 05:09:09,451 INFO main(140) Fetching content from https://joblist.ala.org/job/coordinator-of-resource-acquisitions-management/38049659/ 
+2017-11-13 05:09:15,046 INFO main(138) didn't found this link in the db
+2017-11-13 05:09:15,046 INFO main(140) Fetching content from https://joblist.ala.org/job/associate-dean-of-libraries/38049154/ 
+2017-11-13 05:09:19,690 INFO main(138) didn't found this link in the db
+2017-11-13 05:09:19,690 INFO main(140) Fetching content from https://joblist.ala.org/job/youth-services-librarian/38048635/ 
+2017-11-13 05:09:25,345 INFO main(138) didn't found this link in the db
+2017-11-13 05:09:25,345 INFO main(140) Fetching content from https://joblist.ala.org/job/head-of-technical-services-cataloging/38036687/ 
+2017-11-13 05:09:30,531 INFO main(138) didn't found this link in the db
+2017-11-13 05:09:30,532 INFO main(140) Fetching content from https://joblist.ala.org/job/dean-division-of-libraries/38036642/ 
+2017-11-13 05:09:34,859 INFO main(138) didn't found this link in the db
+2017-11-13 05:09:34,860 INFO main(140) Fetching content from https://joblist.ala.org/job/youth-services-librarian/38014412/ 
+2017-11-13 05:09:40,729 INFO add_to_db(217) Recording this 38055360 into the db 
+2017-11-13 05:09:40,737 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/associate-university-librarian/38055360/ 
+2017-11-13 05:09:44,665 INFO add_to_db(217) Recording this 38050262 into the db 
+2017-11-13 05:09:44,679 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/special-collections-manager/38050262/ 
+2017-11-13 05:09:49,823 INFO add_to_db(217) Recording this 38051393 into the db 
+2017-11-13 05:09:49,833 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/cataloging-metadata-librarian/38051393/ 
+2017-11-13 05:09:54,392 INFO add_to_db(217) Recording this 38050772 into the db 
+2017-11-13 05:09:54,404 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/dean-sherrod-library/38050772/ 
+2017-11-13 05:09:58,039 INFO add_to_db(217) Recording this 38094267 into the db 
+2017-11-13 05:09:58,049 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/help-desk-director/38094267/ 
+2017-11-13 05:10:03,745 INFO add_to_db(217) Recording this 36211170 into the db 
+2017-11-13 05:10:03,757 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/systems-librarian/36211170/ 
+2017-11-13 05:10:07,728 INFO add_to_db(217) Recording this 38091103 into the db 
+2017-11-13 05:10:07,738 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/county-librarian/38091103/ 
+2017-11-13 05:10:14,401 INFO add_to_db(217) Recording this 38090637 into the db 
+2017-11-13 05:10:14,418 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/associate-dean-of-libraries-for-content-services-and-strategies/38090637/ 
+2017-11-13 05:10:26,586 INFO add_to_db(217) Recording this 38085353 into the db 
+2017-11-13 05:10:26,595 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/director-of-research-and-instruction/38085353/ 
+2017-11-13 05:10:31,904 INFO add_to_db(217) Recording this 38085362 into the db 
+2017-11-13 05:10:31,913 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/research-instruction-librarian-business/38085362/ 
+2017-11-13 05:10:36,063 INFO add_to_db(217) Recording this 38074010 into the db 
+2017-11-13 05:10:36,075 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/library-supervisor-iii/38074010/ 
+2017-11-13 05:10:40,200 INFO add_to_db(217) Recording this 38074068 into the db 
+2017-11-13 05:10:40,213 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/assistant-library-director/38074068/ 
+2017-11-13 05:10:44,809 INFO add_to_db(217) Recording this 38071858 into the db 
+2017-11-13 05:10:44,818 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/copyright-specialist/38071858/ 
+2017-11-13 05:10:48,245 INFO add_to_db(217) Recording this 38071885 into the db 
+2017-11-13 05:10:48,259 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/chief-communications-officer/38071885/ 
+2017-11-13 05:10:59,749 INFO add_to_db(217) Recording this 38071902 into the db 
+2017-11-13 05:10:59,761 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/digital-lifecycle-program-program-manager-library/38071902/ 
+2017-11-13 05:11:04,954 INFO add_to_db(217) Recording this 38071492 into the db 
+2017-11-13 05:11:04,964 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/digital-project-archivist-two-year-appointment-the-bancroft-library/38071492/ 
+2017-11-13 05:11:08,811 INFO add_to_db(217) Recording this 38070446 into the db 
+2017-11-13 05:11:08,819 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/instruction-and-reference-librarian-full-time-temporary/38070446/ 
+2017-11-13 05:11:13,698 INFO add_to_db(217) Recording this 38069792 into the db 
+2017-11-13 05:11:13,711 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/library-director/38069792/ 
+2017-11-13 05:11:18,280 INFO add_to_db(217) Recording this 38055397 into the db 
+2017-11-13 05:11:18,295 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/librarian-supervisor/38055397/ 
+2017-11-13 05:11:23,670 INFO add_to_db(217) Recording this 38062715 into the db 
+2017-11-13 05:11:23,682 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/systems-librarian/38062715/ 
+2017-11-13 05:11:31,610 INFO add_to_db(217) Recording this 38055651 into the db 
+2017-11-13 05:11:31,620 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/head-of-technical-services-westminster-law-library/38055651/ 
+2017-11-13 05:11:39,259 INFO add_to_db(217) Recording this 38055522 into the db 
+2017-11-13 05:11:39,268 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/childrens-community-engagement-librarian/38055522/ 
+2017-11-13 05:11:43,216 INFO add_to_db(217) Recording this 38055450 into the db 
+2017-11-13 05:11:43,223 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/youth-services-librarian/38055450/ 
+2017-11-13 05:11:46,622 INFO add_to_db(217) Recording this 38052894 into the db 
+2017-11-13 05:11:46,632 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/head-von-kleinsmid-center-library-334b/38052894/ 
+2017-11-13 05:11:52,694 INFO add_to_db(217) Recording this 38054715 into the db 
+2017-11-13 05:11:52,707 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/assistant-department-headasst-or-assoc-librarian/38054715/ 
+2017-11-13 05:11:57,125 INFO add_to_db(217) Recording this 38053935 into the db 
+2017-11-13 05:11:57,140 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/library-childrens-librarian/38053935/ 
+2017-11-13 05:12:02,694 INFO add_to_db(217) Recording this 38053738 into the db 
+2017-11-13 05:12:02,705 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/arts-sciences-librarian-subject-librarian/38053738/ 
+2017-11-13 05:12:08,110 INFO add_to_db(217) Recording this 38051378 into the db 
+2017-11-13 05:12:08,117 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/education-librarian-subject-librarian/38051378/ 
+2017-11-13 05:12:14,110 INFO add_to_db(217) Recording this 38051036 into the db 
+2017-11-13 05:12:14,123 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/deputy-director-of-library-services/38051036/ 
+2017-11-13 05:12:17,673 INFO add_to_db(217) Recording this 38050756 into the db 
+2017-11-13 05:12:17,685 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/digital-and-archival-services-librarian-woodstock-theological-center-library/38050756/ 
+2017-11-13 05:12:21,846 INFO add_to_db(217) Recording this 37947612 into the db 
+2017-11-13 05:12:21,860 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/reference-digital-projects-archivist/37947612/ 
+2017-11-13 05:12:27,285 INFO add_to_db(217) Recording this 38012313 into the db 
+2017-11-13 05:12:27,293 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/african-american-history-archivist/38012313/ 
+2017-11-13 05:12:32,596 INFO add_to_db(217) Recording this 38049659 into the db 
+2017-11-13 05:12:32,603 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/coordinator-of-resource-acquisitions-management/38049659/ 
+2017-11-13 05:12:36,988 INFO add_to_db(217) Recording this 38049154 into the db 
+2017-11-13 05:12:36,999 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/associate-dean-of-libraries/38049154/ 
+2017-11-13 05:12:39,164 INFO add_to_db(217) Recording this 38048635 into the db 
+2017-11-13 05:12:39,172 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/youth-services-librarian/38048635/ 
+2017-11-13 05:12:41,078 INFO add_to_db(217) Recording this 38036687 into the db 
+2017-11-13 05:12:41,088 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/head-of-technical-services-cataloging/38036687/ 
+2017-11-13 05:12:43,383 INFO add_to_db(217) Recording this 38036642 into the db 
+2017-11-13 05:12:43,394 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/dean-division-of-libraries/38036642/ 
+2017-11-13 05:12:45,071 INFO add_to_db(217) Recording this 38014412 into the db 
+2017-11-13 05:12:45,079 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/youth-services-librarian/38014412/ 
+2017-11-13 05:12:51,309 INFO main(138) didn't found this link in the db
+2017-11-13 05:12:51,309 INFO main(140) Fetching content from https://joblist.ala.org/job/health-sciences-librarian/37291843/ 
+2017-11-13 05:12:55,376 INFO main(138) didn't found this link in the db
+2017-11-13 05:12:55,376 INFO main(140) Fetching content from https://joblist.ala.org/job/records-and-information-management-analyst/37784391/ 
+2017-11-13 05:12:59,494 INFO main(138) didn't found this link in the db
+2017-11-13 05:12:59,494 INFO main(140) Fetching content from https://joblist.ala.org/job/consultant/37778834/ 
+2017-11-13 05:13:04,532 INFO main(138) didn't found this link in the db
+2017-11-13 05:13:04,533 INFO main(140) Fetching content from https://joblist.ala.org/job/document-control-specialist/37776747/ 
+2017-11-13 05:13:09,229 INFO main(138) didn't found this link in the db
+2017-11-13 05:13:09,229 INFO main(140) Fetching content from https://joblist.ala.org/job/editorial-manager-digital-products/37751614/ 
+2017-11-13 05:13:13,470 INFO main(138) didn't found this link in the db
+2017-11-13 05:13:13,471 INFO main(140) Fetching content from https://joblist.ala.org/job/director-planning-and-communications/37748958/ 
+2017-11-13 05:13:17,765 INFO main(138) didn't found this link in the db
+2017-11-13 05:13:17,765 INFO main(140) Fetching content from https://joblist.ala.org/job/marketing-communications-manager-george-memorial-library-administration/37745315/ 
+2017-11-13 05:13:21,840 INFO main(138) didn't found this link in the db
+2017-11-13 05:13:21,840 INFO main(140) Fetching content from https://joblist.ala.org/job/director-of-communication/37744621/ 
+2017-11-13 05:13:25,987 INFO main(138) didn't found this link in the db
+2017-11-13 05:13:25,988 INFO main(140) Fetching content from https://joblist.ala.org/job/information-and-data-management-officer/37731856/ 
+2017-11-13 05:13:30,496 INFO main(138) didn't found this link in the db
+2017-11-13 05:13:30,496 INFO main(140) Fetching content from https://joblist.ala.org/job/records-management-specialist-in-springfield-va-at-booz-allen-hamilton/37728727/ 
+2017-11-13 05:13:32,528 INFO main(138) didn't found this link in the db
+2017-11-13 05:13:32,529 INFO main(140) Fetching content from https://joblist.ala.org/job/all-source-intelligence-analyst-senior-in-washington-dc-at-booz-allen-hamilton/37725615/ 
+2017-11-13 05:13:34,707 INFO main(138) didn't found this link in the db
+2017-11-13 05:13:34,707 INFO main(140) Fetching content from https://joblist.ala.org/job/records-management-specialist-senior-in-mclean-va-at-booz-allen-hamilton/37724502/ 
+2017-11-13 05:13:36,799 INFO main(138) didn't found this link in the db
+2017-11-13 05:13:36,799 INFO main(140) Fetching content from https://joblist.ala.org/job/senior-resource-and-systems-specialist-technical-services-librarian/37707209/ 
+2017-11-13 05:13:41,122 INFO main(138) didn't found this link in the db
+2017-11-13 05:13:41,122 INFO main(140) Fetching content from https://joblist.ala.org/job/records-manager/37706884/ 
+2017-11-13 05:13:45,006 INFO main(138) didn't found this link in the db
+2017-11-13 05:13:45,006 INFO main(140) Fetching content from https://joblist.ala.org/job/archivist-for-digital-programs/37681587/ 
+2017-11-13 05:13:51,323 INFO main(138) didn't found this link in the db
+2017-11-13 05:13:51,323 INFO main(140) Fetching content from https://joblist.ala.org/job/foreign-language-catalogers-immediate-openings-updated/36948792/ 
+2017-11-13 05:13:55,976 INFO main(138) didn't found this link in the db
+2017-11-13 05:13:55,976 INFO main(140) Fetching content from https://joblist.ala.org/job/user-experience-ux-designer-entrymid-level/37656984/ 
+2017-11-13 05:14:00,685 INFO add_to_db(217) Recording this 37784391 into the db 
+2017-11-13 05:14:00,697 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/records-and-information-management-analyst/37784391/ 
+2017-11-13 05:14:02,913 INFO add_to_db(217) Recording this 37778834 into the db 
+2017-11-13 05:14:02,927 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/consultant/37778834/ 
+2017-11-13 05:14:05,646 INFO add_to_db(217) Recording this 37776747 into the db 
+2017-11-13 05:14:05,661 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/document-control-specialist/37776747/ 
+2017-11-13 05:14:07,951 INFO add_to_db(217) Recording this 37751614 into the db 
+2017-11-13 05:14:07,960 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/editorial-manager-digital-products/37751614/ 
+2017-11-13 05:14:09,837 INFO add_to_db(217) Recording this 37748958 into the db 
+2017-11-13 05:14:09,852 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/director-planning-and-communications/37748958/ 
+2017-11-13 05:14:12,066 INFO add_to_db(217) Recording this 37745315 into the db 
+2017-11-13 05:14:12,075 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/marketing-communications-manager-george-memorial-library-administration/37745315/ 
+2017-11-13 05:14:13,999 INFO add_to_db(217) Recording this 37744621 into the db 
+2017-11-13 05:14:14,011 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/director-of-communication/37744621/ 
+2017-11-13 05:14:15,825 INFO add_to_db(217) Recording this 37731856 into the db 
+2017-11-13 05:14:15,836 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/information-and-data-management-officer/37731856/ 
+2017-11-13 05:14:17,587 INFO add_to_db(217) Recording this 37728727 into the db 
+2017-11-13 05:14:17,599 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/records-management-specialist-in-springfield-va-at-booz-allen-hamilton/37728727/ 
+2017-11-13 05:14:19,617 INFO add_to_db(217) Recording this 37725615 into the db 
+2017-11-13 05:14:19,628 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/all-source-intelligence-analyst-senior-in-washington-dc-at-booz-allen-hamilton/37725615/ 
+2017-11-13 05:14:21,667 INFO add_to_db(217) Recording this 37724502 into the db 
+2017-11-13 05:14:21,678 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/records-management-specialist-senior-in-mclean-va-at-booz-allen-hamilton/37724502/ 
+2017-11-13 05:14:23,557 INFO add_to_db(217) Recording this 37707209 into the db 
+2017-11-13 05:14:23,570 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/senior-resource-and-systems-specialist-technical-services-librarian/37707209/ 
+2017-11-13 05:14:25,506 INFO add_to_db(217) Recording this 37706884 into the db 
+2017-11-13 05:14:25,518 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/records-manager/37706884/ 
+2017-11-13 05:14:27,205 INFO add_to_db(217) Recording this 37656984 into the db 
+2017-11-13 05:14:27,217 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/user-experience-ux-designer-entrymid-level/37656984/ 
+2017-11-13 05:14:34,025 INFO main(138) didn't found this link in the db
+2017-11-13 05:14:34,025 INFO main(140) Fetching content from https://joblist.ala.org/job/educational-services-librarian-redding-library/37629064/ 
+2017-11-13 05:14:36,553 INFO main(138) didn't found this link in the db
+2017-11-13 05:14:36,553 INFO main(140) Fetching content from https://joblist.ala.org/job/information-literacy-health-sciences-librarian-s00190p/37610452/ 
+2017-11-13 05:14:41,918 INFO main(124) There is no jobs from this page https://joblist.ala.org/jobseeker/search/results/?str=301&max=100&vnet=0&long=1 
+2017-11-13 12:49:27,955 INFO <module>(57) Downloading new jobs... if there is some new :)
+2017-11-13 12:49:30,920 INFO main(138) didn't found this link in the db
+2017-11-13 12:49:30,921 INFO main(140) Fetching content from https://joblist.ala.org/job/instructional-services-librarian/37607379/ 
+2017-11-13 12:49:35,405 INFO main(138) didn't found this link in the db
+2017-11-13 12:49:35,405 INFO main(140) Fetching content from https://joblist.ala.org/job/special-collections-processing-archivist/38146881/ 
+2017-11-13 12:49:39,465 INFO main(138) didn't found this link in the db
+2017-11-13 12:49:39,465 INFO main(140) Fetching content from https://joblist.ala.org/job/director-of-the-library/38146810/ 
+2017-11-13 12:49:43,129 INFO main(138) didn't found this link in the db
+2017-11-13 12:49:43,129 INFO main(140) Fetching content from https://joblist.ala.org/job/learner-experience-librarian/38146851/ 
+2017-11-13 12:49:47,304 INFO main(138) didn't found this link in the db
+2017-11-13 12:49:47,304 INFO main(140) Fetching content from https://joblist.ala.org/job/director-of-library-services/38146697/ 
+2017-11-13 12:49:52,126 INFO main(138) didn't found this link in the db
+2017-11-13 12:49:52,127 INFO main(140) Fetching content from https://joblist.ala.org/job/director-of-special-collections-and-archives-watkinson-library/38146612/ 
+2017-11-13 12:49:57,298 INFO main(138) didn't found this link in the db
+2017-11-13 12:49:57,298 INFO main(140) Fetching content from https://joblist.ala.org/job/associate-librarian/38133719/ 
+2017-11-13 12:50:00,781 INFO add_to_db(217) Recording this 38146881 into the db 
+2017-11-13 12:50:00,789 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/special-collections-processing-archivist/38146881/ 
+2017-11-13 12:50:02,431 INFO add_to_db(217) Recording this 38146810 into the db 
+2017-11-13 12:50:02,440 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/director-of-the-library/38146810/ 
+2017-11-13 12:50:04,118 INFO add_to_db(217) Recording this 38146851 into the db 
+2017-11-13 12:50:04,132 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/learner-experience-librarian/38146851/ 
+2017-11-13 12:50:05,820 INFO add_to_db(217) Recording this 38146697 into the db 
+2017-11-13 12:50:05,832 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/director-of-library-services/38146697/ 
+2017-11-13 12:50:09,975 INFO add_to_db(217) Recording this 38146612 into the db 
+2017-11-13 12:50:09,984 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/director-of-special-collections-and-archives-watkinson-library/38146612/ 
+2017-11-13 12:50:11,948 INFO add_to_db(217) Recording this 38133719 into the db 
+2017-11-13 12:50:11,958 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/associate-librarian/38133719/ 
+2017-11-13 12:50:17,161 INFO main(138) didn't found this link in the db
+2017-11-13 12:50:17,161 INFO main(140) Fetching content from https://joblist.ala.org/job/health-sciences-librarian/37291843/ 
+2017-11-13 12:50:23,636 INFO main(138) didn't found this link in the db
+2017-11-13 12:50:23,636 INFO main(140) Fetching content from https://joblist.ala.org/job/archivist-for-digital-programs/37681587/ 
+2017-11-13 12:50:28,072 INFO main(138) didn't found this link in the db
+2017-11-13 12:50:28,073 INFO main(140) Fetching content from https://joblist.ala.org/job/foreign-language-catalogers-immediate-openings-updated/36948792/ 
+2017-11-13 12:50:34,330 INFO main(138) didn't found this link in the db
+2017-11-13 12:50:34,330 INFO main(140) Fetching content from https://joblist.ala.org/job/educational-services-librarian-redding-library/37629064/ 
+2017-11-13 12:50:37,118 INFO main(138) didn't found this link in the db
+2017-11-13 12:50:37,118 INFO main(140) Fetching content from https://joblist.ala.org/job/information-literacy-health-sciences-librarian-s00190p/37610452/ 
+2017-11-13 12:50:42,242 INFO main(124) There is no jobs from this page https://joblist.ala.org/jobseeker/search/results/?str=301&max=100&vnet=0&long=1 
+2017-11-16 07:04:37,724 INFO <module>(57) Downloading new jobs... if there is some new :)
+2017-11-16 07:04:41,151 INFO main(138) didn't found this link in the db
+2017-11-16 07:04:41,151 INFO main(140) Fetching content from https://joblist.ala.org/job/head-of-reference-instruction-and-liaison/38159213/ 
+2017-11-16 07:04:45,627 INFO main(138) didn't found this link in the db
+2017-11-16 07:04:45,628 INFO main(140) Fetching content from https://joblist.ala.org/job/executive-director/38159287/ 
+2017-11-16 07:04:49,706 INFO main(138) didn't found this link in the db
+2017-11-16 07:04:49,706 INFO main(140) Fetching content from https://joblist.ala.org/job/system-director/38159167/ 
+2017-11-16 07:04:53,852 INFO main(138) didn't found this link in the db
+2017-11-16 07:04:53,853 INFO main(140) Fetching content from https://joblist.ala.org/job/senior-librarian/38147501/ 
+2017-11-16 07:04:57,316 INFO main(138) didn't found this link in the db
+2017-11-16 07:04:57,317 INFO main(140) Fetching content from https://joblist.ala.org/job/two-associate-dean-positions/38147379/ 
+2017-11-16 07:05:01,417 INFO main(138) didn't found this link in the db
+2017-11-16 07:05:01,417 INFO main(140) Fetching content from https://joblist.ala.org/job/instructional-services-librarian/37607379/ 
+2017-11-16 07:05:06,222 INFO main(138) didn't found this link in the db
+2017-11-16 07:05:06,222 INFO main(140) Fetching content from https://joblist.ala.org/job/adult-services-librarian/38173834/ 
+2017-11-16 07:05:10,295 INFO main(138) didn't found this link in the db
+2017-11-16 07:05:10,295 INFO main(140) Fetching content from https://joblist.ala.org/job/librarian-ii/38173829/ 
+2017-11-16 07:05:14,665 INFO main(138) didn't found this link in the db
+2017-11-16 07:05:14,666 INFO main(140) Fetching content from https://joblist.ala.org/job/digital-outreach-instruction-librarian/38173644/ 
+2017-11-16 07:05:18,816 INFO main(138) didn't found this link in the db
+2017-11-16 07:05:18,816 INFO main(140) Fetching content from https://joblist.ala.org/job/city-librarian/38173141/ 
+2017-11-16 07:05:23,209 INFO main(138) didn't found this link in the db
+2017-11-16 07:05:23,209 INFO main(140) Fetching content from https://joblist.ala.org/job/industry-documents-library-idl-archivist-associate-librarianlibrarian/38173431/ 
+2017-11-16 07:05:26,882 INFO main(138) didn't found this link in the db
+2017-11-16 07:05:26,882 INFO main(140) Fetching content from https://joblist.ala.org/job/information-services-librarian/38173541/ 
+2017-11-16 07:05:30,427 INFO main(138) didn't found this link in the db
+2017-11-16 07:05:30,428 INFO main(140) Fetching content from https://joblist.ala.org/job/library-services-specialist-ii-digital-services-division/38173198/ 
+2017-11-16 07:05:35,689 INFO main(138) didn't found this link in the db
+2017-11-16 07:05:35,689 INFO main(140) Fetching content from https://joblist.ala.org/job/childrens-services-fairfield-ct-fairfield-public-library-you-belong-here/38173192/ 
+2017-11-16 07:05:39,382 INFO main(138) didn't found this link in the db
+2017-11-16 07:05:39,382 INFO main(140) Fetching content from https://joblist.ala.org/job/medical-school-liaison-ul383/38173086/ 
+2017-11-16 07:05:43,516 INFO main(138) didn't found this link in the db
+2017-11-16 07:05:43,516 INFO main(140) Fetching content from https://joblist.ala.org/job/library-director/38159823/ 
+2017-11-16 07:05:47,017 INFO main(138) didn't found this link in the db
+2017-11-16 07:05:47,017 INFO main(140) Fetching content from https://joblist.ala.org/job/curator-latin-american-and-caribbean-collection-lacc/34701149/ 
+2017-11-16 07:05:51,160 INFO main(138) didn't found this link in the db
+2017-11-16 07:05:51,160 INFO main(140) Fetching content from https://joblist.ala.org/job/data-management-specialist/38147407/ 
+2017-11-16 07:05:54,755 INFO main(138) didn't found this link in the db
+2017-11-16 07:05:54,755 INFO main(140) Fetching content from https://joblist.ala.org/job/librarian-iii-american-indian-resource-center/38147034/ 
+2017-11-16 07:05:58,502 INFO main(138) didn't found this link in the db
+2017-11-16 07:05:58,502 INFO main(140) Fetching content from https://joblist.ala.org/job/data-management-specialist/38147408/ 
+2017-11-16 07:06:02,063 INFO main(138) didn't found this link in the db
+2017-11-16 07:06:02,064 INFO main(140) Fetching content from https://joblist.ala.org/job/research-instructional-services-librarian/38147218/ 
+2017-11-16 07:06:06,176 INFO main(138) didn't found this link in the db
+2017-11-16 07:06:06,176 INFO main(140) Fetching content from https://joblist.ala.org/job/head-of-the-library-and-special-collections/38147102/ 
+2017-11-16 07:06:10,959 INFO add_to_db(217) Recording this 38159213 into the db 
+2017-11-16 07:06:10,978 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/head-of-reference-instruction-and-liaison/38159213/ 
+2017-11-16 07:06:13,320 INFO add_to_db(217) Recording this 38159287 into the db 
+2017-11-16 07:06:13,329 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/executive-director/38159287/ 
+2017-11-16 07:06:16,348 INFO add_to_db(217) Recording this 38159167 into the db 
+2017-11-16 07:06:16,358 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/system-director/38159167/ 
+2017-11-16 07:06:19,061 INFO add_to_db(217) Recording this 38147501 into the db 
+2017-11-16 07:06:19,073 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/senior-librarian/38147501/ 
+2017-11-16 07:06:20,968 INFO add_to_db(217) Recording this 38147379 into the db 
+2017-11-16 07:06:20,984 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/two-associate-dean-positions/38147379/ 
+2017-11-16 07:06:23,789 INFO add_to_db(217) Recording this 38173834 into the db 
+2017-11-16 07:06:23,801 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/adult-services-librarian/38173834/ 
+2017-11-16 07:06:25,817 INFO add_to_db(217) Recording this 38173829 into the db 
+2017-11-16 07:06:25,832 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/librarian-ii/38173829/ 
+2017-11-16 07:06:29,419 INFO add_to_db(217) Recording this 38173644 into the db 
+2017-11-16 07:06:29,433 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/digital-outreach-instruction-librarian/38173644/ 
+2017-11-16 07:06:31,602 INFO add_to_db(217) Recording this 38173141 into the db 
+2017-11-16 07:06:31,622 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/city-librarian/38173141/ 
+2017-11-16 07:06:34,181 INFO add_to_db(217) Recording this 38173431 into the db 
+2017-11-16 07:06:34,193 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/industry-documents-library-idl-archivist-associate-librarianlibrarian/38173431/ 
+2017-11-16 07:06:36,915 INFO add_to_db(217) Recording this 38173541 into the db 
+2017-11-16 07:06:36,929 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/information-services-librarian/38173541/ 
+2017-11-16 07:06:38,678 INFO add_to_db(217) Recording this 38173198 into the db 
+2017-11-16 07:06:38,690 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/library-services-specialist-ii-digital-services-division/38173198/ 
+2017-11-16 07:06:41,259 INFO add_to_db(217) Recording this 38173192 into the db 
+2017-11-16 07:06:41,272 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/childrens-services-fairfield-ct-fairfield-public-library-you-belong-here/38173192/ 
+2017-11-16 07:06:43,110 INFO add_to_db(217) Recording this 38173086 into the db 
+2017-11-16 07:06:43,123 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/medical-school-liaison-ul383/38173086/ 
+2017-11-16 07:06:57,846 INFO add_to_db(217) Recording this 38159823 into the db 
+2017-11-16 07:06:57,858 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/library-director/38159823/ 
+2017-11-16 07:07:16,234 INFO add_to_db(217) Recording this 34701149 into the db 
+2017-11-16 07:07:16,244 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/curator-latin-american-and-caribbean-collection-lacc/34701149/ 
+2017-11-16 07:07:18,350 INFO add_to_db(217) Recording this 38147407 into the db 
+2017-11-16 07:07:18,358 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/data-management-specialist/38147407/ 
+2017-11-16 07:07:20,845 INFO add_to_db(217) Recording this 38147034 into the db 
+2017-11-16 07:07:20,858 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/librarian-iii-american-indian-resource-center/38147034/ 
+2017-11-16 07:07:22,820 INFO add_to_db(217) Recording this 38147408 into the db 
+2017-11-16 07:07:22,833 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/data-management-specialist/38147408/ 
+2017-11-16 07:07:24,620 INFO add_to_db(217) Recording this 38147218 into the db 
+2017-11-16 07:07:24,630 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/research-instructional-services-librarian/38147218/ 
+2017-11-16 07:07:27,411 INFO add_to_db(217) Recording this 38147102 into the db 
+2017-11-16 07:07:27,418 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/head-of-the-library-and-special-collections/38147102/ 
+2017-11-16 07:07:32,718 INFO main(138) didn't found this link in the db
+2017-11-16 07:07:32,718 INFO main(140) Fetching content from https://joblist.ala.org/job/health-sciences-librarian/37291843/ 
+2017-11-16 07:07:39,926 INFO main(138) didn't found this link in the db
+2017-11-16 07:07:39,927 INFO main(140) Fetching content from https://joblist.ala.org/job/archivist-for-digital-programs/37681587/ 
+2017-11-16 07:07:45,264 INFO main(138) didn't found this link in the db
+2017-11-16 07:07:45,264 INFO main(140) Fetching content from https://joblist.ala.org/job/foreign-language-catalogers-immediate-openings-updated/36948792/ 
+2017-11-16 07:07:49,366 INFO main(138) didn't found this link in the db
+2017-11-16 07:07:49,367 INFO main(140) Fetching content from https://joblist.ala.org/job/educational-services-librarian-redding-library/37629064/ 
+2017-11-16 07:07:51,938 INFO main(138) didn't found this link in the db
+2017-11-16 07:07:51,938 INFO main(140) Fetching content from https://joblist.ala.org/job/information-literacy-health-sciences-librarian-s00190p/37610452/ 
+2017-11-16 07:07:57,101 INFO main(124) There is no jobs from this page https://joblist.ala.org/jobseeker/search/results/?str=301&max=100&vnet=0&long=1 
+2017-11-16 17:48:14,736 INFO <module>(57) Downloading new jobs... if there is some new :)
+2017-11-16 17:48:18,217 INFO main(138) didn't found this link in the db
+2017-11-16 17:48:18,217 INFO main(140) Fetching content from https://joblist.ala.org/job/ebsco-endowed-chair/38179361/ 
+2017-11-16 17:48:22,683 INFO main(138) didn't found this link in the db
+2017-11-16 17:48:22,683 INFO main(140) Fetching content from https://joblist.ala.org/job/instructional-design-librarian/38178583/ 
+2017-11-16 17:48:27,102 INFO main(138) didn't found this link in the db
+2017-11-16 17:48:27,102 INFO main(140) Fetching content from https://joblist.ala.org/job/instructional-services-librarian/37607379/ 
+2017-11-16 17:48:31,037 INFO main(138) didn't found this link in the db
+2017-11-16 17:48:31,037 INFO main(140) Fetching content from https://joblist.ala.org/job/metadata-librarian/38180995/ 
+2017-11-16 17:48:34,972 INFO main(138) didn't found this link in the db
+2017-11-16 17:48:34,972 INFO main(140) Fetching content from https://joblist.ala.org/job/science-engineering-outreach-librariancomputer-science-engineering-digital-media/38180783/ 
+2017-11-16 17:48:38,377 INFO main(138) didn't found this link in the db
+2017-11-16 17:48:38,377 INFO main(140) Fetching content from https://joblist.ala.org/job/library-services-senior-manager/38179701/ 
+2017-11-16 17:48:42,648 INFO main(138) didn't found this link in the db
+2017-11-16 17:48:42,648 INFO main(140) Fetching content from https://joblist.ala.org/job/science-engineering-outreach-librariandata-focus/38180703/ 
+2017-11-16 17:48:46,721 INFO main(138) didn't found this link in the db
+2017-11-16 17:48:46,721 INFO main(140) Fetching content from https://joblist.ala.org/job/electronic-resources-librarian/38180066/ 
+2017-11-16 17:48:50,357 INFO main(138) didn't found this link in the db
+2017-11-16 17:48:50,358 INFO main(140) Fetching content from https://joblist.ala.org/job/virtual-learning-and-outreach-reference-librarian/38179477/ 
+2017-11-16 17:48:54,432 INFO main(138) didn't found this link in the db
+2017-11-16 17:48:54,432 INFO main(140) Fetching content from https://joblist.ala.org/job/associate-library-director-for-collections-and-resource-management/38178869/ 
+2017-11-16 17:48:57,904 INFO add_to_db(217) Recording this 38179361 into the db 
+2017-11-16 17:48:57,916 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/ebsco-endowed-chair/38179361/ 
+2017-11-16 17:48:59,711 INFO add_to_db(217) Recording this 38178583 into the db 
+2017-11-16 17:48:59,720 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/instructional-design-librarian/38178583/ 
+2017-11-16 17:49:01,528 INFO add_to_db(217) Recording this 38180995 into the db 
+2017-11-16 17:49:01,537 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/metadata-librarian/38180995/ 
+2017-11-16 17:49:03,159 INFO add_to_db(217) Recording this 38180783 into the db 
+2017-11-16 17:49:03,176 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/science-engineering-outreach-librariancomputer-science-engineering-digital-media/38180783/ 
+2017-11-16 17:49:04,489 INFO add_to_db(217) Recording this 38179701 into the db 
+2017-11-16 17:49:04,502 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/library-services-senior-manager/38179701/ 
+2017-11-16 17:49:06,273 INFO add_to_db(217) Recording this 38180703 into the db 
+2017-11-16 17:49:06,286 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/science-engineering-outreach-librariandata-focus/38180703/ 
+2017-11-16 17:49:07,702 INFO add_to_db(217) Recording this 38180066 into the db 
+2017-11-16 17:49:07,714 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/electronic-resources-librarian/38180066/ 
+2017-11-16 17:49:09,096 INFO add_to_db(217) Recording this 38179477 into the db 
+2017-11-16 17:49:09,106 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/virtual-learning-and-outreach-reference-librarian/38179477/ 
+2017-11-16 17:49:10,871 INFO add_to_db(217) Recording this 38178869 into the db 
+2017-11-16 17:49:10,878 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/associate-library-director-for-collections-and-resource-management/38178869/ 
+2017-11-16 17:49:14,752 INFO main(138) didn't found this link in the db
+2017-11-16 17:49:14,753 INFO main(140) Fetching content from https://joblist.ala.org/job/coordinator-of-resource-acquisition-and-management/38049659/ 
+2017-11-16 17:49:18,536 INFO main(138) didn't found this link in the db
+2017-11-16 17:49:18,536 INFO main(140) Fetching content from https://joblist.ala.org/job/health-sciences-librarian/37291843/ 
+2017-11-16 17:49:25,207 INFO main(138) didn't found this link in the db
+2017-11-16 17:49:25,207 INFO main(140) Fetching content from https://joblist.ala.org/job/archivist-for-digital-programs/37681587/ 
+2017-11-16 17:49:29,294 INFO main(138) didn't found this link in the db
+2017-11-16 17:49:29,294 INFO main(140) Fetching content from https://joblist.ala.org/job/foreign-language-catalogers-immediate-openings-updated/36948792/ 
+2017-11-16 17:49:34,325 INFO main(138) didn't found this link in the db
+2017-11-16 17:49:34,325 INFO main(140) Fetching content from https://joblist.ala.org/job/educational-services-librarian-redding-library/37629064/ 
+2017-11-16 17:49:37,261 INFO main(138) didn't found this link in the db
+2017-11-16 17:49:37,262 INFO main(140) Fetching content from https://joblist.ala.org/job/information-literacy-health-sciences-librarian-s00190p/37610452/ 
+2017-11-16 17:49:42,408 INFO main(124) There is no jobs from this page https://joblist.ala.org/jobseeker/search/results/?str=301&max=100&vnet=0&long=1 
+2017-11-18 06:17:02,772 INFO <module>(57) Downloading new jobs... if there is some new :)
+2017-11-18 06:17:05,871 INFO main(138) didn't found this link in the db
+2017-11-18 06:17:05,871 INFO main(140) Fetching content from https://joblist.ala.org/job/chief-of-collections-and-technical-services/38186263/ 
+2017-11-18 06:17:10,060 INFO main(138) didn't found this link in the db
+2017-11-18 06:17:10,060 INFO main(140) Fetching content from https://joblist.ala.org/job/collection-development-assessment-librarian/38180519/ 
+2017-11-18 06:17:13,960 INFO main(138) didn't found this link in the db
+2017-11-18 06:17:13,960 INFO main(140) Fetching content from https://joblist.ala.org/job/instructional-services-librarian/37607379/ 
+2017-11-18 06:17:17,570 INFO main(138) didn't found this link in the db
+2017-11-18 06:17:17,571 INFO main(140) Fetching content from https://joblist.ala.org/job/information-technologies-librarian/38187382/ 
+2017-11-18 06:17:21,426 INFO main(138) didn't found this link in the db
+2017-11-18 06:17:21,427 INFO main(140) Fetching content from https://joblist.ala.org/job/visual-materials-cataloger-assistant-archivist/38186339/ 
+2017-11-18 06:17:24,712 INFO main(138) didn't found this link in the db
+2017-11-18 06:17:24,712 INFO main(140) Fetching content from https://joblist.ala.org/job/senior-assistant-librarian/38186129/ 
+2017-11-18 06:17:27,971 INFO main(138) didn't found this link in the db
+2017-11-18 06:17:27,972 INFO main(140) Fetching content from https://joblist.ala.org/job/physical-sciences-and-engineering-department-director-ul382/38185891/ 
+2017-11-18 06:17:32,041 INFO main(138) didn't found this link in the db
+2017-11-18 06:17:32,041 INFO main(140) Fetching content from https://joblist.ala.org/job/humanities-librarian-for-history-philosophy-and-religion/38185408/ 
+2017-11-18 06:17:34,468 INFO main(138) didn't found this link in the db
+2017-11-18 06:17:34,474 INFO main(140) Fetching content from https://joblist.ala.org/job/metadata-librarian/38185403/ 
+2017-11-18 06:17:39,790 INFO main(138) didn't found this link in the db
+2017-11-18 06:17:39,790 INFO main(140) Fetching content from https://joblist.ala.org/job/reference-librarian-instruction-coordinator/38185208/ 
+2017-11-18 06:17:41,973 INFO main(138) didn't found this link in the db
+2017-11-18 06:17:41,973 INFO main(140) Fetching content from https://joblist.ala.org/job/library-director/38184999/ 
+2017-11-18 06:17:51,140 INFO main(138) didn't found this link in the db
+2017-11-18 06:17:51,141 INFO main(140) Fetching content from https://joblist.ala.org/job/discovery-and-metadata-coordinator-librarian-r97034/38184628/ 
+2017-11-18 06:18:02,934 INFO main(138) didn't found this link in the db
+2017-11-18 06:18:02,940 INFO main(140) Fetching content from https://joblist.ala.org/job/library-management-systems-expert-consultant/38181338/ 
+2017-11-18 06:18:11,558 INFO main(138) didn't found this link in the db
+2017-11-18 06:18:11,559 INFO main(140) Fetching content from https://joblist.ala.org/job/dean-of-library-services/38179690/ 
+2017-11-18 06:18:16,377 INFO add_to_db(217) Recording this 38186263 into the db 
+2017-11-18 06:18:16,417 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/chief-of-collections-and-technical-services/38186263/ 
+2017-11-18 06:18:18,913 INFO add_to_db(217) Recording this 38180519 into the db 
+2017-11-18 06:18:18,948 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/collection-development-assessment-librarian/38180519/ 
+2017-11-18 06:18:21,300 INFO add_to_db(217) Recording this 38187382 into the db 
+2017-11-18 06:18:21,321 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/information-technologies-librarian/38187382/ 
+2017-11-18 06:18:22,936 INFO add_to_db(217) Recording this 38186339 into the db 
+2017-11-18 06:18:22,959 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/visual-materials-cataloger-assistant-archivist/38186339/ 
+2017-11-18 06:18:25,666 INFO add_to_db(217) Recording this 38186129 into the db 
+2017-11-18 06:18:25,701 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/senior-assistant-librarian/38186129/ 
+2017-11-18 06:18:28,002 INFO add_to_db(217) Recording this 38185891 into the db 
+2017-11-18 06:18:28,009 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/physical-sciences-and-engineering-department-director-ul382/38185891/ 
+2017-11-18 06:18:29,566 INFO add_to_db(217) Recording this 38185408 into the db 
+2017-11-18 06:18:29,576 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/humanities-librarian-for-history-philosophy-and-religion/38185408/ 
+2017-11-18 06:18:31,283 INFO add_to_db(217) Recording this 38185403 into the db 
+2017-11-18 06:18:31,292 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/metadata-librarian/38185403/ 
+2017-11-18 06:18:35,541 INFO add_to_db(217) Recording this 38185208 into the db 
+2017-11-18 06:18:35,553 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/reference-librarian-instruction-coordinator/38185208/ 
+2017-11-18 06:18:37,384 INFO add_to_db(217) Recording this 38184999 into the db 
+2017-11-18 06:18:37,410 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/library-director/38184999/ 
+2017-11-18 06:18:38,953 INFO add_to_db(217) Recording this 38184628 into the db 
+2017-11-18 06:18:38,982 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/discovery-and-metadata-coordinator-librarian-r97034/38184628/ 
+2017-11-18 06:18:41,660 INFO add_to_db(217) Recording this 38181338 into the db 
+2017-11-18 06:18:41,669 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/library-management-systems-expert-consultant/38181338/ 
+2017-11-18 06:18:43,405 INFO add_to_db(217) Recording this 38179690 into the db 
+2017-11-18 06:18:43,418 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/dean-of-library-services/38179690/ 
+2017-11-18 06:18:48,787 INFO main(138) didn't found this link in the db
+2017-11-18 06:18:48,788 INFO main(140) Fetching content from https://joblist.ala.org/job/coordinator-of-resource-acquisition-and-management/38049659/ 
+2017-11-18 06:18:52,554 INFO main(138) didn't found this link in the db
+2017-11-18 06:18:52,554 INFO main(140) Fetching content from https://joblist.ala.org/job/metadata-architect/37946900/ 
+2017-11-18 06:18:56,719 INFO main(138) didn't found this link in the db
+2017-11-18 06:18:56,720 INFO main(140) Fetching content from https://joblist.ala.org/job/senior-visual-designer/37939633/ 
+2017-11-18 06:19:01,346 INFO main(138) didn't found this link in the db
+2017-11-18 06:19:01,347 INFO main(140) Fetching content from https://joblist.ala.org/job/curator-of-vehicles/37925820/ 
+2017-11-18 06:19:09,101 INFO main(138) didn't found this link in the db
+2017-11-18 06:19:09,101 INFO main(140) Fetching content from https://joblist.ala.org/job/collections-manager-library-services/37912563/ 
+2017-11-18 06:19:14,693 INFO main(138) didn't found this link in the db
+2017-11-18 06:19:14,693 INFO main(140) Fetching content from https://joblist.ala.org/job/archivist/37894831/ 
+2017-11-18 06:19:18,852 INFO main(138) didn't found this link in the db
+2017-11-18 06:19:18,853 INFO main(140) Fetching content from https://joblist.ala.org/job/health-sciences-librarian/37291843/ 
+2017-11-18 06:19:22,688 INFO main(138) didn't found this link in the db
+2017-11-18 06:19:22,688 INFO main(140) Fetching content from https://joblist.ala.org/job/library-assistant/37801553/ 
+2017-11-18 06:19:24,664 INFO add_to_db(217) Recording this 37946900 into the db 
+2017-11-18 06:19:24,674 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/metadata-architect/37946900/ 
+2017-11-18 06:19:26,500 INFO add_to_db(217) Recording this 37939633 into the db 
+2017-11-18 06:19:26,512 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/senior-visual-designer/37939633/ 
+2017-11-18 06:19:29,015 INFO add_to_db(217) Recording this 37925820 into the db 
+2017-11-18 06:19:29,030 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/curator-of-vehicles/37925820/ 
+2017-11-18 06:19:30,532 INFO add_to_db(217) Recording this 37912563 into the db 
+2017-11-18 06:19:30,546 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/collections-manager-library-services/37912563/ 
+2017-11-18 06:19:32,901 INFO add_to_db(217) Recording this 37894831 into the db 
+2017-11-18 06:19:32,910 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/archivist/37894831/ 
+2017-11-18 06:19:35,288 INFO add_to_db(217) Recording this 37801553 into the db 
+2017-11-18 06:19:35,298 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/library-assistant/37801553/ 
+2017-11-18 06:19:40,255 INFO main(138) didn't found this link in the db
+2017-11-18 06:19:40,255 INFO main(140) Fetching content from https://joblist.ala.org/job/archivist-for-digital-programs/37681587/ 
+2017-11-18 06:19:45,109 INFO main(138) didn't found this link in the db
+2017-11-18 06:19:45,109 INFO main(140) Fetching content from https://joblist.ala.org/job/foreign-language-catalogers-immediate-openings-updated/36948792/ 
+2017-11-18 06:19:49,120 INFO main(138) didn't found this link in the db
+2017-11-18 06:19:49,120 INFO main(140) Fetching content from https://joblist.ala.org/job/educational-services-librarian-redding-library/37629064/ 
+2017-11-18 06:19:52,886 INFO main(138) didn't found this link in the db
+2017-11-18 06:19:52,886 INFO main(140) Fetching content from https://joblist.ala.org/job/information-literacy-health-sciences-librarian-s00190p/37610452/ 
+2017-11-18 06:19:57,993 INFO main(124) There is no jobs from this page https://joblist.ala.org/jobseeker/search/results/?str=301&max=100&vnet=0&long=1 
+2017-11-27 15:23:10,541 INFO <module>(57) Downloading new jobs... if there is some new :)
+2017-11-27 15:23:16,440 INFO main(138) didn't found this link in the db
+2017-11-27 15:23:16,441 INFO main(140) Fetching content from https://joblist.ala.org/job/assistantassociate-professor-research-services-librarian/38184699/ 
+2017-11-27 15:23:20,098 INFO main(138) didn't found this link in the db
+2017-11-27 15:23:20,098 INFO main(140) Fetching content from https://joblist.ala.org/job/research-data-metadata-librarian/38215047/ 
+2017-11-27 15:23:23,810 INFO main(138) didn't found this link in the db
+2017-11-27 15:23:23,811 INFO main(140) Fetching content from https://joblist.ala.org/job/technical-services-librarian/38212282/ 
+2017-11-27 15:23:28,295 INFO main(138) didn't found this link in the db
+2017-11-27 15:23:28,295 INFO main(140) Fetching content from https://joblist.ala.org/job/executive-director-of-the-suny-libraries-consortium/38212235/ 
+2017-11-27 15:23:31,834 INFO main(138) didn't found this link in the db
+2017-11-27 15:23:31,834 INFO main(140) Fetching content from https://joblist.ala.org/job/dean-of-libraries/38211969/ 
+2017-11-27 15:23:35,983 INFO main(138) didn't found this link in the db
+2017-11-27 15:23:35,983 INFO main(140) Fetching content from https://joblist.ala.org/job/library-director/38209560/ 
+2017-11-27 15:23:39,871 INFO main(138) didn't found this link in the db
+2017-11-27 15:23:39,871 INFO main(140) Fetching content from https://joblist.ala.org/job/integrated-library-system-coordinator/38204199/ 
+2017-11-27 15:23:43,485 INFO main(138) didn't found this link in the db
+2017-11-27 15:23:43,486 INFO main(140) Fetching content from https://joblist.ala.org/job/research-servicesinstruction-librarian/38204204/ 
+2017-11-27 15:23:46,646 INFO main(138) didn't found this link in the db
+2017-11-27 15:23:46,646 INFO main(140) Fetching content from https://joblist.ala.org/job/program-manager/38203685/ 
+2017-11-27 15:23:50,241 INFO main(138) didn't found this link in the db
+2017-11-27 15:23:50,241 INFO main(140) Fetching content from https://joblist.ala.org/job/state-librarian/37295995/ 
+2017-11-27 15:23:54,493 INFO main(138) didn't found this link in the db
+2017-11-27 15:23:54,493 INFO main(140) Fetching content from https://joblist.ala.org/job/community-branch-manager-librarian-iii/38286235/ 
+2017-11-27 15:23:57,869 INFO main(138) didn't found this link in the db
+2017-11-27 15:23:57,870 INFO main(140) Fetching content from https://joblist.ala.org/job/associate-dean-of-uc-libraries/38286073/ 
+2017-11-27 15:24:01,745 INFO main(138) didn't found this link in the db
+2017-11-27 15:24:01,745 INFO main(140) Fetching content from https://joblist.ala.org/job/public-services-librarian-for-the-nestle-library/38285625/ 
+2017-11-27 15:24:05,224 INFO main(138) didn't found this link in the db
+2017-11-27 15:24:05,224 INFO main(140) Fetching content from https://joblist.ala.org/job/open-rank-assistantassociatefull-professor/38234784/ 
+2017-11-27 15:24:08,645 INFO main(138) didn't found this link in the db
+2017-11-27 15:24:08,645 INFO main(140) Fetching content from https://joblist.ala.org/job/assistantassociate-librarian-web-and-discovery-services/38229517/ 
+2017-11-27 15:24:11,842 INFO main(138) didn't found this link in the db
+2017-11-27 15:24:11,843 INFO main(140) Fetching content from https://joblist.ala.org/job/astronomer/38228361/ 
+2017-11-27 15:24:15,522 INFO main(138) didn't found this link in the db
+2017-11-27 15:24:15,522 INFO main(140) Fetching content from https://joblist.ala.org/job/associate-dean-and-chief-librarian/38228358/ 
+2017-11-27 15:24:18,824 INFO main(138) didn't found this link in the db
+2017-11-27 15:24:18,825 INFO main(140) Fetching content from https://joblist.ala.org/job/director-of-library-technology-services/38227987/ 
+2017-11-27 15:24:22,686 INFO main(138) didn't found this link in the db
+2017-11-27 15:24:22,686 INFO main(140) Fetching content from https://joblist.ala.org/job/coordinating-librarian-adult-services/38227890/ 
+2017-11-27 15:24:25,131 INFO main(138) didn't found this link in the db
+2017-11-27 15:24:25,131 INFO main(140) Fetching content from https://joblist.ala.org/job/frontline-services-supervisor/38226873/ 
+2017-11-27 15:24:28,540 INFO main(138) didn't found this link in the db
+2017-11-27 15:24:28,540 INFO main(140) Fetching content from https://joblist.ala.org/job/open-knowledge-librarian/38226607/ 
+2017-11-27 15:24:30,788 INFO main(138) didn't found this link in the db
+2017-11-27 15:24:30,788 INFO main(140) Fetching content from https://joblist.ala.org/job/central-library-manager-librarian-iv/38225878/ 
+2017-11-27 15:24:32,776 INFO main(138) didn't found this link in the db
+2017-11-27 15:24:32,776 INFO main(140) Fetching content from https://joblist.ala.org/job/student-engagement-librarian/38226226/ 
+2017-11-27 15:24:36,257 INFO main(138) didn't found this link in the db
+2017-11-27 15:24:36,257 INFO main(140) Fetching content from https://joblist.ala.org/job/coordinator-for-library-assessment/38205304/ 
+2017-11-27 15:24:39,631 INFO main(138) didn't found this link in the db
+2017-11-27 15:24:39,631 INFO main(140) Fetching content from https://joblist.ala.org/job/dean-of-library-and-learning-support-services/38226733/ 
+2017-11-27 15:24:43,448 INFO main(138) didn't found this link in the db
+2017-11-27 15:24:43,448 INFO main(140) Fetching content from https://joblist.ala.org/job/director-of-library-services/38226391/ 
+2017-11-27 15:24:47,087 INFO main(138) didn't found this link in the db
+2017-11-27 15:24:47,087 INFO main(140) Fetching content from https://joblist.ala.org/job/inclusion-and-outreach-librarian/38215696/ 
+2017-11-27 15:24:50,720 INFO main(138) didn't found this link in the db
+2017-11-27 15:24:50,721 INFO main(140) Fetching content from https://joblist.ala.org/job/cooperative-library-services-manager/38214672/ 
+2017-11-27 15:24:54,443 INFO main(138) didn't found this link in the db
+2017-11-27 15:24:54,443 INFO main(140) Fetching content from https://joblist.ala.org/job/digital-preservation-librarian/38214121/ 
+2017-11-27 15:24:57,964 INFO main(138) didn't found this link in the db
+2017-11-27 15:24:57,964 INFO main(140) Fetching content from https://joblist.ala.org/job/vice-provost-for-university-libraries-university-librarian/38213004/ 
+2017-11-27 15:25:01,573 INFO main(138) didn't found this link in the db
+2017-11-27 15:25:01,573 INFO main(140) Fetching content from https://joblist.ala.org/job/social-science-research-support-librarian/38212854/ 
+2017-11-27 15:25:04,945 INFO main(138) didn't found this link in the db
+2017-11-27 15:25:04,946 INFO main(140) Fetching content from https://joblist.ala.org/job/deputy-library-director/38210726/ 
+2017-11-27 15:25:08,839 INFO main(138) didn't found this link in the db
+2017-11-27 15:25:08,839 INFO main(140) Fetching content from https://joblist.ala.org/job/social-sciences-librarian-fa016z/38211781/ 
+2017-11-27 15:25:12,504 INFO main(138) didn't found this link in the db
+2017-11-27 15:25:12,504 INFO main(140) Fetching content from https://joblist.ala.org/job/data-librarian/38210835/ 
+2017-11-27 15:25:16,030 INFO main(138) didn't found this link in the db
+2017-11-27 15:25:16,031 INFO main(140) Fetching content from https://joblist.ala.org/job/senior-librarian-youth-services/38210322/ 
+2017-11-27 15:25:19,865 INFO main(138) didn't found this link in the db
+2017-11-27 15:25:19,865 INFO main(140) Fetching content from https://joblist.ala.org/job/assistant-director-public-services/38210131/ 
+2017-11-27 15:25:23,034 INFO main(138) didn't found this link in the db
+2017-11-27 15:25:23,035 INFO main(140) Fetching content from https://joblist.ala.org/job/student-engagement-librarian-r99682/38209564/ 
+2017-11-27 15:25:26,800 INFO main(138) didn't found this link in the db
+2017-11-27 15:25:26,800 INFO main(140) Fetching content from https://joblist.ala.org/job/head-of-cataloging/38203583/ 
+2017-11-27 15:25:31,135 INFO main(138) didn't found this link in the db
+2017-11-27 15:25:31,135 INFO main(140) Fetching content from https://joblist.ala.org/job/librariancurator-for-international-studies-and-special-projects-coordinator/38206187/ 
+2017-11-27 15:25:34,234 INFO main(138) didn't found this link in the db
+2017-11-27 15:25:34,235 INFO main(140) Fetching content from https://joblist.ala.org/job/student-success-librarian/38205818/ 
+2017-11-27 15:25:38,770 INFO main(138) didn't found this link in the db
+2017-11-27 15:25:38,770 INFO main(140) Fetching content from https://joblist.ala.org/job/assistant-vice-president-library-and-learning-resources/38204202/ 
+2017-11-27 15:25:43,522 INFO main(138) didn't found this link in the db
+2017-11-27 15:25:43,522 INFO main(140) Fetching content from https://joblist.ala.org/job/library-director/38203787/ 
+2017-11-27 15:25:48,183 INFO main(138) didn't found this link in the db
+2017-11-27 15:25:48,183 INFO main(140) Fetching content from https://joblist.ala.org/job/fashion-institute-of-technology-head-of-research-and-instructional-services-librarian/38203286/ 
+2017-11-27 15:25:52,049 INFO main(138) didn't found this link in the db
+2017-11-27 15:25:52,049 INFO main(140) Fetching content from https://joblist.ala.org/job/customer-insights-research-director/38203138/ 
+2017-11-27 15:25:56,075 INFO main(138) didn't found this link in the db
+2017-11-27 15:25:56,075 INFO main(140) Fetching content from https://joblist.ala.org/job/chief-of-academic-services/38202241/ 
+2017-11-27 15:25:59,400 INFO main(138) didn't found this link in the db
+2017-11-27 15:25:59,400 INFO main(140) Fetching content from https://joblist.ala.org/job/caleb-t-winchester-university-librarian/38192690/ 
+2017-11-27 15:26:03,079 INFO main(138) didn't found this link in the db
+2017-11-27 15:26:03,079 INFO main(140) Fetching content from https://joblist.ala.org/job/e-resources-librarian-s00442p/37495777/ 
+2017-11-27 15:26:05,089 INFO main(138) didn't found this link in the db
+2017-11-27 15:26:05,090 INFO main(140) Fetching content from https://joblist.ala.org/job/information-literacy-health-sciences-librarian-s00190p/37610452/ 
+2017-11-27 15:26:07,896 INFO main(138) didn't found this link in the db
+2017-11-27 15:26:07,896 INFO main(140) Fetching content from https://joblist.ala.org/job/health-sciences-librarian/38186129/ 
+2017-11-27 15:26:11,916 INFO add_to_db(217) Recording this 38184699 into the db 
+2017-11-27 15:26:11,928 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/assistantassociate-professor-research-services-librarian/38184699/ 
+2017-11-27 15:26:15,491 INFO add_to_db(217) Recording this 38215047 into the db 
+2017-11-27 15:26:15,502 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/research-data-metadata-librarian/38215047/ 
+2017-11-27 15:26:21,227 INFO add_to_db(217) Recording this 38212282 into the db 
+2017-11-27 15:26:21,241 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/technical-services-librarian/38212282/ 
+2017-11-27 15:26:26,748 INFO add_to_db(217) Recording this 38212235 into the db 
+2017-11-27 15:26:26,757 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/executive-director-of-the-suny-libraries-consortium/38212235/ 
+2017-11-27 15:26:35,095 INFO add_to_db(217) Recording this 38211969 into the db 
+2017-11-27 15:26:35,107 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/dean-of-libraries/38211969/ 
+2017-11-27 15:26:43,447 INFO add_to_db(217) Recording this 38209560 into the db 
+2017-11-27 15:26:43,459 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/library-director/38209560/ 
+2017-11-27 15:26:51,539 INFO add_to_db(217) Recording this 38204199 into the db 
+2017-11-27 15:26:51,550 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/integrated-library-system-coordinator/38204199/ 
+2017-11-27 15:27:00,413 INFO add_to_db(217) Recording this 38204204 into the db 
+2017-11-27 15:27:00,427 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/research-servicesinstruction-librarian/38204204/ 
+2017-11-27 15:27:03,540 INFO add_to_db(217) Recording this 38203685 into the db 
+2017-11-27 15:27:03,551 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/program-manager/38203685/ 
+2017-11-27 15:27:06,307 INFO add_to_db(217) Recording this 38286235 into the db 
+2017-11-27 15:27:06,317 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/community-branch-manager-librarian-iii/38286235/ 
+2017-11-27 15:27:09,179 INFO add_to_db(217) Recording this 38286073 into the db 
+2017-11-27 15:27:09,189 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/associate-dean-of-uc-libraries/38286073/ 
+2017-11-27 15:27:11,169 INFO add_to_db(217) Recording this 38285625 into the db 
+2017-11-27 15:27:11,181 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/public-services-librarian-for-the-nestle-library/38285625/ 
+2017-11-27 15:27:13,145 INFO add_to_db(217) Recording this 38234784 into the db 
+2017-11-27 15:27:13,159 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/open-rank-assistantassociatefull-professor/38234784/ 
+2017-11-27 15:27:15,364 INFO add_to_db(217) Recording this 38229517 into the db 
+2017-11-27 15:27:15,375 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/assistantassociate-librarian-web-and-discovery-services/38229517/ 
+2017-11-27 15:27:17,296 INFO add_to_db(217) Recording this 38228361 into the db 
+2017-11-27 15:27:17,308 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/astronomer/38228361/ 
+2017-11-27 15:27:19,962 INFO add_to_db(217) Recording this 38228358 into the db 
+2017-11-27 15:27:19,977 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/associate-dean-and-chief-librarian/38228358/ 
+2017-11-27 15:27:22,077 INFO add_to_db(217) Recording this 38227987 into the db 
+2017-11-27 15:27:22,093 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/director-of-library-technology-services/38227987/ 
+2017-11-27 15:27:24,705 INFO add_to_db(217) Recording this 38227890 into the db 
+2017-11-27 15:27:24,714 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/coordinating-librarian-adult-services/38227890/ 
+2017-11-27 15:27:26,820 INFO add_to_db(217) Recording this 38226873 into the db 
+2017-11-27 15:27:26,831 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/frontline-services-supervisor/38226873/ 
+2017-11-27 15:27:28,800 INFO add_to_db(217) Recording this 38226607 into the db 
+2017-11-27 15:27:28,812 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/open-knowledge-librarian/38226607/ 
+2017-11-27 15:27:30,808 INFO add_to_db(217) Recording this 38225878 into the db 
+2017-11-27 15:27:30,822 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/central-library-manager-librarian-iv/38225878/ 
+2017-11-27 15:27:32,568 INFO add_to_db(217) Recording this 38226226 into the db 
+2017-11-27 15:27:32,582 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/student-engagement-librarian/38226226/ 
+2017-11-27 15:27:34,823 INFO add_to_db(217) Recording this 38205304 into the db 
+2017-11-27 15:27:34,834 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/coordinator-for-library-assessment/38205304/ 
+2017-11-27 15:27:36,583 INFO add_to_db(217) Recording this 38226733 into the db 
+2017-11-27 15:27:36,595 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/dean-of-library-and-learning-support-services/38226733/ 
+2017-11-27 15:27:38,759 INFO add_to_db(217) Recording this 38226391 into the db 
+2017-11-27 15:27:38,774 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/director-of-library-services/38226391/ 
+2017-11-27 15:27:40,863 INFO add_to_db(217) Recording this 38215696 into the db 
+2017-11-27 15:27:40,874 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/inclusion-and-outreach-librarian/38215696/ 
+2017-11-27 15:27:42,896 INFO add_to_db(217) Recording this 38214672 into the db 
+2017-11-27 15:27:42,910 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/cooperative-library-services-manager/38214672/ 
+2017-11-27 15:27:45,136 INFO add_to_db(217) Recording this 38214121 into the db 
+2017-11-27 15:27:45,148 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/digital-preservation-librarian/38214121/ 
+2017-11-27 15:27:47,094 INFO add_to_db(217) Recording this 38213004 into the db 
+2017-11-27 15:27:47,108 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/vice-provost-for-university-libraries-university-librarian/38213004/ 
+2017-11-27 15:27:49,975 INFO add_to_db(217) Recording this 38212854 into the db 
+2017-11-27 15:27:49,987 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/social-science-research-support-librarian/38212854/ 
+2017-11-27 15:27:51,834 INFO add_to_db(217) Recording this 38210726 into the db 
+2017-11-27 15:27:51,843 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/deputy-library-director/38210726/ 
+2017-11-27 15:27:53,903 INFO add_to_db(217) Recording this 38211781 into the db 
+2017-11-27 15:27:53,915 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/social-sciences-librarian-fa016z/38211781/ 
+2017-11-27 15:27:55,767 INFO add_to_db(217) Recording this 38210835 into the db 
+2017-11-27 15:27:55,780 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/data-librarian/38210835/ 
+2017-11-27 15:27:57,725 INFO add_to_db(217) Recording this 38210322 into the db 
+2017-11-27 15:27:57,737 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/senior-librarian-youth-services/38210322/ 
+2017-11-27 15:27:59,777 INFO add_to_db(217) Recording this 38210131 into the db 
+2017-11-27 15:27:59,789 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/assistant-director-public-services/38210131/ 
+2017-11-27 15:28:01,850 INFO add_to_db(217) Recording this 38209564 into the db 
+2017-11-27 15:28:01,864 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/student-engagement-librarian-r99682/38209564/ 
+2017-11-27 15:28:05,015 INFO add_to_db(217) Recording this 38203583 into the db 
+2017-11-27 15:28:05,028 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/head-of-cataloging/38203583/ 
+2017-11-27 15:28:06,864 INFO add_to_db(217) Recording this 38206187 into the db 
+2017-11-27 15:28:06,876 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/librariancurator-for-international-studies-and-special-projects-coordinator/38206187/ 
+2017-11-27 15:28:08,950 INFO add_to_db(217) Recording this 38205818 into the db 
+2017-11-27 15:28:08,964 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/student-success-librarian/38205818/ 
+2017-11-27 15:28:11,053 INFO add_to_db(217) Recording this 38204202 into the db 
+2017-11-27 15:28:11,063 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/assistant-vice-president-library-and-learning-resources/38204202/ 
+2017-11-27 15:28:13,270 INFO add_to_db(217) Recording this 38203787 into the db 
+2017-11-27 15:28:13,285 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/library-director/38203787/ 
+2017-11-27 15:28:15,486 INFO add_to_db(217) Recording this 38203286 into the db 
+2017-11-27 15:28:15,502 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/fashion-institute-of-technology-head-of-research-and-instructional-services-librarian/38203286/ 
+2017-11-27 15:28:17,511 INFO add_to_db(217) Recording this 38203138 into the db 
+2017-11-27 15:28:17,523 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/customer-insights-research-director/38203138/ 
+2017-11-27 15:28:19,546 INFO add_to_db(217) Recording this 38202241 into the db 
+2017-11-27 15:28:19,560 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/chief-of-academic-services/38202241/ 
+2017-11-27 15:28:21,759 INFO add_to_db(217) Recording this 38192690 into the db 
+2017-11-27 15:28:21,774 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/caleb-t-winchester-university-librarian/38192690/ 
+2017-11-27 15:28:26,535 INFO main(138) didn't found this link in the db
+2017-11-27 15:28:26,535 INFO main(140) Fetching content from https://joblist.ala.org/job/social-sciences-librarian/38173829/ 
+2017-11-27 15:28:30,358 INFO main(138) didn't found this link in the db
+2017-11-27 15:28:30,359 INFO main(140) Fetching content from https://joblist.ala.org/job/web-social-media-specialist/38147091/ 
+2017-11-27 15:28:33,821 INFO main(138) didn't found this link in the db
+2017-11-27 15:28:33,822 INFO main(140) Fetching content from https://joblist.ala.org/job/coordinator-of-resource-acquisition-and-management/38049659/ 
+2017-11-27 15:28:37,341 INFO add_to_db(217) Recording this 38147091 into the db 
+2017-11-27 15:28:37,349 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/web-social-media-specialist/38147091/ 
+2017-11-27 15:28:41,738 INFO main(138) didn't found this link in the db
+2017-11-27 15:28:41,738 INFO main(140) Fetching content from https://joblist.ala.org/job/health-sciences-librarian/37291843/ 
+2017-11-27 15:28:47,534 INFO main(124) There is no jobs from this page https://joblist.ala.org/jobseeker/search/results/?str=301&max=100&vnet=0&long=1 
+2017-11-28 00:05:13,053 INFO <module>(57) Downloading new jobs... if there is some new :)
+2017-11-28 00:05:16,842 INFO main(138) didn't found this link in the db
+2017-11-28 00:05:16,842 INFO main(140) Fetching content from https://joblist.ala.org/job/anticipated-probationary-school-library-media-specialist/38286611/ 
+2017-11-28 00:05:20,436 INFO main(138) didn't found this link in the db
+2017-11-28 00:05:20,436 INFO main(140) Fetching content from https://joblist.ala.org/job/state-librarian/37295995/ 
+2017-11-28 00:05:25,201 INFO main(138) didn't found this link in the db
+2017-11-28 00:05:25,201 INFO main(140) Fetching content from https://joblist.ala.org/job/youth-services-manager/38286646/ 
+2017-11-28 00:05:30,681 INFO main(138) didn't found this link in the db
+2017-11-28 00:05:30,681 INFO main(140) Fetching content from https://joblist.ala.org/job/library-director/38286636/ 
+2017-11-28 00:05:35,312 INFO main(138) didn't found this link in the db
+2017-11-28 00:05:35,312 INFO main(140) Fetching content from https://joblist.ala.org/job/e-resources-librarian-s00442p/37495777/ 
+2017-11-28 00:05:37,266 INFO main(138) didn't found this link in the db
+2017-11-28 00:05:37,266 INFO main(140) Fetching content from https://joblist.ala.org/job/information-literacy-health-sciences-librarian-s00190p/37610452/ 
+2017-11-28 00:05:39,166 INFO main(138) didn't found this link in the db
+2017-11-28 00:05:39,166 INFO main(140) Fetching content from https://joblist.ala.org/job/health-sciences-librarian/38186129/ 
+2017-11-28 00:05:42,503 INFO add_to_db(217) Recording this 38286611 into the db 
+2017-11-28 00:05:42,518 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/anticipated-probationary-school-library-media-specialist/38286611/ 
+2017-11-28 00:05:44,893 INFO add_to_db(217) Recording this 38286646 into the db 
+2017-11-28 00:05:44,902 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/youth-services-manager/38286646/ 
+2017-11-28 00:05:46,484 INFO add_to_db(217) Recording this 38286636 into the db 
+2017-11-28 00:05:46,496 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/library-director/38286636/ 
+2017-11-28 00:05:50,986 INFO main(138) didn't found this link in the db
+2017-11-28 00:05:50,987 INFO main(140) Fetching content from https://joblist.ala.org/job/social-sciences-librarian/38173829/ 
+2017-11-28 00:05:55,862 INFO main(138) didn't found this link in the db
+2017-11-28 00:05:55,862 INFO main(140) Fetching content from https://joblist.ala.org/job/coordinator-of-resource-acquisition-and-management/38049659/ 
+2017-11-28 00:06:05,541 INFO main(124) There is no jobs from this page https://joblist.ala.org/jobseeker/search/results/?str=301&max=100&vnet=0&long=1 
+2017-11-29 07:56:03,618 INFO <module>(57) Downloading new jobs... if there is some new :)
+2017-11-29 07:56:09,529 INFO main(138) didn't found this link in the db
+2017-11-29 07:56:09,529 INFO main(140) Fetching content from https://joblist.ala.org/job/library-director/38286954/ 
+2017-11-29 07:56:16,153 INFO main(138) didn't found this link in the db
+2017-11-29 07:56:16,153 INFO main(140) Fetching content from https://joblist.ala.org/job/state-librarian/37295995/ 
+2017-11-29 07:56:23,267 INFO main(138) didn't found this link in the db
+2017-11-29 07:56:23,267 INFO main(140) Fetching content from https://joblist.ala.org/job/technical-services-librarian/38297374/ 
+2017-11-29 07:56:29,705 INFO main(138) didn't found this link in the db
+2017-11-29 07:56:29,705 INFO main(140) Fetching content from https://joblist.ala.org/job/learning-commons-librarian-assistant-or-associate-librarian/38297039/ 
+2017-11-29 07:56:36,441 INFO main(138) didn't found this link in the db
+2017-11-29 07:56:36,441 INFO main(140) Fetching content from https://joblist.ala.org/job/research-and-instruction-librarian-the-latin-american-library/38295811/ 
+2017-11-29 07:56:42,203 INFO main(138) didn't found this link in the db
+2017-11-29 07:56:42,203 INFO main(140) Fetching content from https://joblist.ala.org/job/assistant-director-of-libraries/38294931/ 
+2017-11-29 07:56:48,003 INFO main(138) didn't found this link in the db
+2017-11-29 07:56:48,003 INFO main(140) Fetching content from https://joblist.ala.org/job/e-resources-librarian-s00442p/37495777/ 
+2017-11-29 07:56:52,156 INFO main(138) didn't found this link in the db
+2017-11-29 07:56:52,156 INFO main(140) Fetching content from https://joblist.ala.org/job/information-literacy-health-sciences-librarian-s00190p/37610452/ 
+2017-11-29 07:56:57,278 INFO add_to_db(217) Recording this 38286954 into the db 
+2017-11-29 07:56:57,293 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/library-director/38286954/ 
+2017-11-29 07:57:00,878 INFO add_to_db(217) Recording this 38297374 into the db 
+2017-11-29 07:57:00,886 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/technical-services-librarian/38297374/ 
+2017-11-29 07:57:04,471 INFO add_to_db(217) Recording this 38297039 into the db 
+2017-11-29 07:57:04,483 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/learning-commons-librarian-assistant-or-associate-librarian/38297039/ 
+2017-11-29 07:57:09,718 INFO add_to_db(217) Recording this 38295811 into the db 
+2017-11-29 07:57:09,727 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/research-and-instruction-librarian-the-latin-american-library/38295811/ 
+2017-11-29 07:57:13,176 INFO add_to_db(217) Recording this 38294931 into the db 
+2017-11-29 07:57:13,194 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/assistant-director-of-libraries/38294931/ 
+2017-11-29 07:57:21,297 INFO main(138) didn't found this link in the db
+2017-11-29 07:57:21,297 INFO main(140) Fetching content from https://joblist.ala.org/job/health-sciences-librarian/38186129/ 
+2017-11-29 07:57:28,171 INFO main(138) didn't found this link in the db
+2017-11-29 07:57:28,171 INFO main(140) Fetching content from https://joblist.ala.org/job/social-sciences-librarian/38173829/ 
+2017-11-29 07:57:34,385 INFO main(138) didn't found this link in the db
+2017-11-29 07:57:34,385 INFO main(140) Fetching content from https://joblist.ala.org/job/coordinator-of-resource-acquisition-and-management/38049659/ 
+2017-11-29 07:57:48,094 INFO main(124) There is no jobs from this page https://joblist.ala.org/jobseeker/search/results/?str=301&max=100&vnet=0&long=1 
+2017-11-29 23:19:48,019 INFO <module>(57) Downloading new jobs... if there is some new :)
+2017-11-29 23:19:52,025 INFO main(138) didn't found this link in the db
+2017-11-29 23:19:52,026 INFO main(140) Fetching content from https://joblist.ala.org/job/senior-librarian-head-of-access-services/38316119/ 
+2017-11-29 23:19:55,416 INFO main(138) didn't found this link in the db
+2017-11-29 23:19:55,416 INFO main(140) Fetching content from https://joblist.ala.org/job/health-sciences-librarian/38315598/ 
+2017-11-29 23:19:59,346 INFO main(138) didn't found this link in the db
+2017-11-29 23:19:59,347 INFO main(140) Fetching content from https://joblist.ala.org/job/director-nyu-abu-dhabi-library-new-york-university/38308753/ 
+2017-11-29 23:20:07,882 INFO main(138) didn't found this link in the db
+2017-11-29 23:20:07,882 INFO main(140) Fetching content from https://joblist.ala.org/job/head-of-content-services/38303409/ 
+2017-11-29 23:20:11,241 INFO main(138) didn't found this link in the db
+2017-11-29 23:20:11,241 INFO main(140) Fetching content from https://joblist.ala.org/job/state-librarian/37295995/ 
+2017-11-29 23:20:15,236 INFO main(138) didn't found this link in the db
+2017-11-29 23:20:15,236 INFO main(140) Fetching content from https://joblist.ala.org/job/college-librarian-and-director-of-the-vogel-library/37944836/ 
+2017-11-29 23:20:19,133 INFO main(138) didn't found this link in the db
+2017-11-29 23:20:19,133 INFO main(140) Fetching content from https://joblist.ala.org/job/assistant-head-of-research-materials-procurement/38312412/ 
+2017-11-29 23:20:21,343 INFO main(138) didn't found this link in the db
+2017-11-29 23:20:21,343 INFO main(140) Fetching content from https://joblist.ala.org/job/reference-instruction-librarian/38303537/ 
+2017-11-29 23:20:24,894 INFO main(138) didn't found this link in the db
+2017-11-29 23:20:24,895 INFO main(140) Fetching content from https://joblist.ala.org/job/instruction-librarian/38303014/ 
+2017-11-29 23:20:28,546 INFO main(138) didn't found this link in the db
+2017-11-29 23:20:28,546 INFO main(140) Fetching content from https://joblist.ala.org/job/higher-education-educational-sales-representative/38298309/ 
+2017-11-29 23:20:32,181 INFO add_to_db(217) Recording this 38316119 into the db 
+2017-11-29 23:20:32,193 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/senior-librarian-head-of-access-services/38316119/ 
+2017-11-29 23:20:34,079 INFO add_to_db(217) Recording this 38315598 into the db 
+2017-11-29 23:20:34,086 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/health-sciences-librarian/38315598/ 
+2017-11-29 23:20:35,933 INFO add_to_db(217) Recording this 38308753 into the db 
+2017-11-29 23:20:35,942 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/director-nyu-abu-dhabi-library-new-york-university/38308753/ 
+2017-11-29 23:20:37,467 INFO add_to_db(217) Recording this 38303409 into the db 
+2017-11-29 23:20:37,478 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/head-of-content-services/38303409/ 
+2017-11-29 23:20:39,227 INFO add_to_db(217) Recording this 37944836 into the db 
+2017-11-29 23:20:39,240 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/college-librarian-and-director-of-the-vogel-library/37944836/ 
+2017-11-29 23:20:41,894 INFO add_to_db(217) Recording this 38312412 into the db 
+2017-11-29 23:20:41,904 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/assistant-head-of-research-materials-procurement/38312412/ 
+2017-11-29 23:20:43,947 INFO add_to_db(217) Recording this 38303537 into the db 
+2017-11-29 23:20:43,963 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/reference-instruction-librarian/38303537/ 
+2017-11-29 23:20:45,992 INFO add_to_db(217) Recording this 38303014 into the db 
+2017-11-29 23:20:46,000 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/instruction-librarian/38303014/ 
+2017-11-29 23:20:48,062 INFO add_to_db(217) Recording this 38298309 into the db 
+2017-11-29 23:20:48,070 INFO add_to_db(230) Downloading the webpage https://joblist.ala.org/job/higher-education-educational-sales-representative/38298309/ 
+2017-11-29 23:20:54,176 INFO main(138) didn't found this link in the db
+2017-11-29 23:20:54,176 INFO main(140) Fetching content from https://joblist.ala.org/job/e-resources-librarian-s00442p/37495777/ 
+2017-11-29 23:20:56,558 INFO main(138) didn't found this link in the db
+2017-11-29 23:20:56,558 INFO main(140) Fetching content from https://joblist.ala.org/job/information-literacy-health-sciences-librarian-s00190p/37610452/ 
+2017-11-29 23:20:59,185 INFO main(138) didn't found this link in the db
+2017-11-29 23:20:59,185 INFO main(140) Fetching content from https://joblist.ala.org/job/health-sciences-librarian/38186129/ 
+2017-11-29 23:21:03,602 INFO main(138) didn't found this link in the db
+2017-11-29 23:21:03,602 INFO main(140) Fetching content from https://joblist.ala.org/job/social-sciences-librarian/38173829/ 
+2017-11-29 23:21:17,233 INFO main(138) didn't found this link in the db
+2017-11-29 23:21:17,233 INFO main(140) Fetching content from https://joblist.ala.org/job/coordinator-of-resource-acquisition-and-management/38049659/ 
+2017-11-29 23:21:36,463 INFO main(124) There is no jobs from this page https://joblist.ala.org/jobseeker/search/results/?str=301&max=100&vnet=0&long=1 
